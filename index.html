@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="./img/icon-site.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>INSEJEC SJC - Igreja Nacional do Senhor Jesus Cristo em São José dos Campos </title>
+
+  <style>
+    .container { min-height: 80vh;} 
+    .cta {
+      font-size: 18px;
+    }
+
+    @font-face {
+      font-family: logoFont;
+      src: url("./misc/OptimusPrinceps.ttf");
+    }
+
+/* Cell Section */
+    #cell{
+      background-color: #12151a;
+      background-image: radial-gradient(#1f242c 0%, #12151a 70%); /*tipo B2*/
+    }
+    #cell .cell {
+      flex-direction: column;
+      text-align: center;
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 100px 0px;
+    }
+    #cell .cell-top {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0px 30px;
+    }
+    #cell .cell-top p {
+      padding-top: 30px;
+      color: #fff;
+      text-align: justify;
+    }
+    #cell .cell-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+    #cell .cell-bottom .icon {
+      height: 80px;
+      width: 80px;
+      margin-bottom: 20px;
+    }
+    #cell .cell-item h2 {
+      font-size: 2rem;
+      color: #fff;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    #cell .cell-item p {
+      color: #fff;
+      text-align: left;
+    }
+/* End Cell Section */
+
+    .ytb-container {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+      border: 3px solid #055a7c38; /*borda exterior*/
+      border-radius: 3px;
+    }
+    .video-ytb {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    @media only screen and (min-width: 1070px) {
+      .ytb-container {
+        width: 1024px;
+        height: 576px;
+        padding-top: 0;
+      }
+      .video-ytb {
+        width: 1024px;
+        height: 576px;
+      }
+    }
+
+    #welcome .welcome-top {
+      padding-top: 100px;
+    }
+    #welcome .cta {
+      display: inline-block;
+      padding: 20px 50px;
+      font-size: 2rem;
+      border: none;
+
+      margin-left: 20px;
+      margin-right: 20px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: grayscale(.3);
+      opacity: .9;
+      transition: .3s ease;
+
+      width: 400px;
+      height: 80px;
+    }
+    #welcome .cta:hover {
+      color: #fff;
+      filter: grayscale(0);
+      transition: .3s ease;
+      opacity: 1;
+      transform: scale(1.01);
+    }
+    @media only screen and (max-width: 850px) {
+      #welcome .cta {
+        width: 270px;
+        height: 70px;
+        font-size: 1.5rem;
+      }
+    }
+    @media only screen and (min-width: 850px){
+      @media only screen and (max-width: 1040px){
+        #welcome .cta {
+          width: 350px;
+          height: 75px;
+          font-size: 1.7rem;
+        }
+      }
+    }
+
+    .title-full {
+      width: 300px;
+      transition: .3s ease
+    }
+    @media only screen and (min-width: 560px){
+      .title-full {
+        width: 450px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <!--<a href="index.html"><h1><span>insejec</span> sjc</h1></a>-->
+          <div class="header-img"><a href="index.html">
+            <img src="./img/logo-header.svg" alt="img" style="width: 120px;"></a></div>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <div class="dropdown">
+              <a href="index.html#hero">
+              <button class="dropbtn">Início 
+              </button></a>
+            </div>
+            <div class="dropdown">
+              <a href="igreja.html">
+                <button class="dropbtn">Igreja 
+                <i class="fa fa-caret-down"></i>
+              </button></a>
+              <div class="dropdown-content">
+                <a href="como_chegar.html#local">Como chegar</a>
+                <a href="igreja.html#historia">Nossa História</a>
+                <a href="igreja.html#pastores">Pastores</a>
+              </div>
+            </div> 
+            <div class="dropdown">
+              <a href="redes.html">
+                <button class="dropbtn">Redes 
+                <i class="fa fa-caret-down"></i>
+              </button></a>
+              <div class="dropdown-content">
+                <a href="redes.html#grupos">Nossas redes</a>
+                <a href="eventos.html#redes">Atividades</a>
+              </div>
+            </div> 
+            <div class="dropdown">
+              <a href="celulas.html">
+                <button class="dropbtn">Células 
+                <i class="fa fa-caret-down"></i>
+              </button></a>
+              <div class="dropdown-content">
+                <a href="celulas.html#apresentacao">Visão Celular</a>
+                <a href="celulas.html#search-table">Nossas Células</a>
+                <a href="celulas.html#mapa">Mapa</a>
+              </div>
+            </div> 
+            <div class="dropdown">
+              <a href="escolas.html">
+                <button class="dropbtn">Escolas 
+                <i class="fa fa-caret-down"></i>
+              </button></a>
+              <div class="dropdown-content">
+                <a href="universidade_da_vida.html#uv">Universidade da Vida</a>
+                <a href="capacitacao_destino.html#cd">Capacitação Destino</a>
+              </div>
+            </div> 
+            <div class="dropdown">
+              <a href="eventos.html">
+                <button class="dropbtn">Eventos
+                <i class="fa fa-caret-down"></i>
+              </button></a>
+              <div class="dropdown-content">
+                <a href="eventos.html#geral">Igreja</a>
+                <a href="eventos.html#redes">Redes</a>
+              </div>
+            </div> 
+            <div class="dropdown">
+              <a href="contato.html">
+              <button class="dropbtn">Contato 
+              </button></a>
+            </div>
+            <div class="dropdown">
+              <a href="doar.html">
+              <button class="dropbtn">Doações
+              </button></a>
+            </div>
+            <li><a href="index.html#hero" data-after="Início">Início</a></li>
+            <li><a href="igreja.html#historia" data-after="Igreja">Igreja</a></li>
+            <li><a href="redes.html#grupos" data-after="Redes">Redes</a></li>
+            <li><a href="celulas.html#apresentacao" data-after="Células">Células</a></li>
+            <li><a href="escolas.html#uv" data-after="Escolas">Escolas</a></li>
+            <li><a href="eventos.html#geral" data-after="Eventos">Eventos</a></li>
+            <li><a href="contato.html#welcome" data-after="Contato">Contato</a></li>
+            <li><a href="doar.html#welcome" data-after="Doações">Doações</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Igreja Nacional <span></span></h1> <!-- [span] é o efeito da animação -->
+        <h1>do Senhor Jesus Cristo <span></span></h1>
+        <h1>em São José dos Campos <span></span></h1>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+
+  <!-- Welcome Section -->
+  <section id="welcome">
+    <div class="welcome container">
+      <div class="welcome-top">
+        <img class="title-full" src="./img/title-full.svg" class="q-img">
+        <!--<h1 class="section-title" style="font-family: logoFont; font-size: 22px; color: #ccc;">em São Jose dos Campos</h1>-->
+        <p><br>Bem vindos à INSEJEC! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias voluptatum explicabo!</p>
+      </div>
+      <div class="welcome-bottom">
+        <!--
+        <div class="welcome-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
+        </div>
+        -->
+        <!--<a href="igreja.html#welcome" type="button" class="cta">Conheça nossa igreja</a>-->
+        <a href="#" type="button" class="cta" style="background-image: url(./img/hero-bg.jpg);">universidade da vida</a>
+        <a href="#" type="button" class="cta">capacitação destino</a>
+        <a href="#" type="button" class="cta">oração</a>
+        <a href="#" type="button" class="cta">doação</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Welcome Section -->
+
+
+  <!-- Worship Section-->
+  <section id="worship">
+    <div class="worship-top">
+      <h1 class="section-title">Cult<span>o</span>s</h1>
+    </div>
+    <div class="worship-bottom">
+    <div class="ytb-container"> 
+      <iframe class="video-ytb" src="https://www.youtube.com/embed/videoseries?list=PLYx1iz9ieFWRpLBPkg2c2ZFHfP4xEq-5v" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+    <div class="worship-bottom">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias voluptatum explicabo! <a href="como_chegar.html#local" style="color: #00A8E8;">como chegar</a>
+      <br><span>.</span></p>
+    </div>
+
+    <div class="worship-bottom">
+      <a href="redes.html#familia">
+        <div class="worship-item" style="background-image: url(./img/img-1.png);">
+            <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
+            <h2>Culto da Família</h2>
+            <p>Todos os domingos - 10h00</p>
+          </div>
+      </a>
+      <div class="worship-item-null"></div>
+      <a href="redes.html#homens">
+        <div class="worship-item">
+          <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
+          <h2>Culto de Homens</h2>
+          <p>1ª sexta do mês - 20h00</p>
+        </div>
+      </a>
+      <div class="worship-item-null"></div>
+      <a href="redes.html#mulheres">
+        <div class="worship-item">
+          <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
+          <h2>Culto de Mulheres</h2>
+          <p>2ª sexta do mês - 20h00</p>
+        </div>
+      </a>
+      <div class="worship-item-null"></div>
+      <a href="redes.html#casais">
+        <div class="worship-item">
+          <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
+          <h2>Culto de Casais</h2>
+          <p>3ª sexta do mês - 20h00</p>
+        </div>
+      </a>
+      <div class="worship-item-null"></div>
+      <a href="redes.html#jovens">
+        <div class="worship-item">
+          <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
+          <h2>Culto de Jovens</h2>
+          <p>Último sábado do mês - 19h30</p>
+        </div>
+      </a>
+    </div>
+  </section>
+  <!-- End Worship Section-->
+
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Em <span>q</span>ue cremos</h1>
+        <p>Hillsong is a contemporary Christian church that is closely associated with the Australian Christian Churches, a movement of almost 1,100 churches and more than 250,000 believers across Australia. For the ACC’s full constitution, history, leadership and statement of belief, visit www.acc.org.au.</p>
+      </div>
+      <div class="service-bottom">
+        <a href="que_cremos.html#welcome_txt" type="button" class="cta">nossa declaração de crenças</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Services Section -->
+
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-top">
+        <h1 class="section-title">Past<span>o</span>res</h1>
+      </div>
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/pastores_0.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">Past<span>o</span>res</h1>
+        <h2>Rosivaldo Merloto</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni! Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt reprehenderit libero enim!</p>
+        <h2>Priscila Merloto</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni! Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt reprehenderit libero enim!</p>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+
+  <!-- Cell Section -->
+  <section id="cell">
+    <div class="cell container">
+      <div class="cell-top">
+        <h1 class="section-title">Cél<span>u</span>las</h1>
+        <p>¿Quieres conocer más a Jesús? ¿Deseas servir en la iglesia? Si eres nuevo o llevas tiempo asistiendo a nuestra iglesia puedes convertirte en un seguidor de Jesús y desarrollar cada uno de tus talentos.</p>
+      </div>
+
+      <div id="slider">
+      <input type="radio" name="slider" id="slide1" checked>
+      <input type="radio" name="slider" id="slide2">
+      <input type="radio" name="slider" id="slide3">
+      <input type="radio" name="slider" id="slide4">
+      <div id="slides">
+          <div id="overflow">
+            <div class="inner">
+                <div class="slide slide_1">
+                  <div class="slide-content">
+                      <h2>Slide 1</h2>
+                      <p>Content for Slide 1</p>
+                  </div>
+                </div>
+                <div class="slide slide_2">
+                  <div class="slide-content">
+                      <h2>Slide 2</h2>
+                      <p>Content for Slide 2</p>
+                  </div>
+                </div>
+                <div class="slide slide_3">
+                  <div class="slide-content">
+                      <h2>Slide 3</h2>
+                      <p>Content for Slide 3</p>
+                  </div>
+                </div>
+                <div class="slide slide_4">
+                  <div class="slide-content">
+                      <h2>Slide 4</h2>
+                      <p>Content for Slide 4</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div id="controls">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+      </div>
+      <div id="bullets">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+      </div>
+    </div>
+      
+      <div class="cell-bottom">
+        <div class="cell-link-1"><a href="celulas.html#welcome" type="button" class="cta">Saiba mais</a></div>
+      </div>
+    </div>
+  </section>
+  <!-- End Cell Section -->
+  
+
+  <!-- School Section -->
+  <section id="school">
+    <div class="school container">
+      <div class="school-top">
+        <h1 class="section-title">Esc<span>o</span>las</h1>
+        <p>¿Quieres conocer más a Jesús? ¿Deseas servir en la iglesia? Si eres nuevo o llevas tiempo asistiendo a nuestra iglesia puedes convertirte en un seguidor de Jesús y desarrollar cada uno de tus talentos.</p>
+      </div>
+      <div class="school-bottom" style="padding-top: 40px;">
+        <div class="school-link-1"><a href="universidade_da_vida.html#uv" type="button" class="cta"></a></div>
+        <div class="p1"><p><a href="universidade_da_vida.html#uv" type="button"><b>Universidade da Vida</b></a><br>
+          Quieres conocer más a Jesús? ¿Deseas servir en la iglesia? Si eres nuevo o llevas tiempo asistiendo a nuestra iglesia puedes convertirte en un seguidor de Jesús y desarrollar cada uno de tus talent</p></div>
+      </div>
+      <div class="school-bottom" style="padding-top: 40px;">
+        <div class="p2"><p><a href="capacitacao_destino.html#cd" type="button"><b>Capacitação Destino</b></a><br>
+          Quieres conocer más a Jesús? ¿Deseas servir en la iglesia? S  i eres nuevo o llevas tiempo asistiendo a nuestra iglesia puedes convertirte en un seguidor de Jesús y desarrollar cada uno de tus talent</p></div>
+        <div class="school-link-2"><a href="capacitacao_destino.html#cd" type="button" class="cta"></a></div>
+      </div>
+    </div>
+  </section>
+  <!-- End School Section -->
+  
+
+  <!-- Social Networks [School_type] Section -->
+  <section id="school">
+    <div class="school container">
+      <div class="school-top">
+        <h1 class="section-title">Nos siga nas <span>Redes Sociais</span></h1>
+        <p>Convidamos você a acompanhar as redes de nosso ministério, para que receba constantemente mensagens, reflexões, notícias e todas as atividades que temos como igreja.</p><br><br><br>
+      </div>
+      <div class="school-bottom">
+        <div class="school-link-3"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos" type="button" class="cta"></a></div>
+        <div class="school-link-4"><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/insejec_sjc/" type="button" class="cta"></a></div>
+        <div class="school-link-5"><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCbEzKNxd0pdJdkao0hO9sTw" type="button" class="cta"></a></div>
+      </div>
+    </div>
+  </section>
+  <!-- End Social Networks [School_type] Section -->
+  
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="row">
+        <div class="column">
+          <br><br><br>
+          <a href="index.html"><img src="./img/logo-footer.svg" class="f-img"></a>
+        </div>
+        <div class="column">
+          <h2>Sobre nós</h2>
+          <a href="igreja.html#welcome"><p>Nossa Igreja</p></a>
+          <a href="visao_missao.html#welcome_txt"><p>Visão e Missão</p></a>
+          <a href="nossos_valores.html#welcome_txt"><p>Nossos Valores</p></a>
+          <a href="#"><p>Visão Celular</p></a>
+          <a href="que_cremos.html#welcome_txt"><p>Em que cremos</p></a>
+        </div>
+        <div class="column">
+          <h2>Nossos pastores</h2>
+          <a href="igreja.html#pr0"><p>Rosivaldo Merloto</p></a>
+          <a href="igreja.html#pr1"><p>Priscila Merloto</a>
+          <a href="igreja.html#pr2"><p>Mikio Furuzawa</p></a>
+          <a href="igreja.html#pr3"><p>Gisele Furuzawa</p></a>
+        </div>
+        <div class="column">
+          <h2>Links</h2>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.insejec.com.br/"><p>Portal INSEJEC</p></a>
+          <a target="_blank" rel="noopener noreferrer" href="http://palavradafe.com.br/"><p>Palavra da Fé</p></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://mci12.com/"><p>Igreja MCI</p></a>
+          <a target="_blank" rel="noopener noreferrer" href="http://g12brasil.com/"><p>G12 Brasil</p></a>
+          <a target="_blank" rel="noopener noreferrer" href="http://visiong12.com/"><p>G12 Internacional</p></a>
+        </div>
+        <div class="column">
+          <h2>Mídia</h2>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/pg/insejecsjcampos/photos/?ref=page_internal"><p>Fotos</p></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/INSEJECSJCampos/videos"><p>Vídeos</p></a>
+          <h2><br><br>Siga-nos!</h2>
+          <div class="social-icon">
+            <div class="social-item">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos"><img src="./img/icon_fac_xs.svg"/></a>
+            </div>
+            <div class="social-item">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/insejec_sjc/"><img src="./img/icon_ins_xs.svg"/></a>
+            </div>
+            <div class="social-item">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCbEzKNxd0pdJdkao0hO9sTw"><img src="./img/icon_ytb_xs.svg"/></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+      <p>© 2020 INSEJEC SJC. Todos os direitos reservados. | <a href="politica_privacidade.html#welcome_txt">Política de Privacidade</a></p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <button id="scroll"><i class="material-icons">arrow_upward</i></button>
+
+
+  <script src="js/app.js"></script>
+</body>
+</html>

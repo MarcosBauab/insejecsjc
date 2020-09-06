@@ -1,0 +1,105 @@
+#hero .container { min-height: 60vh;}
+
+.botoes{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.botao-festa{
+    color: white;
+    border: 0;
+    display: inline-block;
+    width: 15%;
+    border-radius: 8px;
+    padding: 20px;
+    height: 30vh;
+    background: rgba(10, 10, 10, 0.3);
+    margin:10px 8px;
+    cursor: pointer;
+    transition: 0.5s;
+    max-width: 300px;
+}
+.botao-festa h2{
+    font-size: 15pt;
+    z-index: 2;
+}
+.botao-festa p {
+    color: white;
+    z-index: 2;
+}
+/*Festas*/
+#taber{
+    background-image: url(../img/taber2019.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+
+    background-repeat: no-repeat;
+    background-size: 100% 33vh;
+    z-index: 0;
+    background-blend-mode: color-burn;
+
+}
+#luz{
+    background-image: url(../img/festaluzes.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+
+    background-repeat: no-repeat;
+    background-size: 101% 33vh;
+    z-index: 0;
+    background-blend-mode: color-burn;
+
+}
+#g12{
+    background-image: url(../img/caravanag12.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    background-size: 100% 33vh;
+    z-index: 0;
+    background-blend-mode: color-burn;
+}
+#paint{
+    background-image: url(../img/paintball.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    background-position-x: -35px;
+    background-size: 120% 33vh;
+    z-index: 0;
+    background-blend-mode: color-burn;
+}
+
+.botao-festa:hover{
+    height: 32vh;
+    box-shadow: 0 0 5px rgba(10, 10, 10, 0.7),
+                0 0 25px rgba(10, 10, 10, 0.7),
+                0 0 50px rgba(10, 10, 10, 0.7);
+    
+   
+}
+
+
+@media (max-width: 1000px){
+    .botoes{
+        display: block;
+    }
+    .botao-festa{
+        width: 50%;
+        height: 12vh;
+        
+    }
+    
+    .botao-festa h2{
+        font-size: 1.5rem;
+    }
+    .botao-festa p{
+        font-size: 1.5rem;
+    }
+   
+}
+@media (max-width: 768px){
+    #acampa, #paint{
+        display: block;
+        margin: 10px auto;
+    }
+}
