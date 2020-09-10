@@ -77,7 +77,7 @@
     
    
 }
-/*Modal*/
+/*Modal das festas*/
 #modalTaber, #modalLuz, #modal-g12{
     background-color: #0E0A14ef;
     height: 100vh;
@@ -95,6 +95,42 @@
 #modalTaber.hide, #modalLuz.hide, #modal-g12.hide{
     display: none;
 }
+div.modal div.conteudo{
+    width: 500px;
+}
+.modal{
+    transition: 2s ease;
+}
+.modal .conteudo p, .modal .conteudo .header h1 {
+    color: white;
+}
+.modal .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+.modal .header a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 20pt;
+}
+.modalConteudo .fotosFestas{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 8px;
+   padding: 20px;
+}
+.modalConteudo .fotosFestas img{
+    width: auto;
+    
+    height: 200px;
+    border-radius: 8px;
+    
+}
+
 
 @media (max-width: 1000px){
     .botoes{

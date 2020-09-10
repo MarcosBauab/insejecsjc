@@ -19,6 +19,9 @@ for(let i = 0; i< fechar.length;i++){
         modalLuz.setAttribute('class', 'hide') 
         modaltaber.setAttribute('class', 'hide')
         modalg12.setAttribute('class', 'hide')
+        modalLuz.classList.add('modal') 
+        modaltaber.classList.add('modal')
+        modalg12.classList.add('modal')
     })
 }
 
