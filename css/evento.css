@@ -59,6 +59,15 @@
     z-index: 0;
     background-blend-mode: color-burn;
 }
+#acampa{
+    background-image: url(../img/acampa2019.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    background-position-x: -35px;
+    background-size: 120% 33vh;
+    z-index: 0;
+    background-blend-mode: color-burn;
+}
 #paint{
     background-image: url(../img/paintball.jpg);
     background-color: rgba(0, 0, 0, 0.7);
@@ -127,18 +136,42 @@ div.modal div.conteudo{
    padding: 20px;
 }
 .modalConteudo .fotosFestas img{
-    width: auto;
+    width: 100%;
     
     height: 200px;
     border-radius: 8px;
     
 }
+
+.modalConteudo > p{
+    font-size: 13pt;
+    text-align: justify;
+}
+
+.modalConteudo > p  > a{
+    text-align: center;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: 10px;
+    transition: 500ms ease;
+    font-weight:  700;
+    color: transparent;
+    text-decoration: none;
+    font-size: 10pt;
+    border: 1px solid white;
+}
+.modalConteudo > p > a:hover{
+    background-color: white;
+    color: black;
+}
+
 /*Botão fechar da modal*/
 a#fechar{
     transition: 0.5s ease;
 }
 a#fechar:hover{
-    font-size: 25pt;
+    color:  #0099ff;
 }
 
 
@@ -165,4 +198,10 @@ a#fechar:hover{
         display: block;
         margin: 10px auto;
     }
+    .modal{
+        display: none;
+    }
+
+
+
 }
