@@ -32,3 +32,24 @@ let g12 = document.querySelector("#g12")
 g12.addEventListener('click',()=>{
     modalg12.classList.remove('hide')
 })*/
+
+/*Parte responsiva dos modais*/
+let tamanhoInicial = window.innerWidth
+if(tamanhoInicial < 768){
+    let taber = document.querySelector("#taber")
+    taber.addEventListener('click',()=>{
+        window.open("https://www.facebook.com/media/set/?vanity=insejecsjcampos&set=a.1174657862728955", '_blank')   
+    })
+
+    let luz = document.querySelector("#luz")
+    luz.addEventListener('click',()=>{
+        window.open("https://www.facebook.com/media/set/?vanity=insejecsjcampos&set=a.851387518389326", '_blank')
+    })
+    let g12 = document.querySelector("#g12")
+    let acampa = document.querySelector("#acampa")
+    let paint = document.querySelector("#paint")
+    
+    
+}
+
+
