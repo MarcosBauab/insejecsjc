@@ -40,7 +40,8 @@ menu_item.forEach((item) => {
 });
 
 //search-table
-//$('#btnFilter').click(function() {
+var botaoFiltro = document.querySelector("#btnCollapse")
+botaoFiltro.addEventListener('click', function(){
 	$("input[type=radio]").change(function(){
 		var val0 = $('[name=Option0]:checked').val();
 		var val1 = $('[name=Option1]:checked').val();
@@ -61,6 +62,9 @@ menu_item.forEach((item) => {
 			{ $(this).hide(); }
 		});
 	});
+})
+//$('#btnFilter').click(function() {
+	
 	
 //collapsible
 var coll = document.getElementsByClassName("collapsible");
