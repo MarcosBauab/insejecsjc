@@ -46,9 +46,17 @@ if(tamanhoInicial < 768){
         window.open("https://www.facebook.com/media/set/?vanity=insejecsjcampos&set=a.851387518389326", '_blank')
     })
     let g12 = document.querySelector("#g12")
+    g12.addEventListener('click',()=>{
+        window.open("https://www.facebook.com/media/set/?vanity=insejecsjcampos&set=a.1098971686964240", '_blank')
+    })
     let acampa = document.querySelector("#acampa")
+    acampa.addEventListener('click',()=>{
+        window.open("https://www.facebook.com/media/set/?vanity=insejecsjcampos&set=a.1200306436830764", '_blank')
+    })
     let paint = document.querySelector("#paint")
-    
+    paint.addEventListener('click',()=>{
+        window.open("https://www.facebook.com/media/set/?vanity=insejecsjcampos&set=a.1112477055613703", '_blank')
+    })
     
 }
 
