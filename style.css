@@ -289,8 +289,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background: fixed;/*parallax*/
-
+	background-attachment: fixed; /*parallax*/
 	background-image: url(./img/banner.png);
 	background-size: cover;
 	background-position: top center;

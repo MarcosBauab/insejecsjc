@@ -92,7 +92,7 @@
     height: auto;
     width: auto;
     position: fixed;
-    top: 4vh;
+    top: 2vh;
     left: calc(50% - 250px);
 
     padding: 30px 20px 20px 20px;
@@ -148,18 +148,18 @@ div.modal div.conteudo{
     text-align: justify;
 }
 
-.modalConteudo > p  > a{
+.modalConteudo > p > a{
     text-align: center;
     display: inline-block;
     padding: 8px;
     border-radius: 8px;
-    margin-left: 10px;
+    
     transition: 500ms ease;
     font-weight:  700;
     color: white;
     text-decoration: none;
     font-size: 10pt;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
 }
 .modalConteudo > p > a:hover{
     background-color: white;
