@@ -539,7 +539,7 @@ p {
 	background-color: #12151a;
 	background-image: radial-gradient(#1f242c 0%, #12151a 100%); /*tipo A*/
 
-	opacity: .9;
+	opacity: .65;
 	z-index: -1;
 }
 #worship .worship-bottom .icon {
