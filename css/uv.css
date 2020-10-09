@@ -2,9 +2,16 @@
 .w50{
     width: 50%;
 }
+.w33{
+    width: 33.3%;
+}
 .centro{
    max-width: 1100px;
    margin: 0 auto;
+
+}
+.flex{
+    display: flex;
 }
 /*Seção inicial*/
 section.inicial{
@@ -17,7 +24,7 @@ section.inicial{
     display: flex;
 }
 section.inicial a{
-    font-size: 16px;
+    font-size: 14px;
     color: #01A17A;
     padding: 7px 10px 7px 10px;
     margin-left: 10px;
@@ -34,4 +41,113 @@ section.inicial a:hover{
 section.descricao{
     background-color: #12151a;
     padding: 80px 0;
+
+}
+details{    
+    text-align: center;
+    color: white;
+    max-width: 300px;
+    border-bottom: 1px solid white;
+    margin: 0 auto 40px auto;
+}
+details summary{
+    font-size: 15px;
+    outline: none;
+    font-weight: bold;
+    cursor: default;
+    line-height: 30px;
+}
+details section{
+    margin-top: 3px;
+    
+}
+details section div{
+    font-size: 20px;
+}
+section.descricao h2{
+    text-align: center;
+    color: white;
+    margin: 0;
+    border-bottom: 1px solid white;
+    max-width: 300px;
+    margin: 0 auto 40px auto;
+    line-height: 30px;
+}
+#botaoRegistro{
+    display: flex;
+    text-align: center;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+#botaoRegistro a{
+    font-size: 30px;
+    padding: 30px;
+    background-color: #87BE79;
+    color: white;
+}
+/*Seção textos*/
+section.textos{
+    background-color: #12151a;
+    padding: 0 0 30px 0;
+}
+section.textos h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.bolinha{
+    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+section.textos .w33 p{
+    color: white;
+    text-align: justify;
+    padding: 10px;
+}
+/*IDS DAS BOLINHAS*/
+#bolinha1{
+    background-image: url("https://mci12.com/wp-content/uploads/2017/01/1a.png");
+    background-size: 100% 100%;
+}
+#bolinha2{
+    background-image: url("https://mci12.com/wp-content/uploads/2017/01/2a.png");
+    background-size: 100% 100%;
+}
+#bolinha3{
+    background-image: url("https://mci12.com/wp-content/uploads/2017/01/3a.png");
+    background-size: 100% 100%;
+}
+/*Seção cronograma*/
+section.cronograma{
+    padding: 40px 0;
+}
+section.cronograma h1{
+    text-align: center;
+    font-size: 30px;
+    color: #29AF82;
+}
+section.cronograma img{
+    margin: 30px auto;
+    display: block;
+    width: 700px;
+}
+/*Seção dúvidas*/
+section.duvidas{
+    background-color:  #12151a;
+    padding: 20px 0;
+}
+section.duvidas h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.bolinhaMenor{
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 50%;
 }
