@@ -116,15 +116,15 @@ section.textos .w33 p{
 }
 /*IDS DAS BOLINHAS*/
 #bolinha1{
-    background-image: url("https://mci12.com/wp-content/uploads/2017/01/1a.png");
+    background-image: url("../img/uv/icon_1a.png");
     background-size: 100% 100%;
 }
 #bolinha2{
-    background-image: url("https://mci12.com/wp-content/uploads/2017/01/2a.png");
+    background-image: url("../img/uv/icon_2a.png");
     background-size: 100% 100%;
 }
 #bolinha3{
-    background-image: url("https://mci12.com/wp-content/uploads/2017/01/3a.png");
+    background-image: url("../img/uv/icon_3a.png");
     background-size: 100% 100%;
 }
 /*Seção cronograma*/
