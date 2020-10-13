@@ -12,15 +12,16 @@
 }
 .flex{
     display: flex;
+    flex-wrap: wrap;
 }
 /*Seção inicial*/
 section.inicial{
     text-align: center;
     background-image: url(../img/uv/bgUV.png);
-    background-size: 85% 90%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 400px;
+    height: 400px;
     display: flex;
 }
 section.inicial a{
@@ -40,8 +41,13 @@ section.inicial a:hover{
 /*Seção descrição*/
 section.descricao{
     background-color: #12151a;
-    padding: 80px 0;
+    padding: 200px 4%;
 
+}
+section.descricao img{
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
 details{    
     text-align: center;
@@ -89,12 +95,13 @@ section.descricao h2{
 /*Seção textos*/
 section.textos{
     background-color: #12151a;
-    padding: 0 0 30px 0;
+    padding: 0 0 100px 0;
 }
 section.textos h1{
     color: white;
     font-size: 50px;
     text-align: center;
+    margin-bottom: 80px;
 }
 .bolinha{
     margin: 30px auto;
@@ -105,7 +112,7 @@ section.textos h1{
 section.textos .w33 p{
     color: white;
     text-align: justify;
-    padding: 10px;
+    padding: 30px;
 }
 /*IDS DAS BOLINHAS*/
 #bolinha1{
@@ -122,7 +129,7 @@ section.textos .w33 p{
 }
 /*Seção cronograma*/
 section.cronograma{
-    padding: 40px 0;
+    padding: 50px 0;
 }
 section.cronograma h1{
     text-align: center;
@@ -130,14 +137,14 @@ section.cronograma h1{
     color: #29AF82;
 }
 section.cronograma img{
-    margin: 30px auto;
+    margin: 60px auto;
     display: block;
-    width: 700px;
+    width: 60%;
 }
 /*Seção dúvidas*/
 section.duvidas{
     background-color:  #12151a;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 section.duvidas h1{
     color: white;
@@ -145,9 +152,63 @@ section.duvidas h1{
     text-align: center;
 }
 .bolinhaMenor{
-    margin: 20px auto;
+    display: block;
+    margin: 50px 20px;
     width: 100px;
     height: 100px;
-    background-color: gray;
+    background-color:#6c6c70;
     border-radius: 50%;
+    text-align: center;
+    font-size: 60px;
+    color: #dcdce2;
+    transition: .3s ease;
+    opacity: .8;
+}
+.bolinhaMenor svg{
+    margin-top: 20px;
+    margin-left: 2px;
+}
+.bolinhaMenor#face:hover{
+    background-color: #1778F2;
+	transition: .3s ease;
+	opacity: 1;
+	transform: scale(1.03);
+}
+.bolinhaMenor#insta:hover{
+    background: radial-gradient(circle at 50% 135%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	transition: .3s ease;
+	opacity: 1;
+	transform: scale(1.03);
+}
+.bolinhaMenor#whats:hover{
+    background-color: #34af23;
+	transition: .3s ease;
+	opacity: 1;
+	transform: scale(1.03);
+}
+.sociais{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 900px){
+    .w33, .w50{
+        width: 100%;
+    }
+    section.descricao{
+        padding: 100px 0;
+    }
+    section.descricao img{
+        width: 60%;
+        margin-bottom: 100px;
+    }
+    section.textos h1{
+        width: 70%;
+        margin: 0 auto;
+    }    
+}
+@media (max-width: 500px){
+    section.textos h1{
+        font-size: 40px;
+    }
 }
