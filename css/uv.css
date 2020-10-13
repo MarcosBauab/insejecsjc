@@ -84,13 +84,14 @@ section.descricao h2{
     text-align: center;
     height: 150px;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 #botaoRegistro a{
     font-size: 30px;
     padding: 30px;
     background-color: #87BE79;
     color: white;
+    border-radius: 10px;
 }
 /*Seção textos*/
 section.textos{
