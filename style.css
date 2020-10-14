@@ -1262,7 +1262,7 @@ p {
 	background-color: #12151a;
 	background-image: radial-gradient(#1f242c 0%, #12151a 100%); /*tipo A*/
 
-	opacity: .7;
+	opacity: .2
 }
 #projects .project-img-left img, .project-img-right img {
 	transition: .3s ease transform;
