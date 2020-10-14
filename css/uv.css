@@ -219,6 +219,9 @@ section.duvidas h1{
         font-size: 30px;
     }
     section.cronograma img{
-        width: 70%;
+        width: 80%;
+    }
+    section.inicial{
+        background-size: 200%;
     }
 }
