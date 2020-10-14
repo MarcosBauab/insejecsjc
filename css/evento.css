@@ -89,7 +89,7 @@
 /*Modal das festas*/
 .modal{
     background-color: #0E0A14ef;
-    height: auto;
+    height: 600px;
     width: auto;
     position: fixed;
     top: 2vh;
@@ -99,12 +99,14 @@
 
     display: flex;
 
-    align-items: center;
+    align-items: top;
     justify-content: center;
 
     transition: 800ms;
     z-index: 999;
     border-radius: 8px;
+
+    overflow: auto;
 }
 div.modal.hide{
     display: none;
@@ -119,7 +121,7 @@ div.modal div.conteudo{
 .modal .header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 
     margin-bottom: 20px;
 }
@@ -143,12 +145,12 @@ div.modal div.conteudo{
     
 }
 
-.modalConteudo > p{
+.conteudo .texto > p{
     font-size: 13pt;
     text-align: justify;
 }
 
-.modalConteudo > p > a{
+.conteudo .texto > p > a{
     text-align: center;
     display: inline-block;
     padding: 8px;
@@ -161,7 +163,7 @@ div.modal div.conteudo{
     font-size: 10pt;
     /*border: 1px solid white;*/
 }
-.modalConteudo > p > a:hover{
+.conteudo .texto > p > a:hover{
     background-color: white;
     color: black;
 }
