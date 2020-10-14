@@ -57,7 +57,10 @@ if(tamanhoInicial < 768){
     paint.addEventListener('click',()=>{
         window.open("https://www.facebook.com/media/set/?vanity=insejecsjcampos&set=a.1112477055613703", '_blank')
     })
-    
+    let cha = document.querySelector("#cha")
+    cha.addEventListener('click',()=>{
+        window.open("https://www.facebook.com/pg/insejecsjcampos/photos/?tab=album&album_id=1193178747543533", '_blank')
+    })
 }
-
-
+console.log(arrModal)
+console.log(arrClica)

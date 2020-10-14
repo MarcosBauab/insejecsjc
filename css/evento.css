@@ -32,7 +32,7 @@
 }
 /*Festas*/
 #taber{
-    background-image: url(../img/taber2019.jpg);
+    background-image: url(../img/tabernaculos/taber2019.jpg);
     background-color: rgba(0, 0, 0, 0.7);
 
     background-repeat: no-repeat;
@@ -42,7 +42,7 @@
 
 }
 #luz{
-    background-image: url(../img/festaluzes.jpg);
+    background-image: url(../img/luzes/festaluzes.jpg);
     background-color: rgba(0, 0, 0, 0.7);
 
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@
 
 }
 #g12{
-    background-image: url(../img/caravanag12.jpg);
+    background-image: url(../img/g12/caravanag12.jpg);
     background-color: rgba(0, 0, 0, 0.7);
     background-repeat: no-repeat;
     background-size: 100% 33vh;
@@ -60,7 +60,7 @@
     background-blend-mode: color-burn;
 }
 #acampa{
-    background-image: url(../img/acampa2019.jpg);
+    background-image: url(../img/acampa/acampa2019.jpg);
     background-color: rgba(0, 0, 0, 0.7);
     background-repeat: no-repeat;
     background-position-x: -35px;
@@ -69,7 +69,7 @@
     background-blend-mode: color-burn;
 }
 #paint{
-    background-image: url(../img/paintball.jpg);
+    background-image: url(../img/paintball/paintball.jpg);
     background-color: rgba(0, 0, 0, 0.7);
     background-repeat: no-repeat;
     background-position-x: -35px;
@@ -77,9 +77,17 @@
     z-index: 0;
     background-blend-mode: color-burn;
 }
+#cha{
+    background-image: url(../img/chaMulheres/chaMulheres.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    background-size: 101% 33vh;
+    z-index: 0;
+    background-blend-mode: color-burn;
+}
 
 .botao-festa:hover{
-    height: 32vh;
+    transform: scale(1.1);
     box-shadow: 0 0 5px rgba(10, 10, 10, 0.7),
                 0 0 25px rgba(10, 10, 10, 0.7),
                 0 0 50px rgba(10, 10, 10, 0.7);
