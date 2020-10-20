@@ -8,7 +8,7 @@
 html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
-	scroll-behavior: smooth;
+	scroll-behavior: smooth;	
 }
 a {
 	text-decoration: none;
@@ -2243,3 +2243,18 @@ p {
 #scroll:active{
 	background-color: #006f9b;
 }
+/*Scrollbar*/
+/*::-webkit-scrollbar{
+    width: 12px;
+    
+}
+::-webkit-scrollbar-track{
+    
+    background: rgba(0, 0, 0, 0.9);
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 8px; 
+    
+}*/
