@@ -62,5 +62,3 @@ if(tamanhoInicial < 768){
         window.open("https://www.facebook.com/pg/insejecsjcampos/photos/?tab=album&album_id=1193178747543533", '_blank')
     })
 }
-console.log(arrModal)
-console.log(arrClica)

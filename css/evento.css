@@ -1,5 +1,14 @@
 #hero .container { min-height: 60vh;}
 
+.flex{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
 .botoes{
     width: 100%;
     height: 250px;
@@ -12,15 +21,17 @@
     color: white;
     border: 0;
     display: inline-block;
-    width: 15%;
+    /*width: 15%;
     border-radius: 8px;
     padding: 20px;
     height: 30vh;
     background: rgba(10, 10, 10, 0.3);
     margin:10px 8px;
+    
+    
+    max-width: 300px;*/
     cursor: pointer;
     transition: 0.5s;
-    max-width: 300px;
 }
 .botao-festa h2{
     font-size: 15pt;
@@ -30,13 +41,80 @@
     color: white;
     z-index: 2;
 }
+/*Cards festas*/
+.card{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 80%;
+    border-radius: 10px;
+    
+    
+    margin: 20px auto;
+    background-color:#12151a;
+    background-image: radial-gradient(#1f242c 0%, #262d38 100%);
+}
+.card .textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 50%;
+    padding: 20px;
+}
+.card .textos h2{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #00A8E8;
+}
+.card .textos h5{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 0;
+    color: white;
+}
+.card .textos p{
+    padding: 30px 0;
+    text-align: justify;
+    color: white;
+    font-weight: 300;
+}
+.card .textos a{
+    color: white;
+    border: 1px solid #00A8E8;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+
+    transition: ease .3s;
+}
+.card .textos a:hover{
+    background-color: #00A8E8;
+}
+.card > button.botao-festa{
+    width: 50%;
+    height: 400px;
+    margin: 0;
+    border-radius: 0 10px 10px 0;
+}
+/*Card da esquerda*/
+div.card.esquerda > button.botao-festa{
+    border-radius: 10px 0 0 10px;
+}
+
 /*Festas*/
 #taber{
     background-image: url(../img/tabernaculos/taber2019.jpg);
     background-color: rgba(0, 0, 0, 0.7);
-
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 33vh;
+    background-size: cover;
     z-index: 0;
     background-blend-mode: color-burn;
 
@@ -44,9 +122,10 @@
 #luz{
     background-image: url(../img/luzes/festaluzes.jpg);
     background-color: rgba(0, 0, 0, 0.7);
+    background-position: center;
 
     background-repeat: no-repeat;
-    background-size: 101% 33vh;
+    background-size: cover;
     z-index: 0;
     background-blend-mode: color-burn;
 
@@ -55,25 +134,29 @@
     background-image: url(../img/g12/caravanag12.jpg);
     background-color: rgba(0, 0, 0, 0.7);
     background-repeat: no-repeat;
-    background-size: 100% 33vh;
+    background-size: cover;
     z-index: 0;
     background-blend-mode: color-burn;
+    background-position: center;
+
 }
 #acampa{
     background-image: url(../img/acampa/acampa2019.jpg);
     background-color: rgba(0, 0, 0, 0.7);
     background-repeat: no-repeat;
     background-position-x: -35px;
-    background-size: 120% 33vh;
+    background-size: cover;
     z-index: 0;
     background-blend-mode: color-burn;
+    
+
 }
 #paint{
     background-image: url(../img/paintball/paintball.jpg);
     background-color: rgba(0, 0, 0, 0.7);
     background-repeat: no-repeat;
     background-position-x: -35px;
-    background-size: 120% 33vh;
+    background-size: cover;
     z-index: 0;
     background-blend-mode: color-burn;
 }
@@ -84,6 +167,8 @@
     background-size: 101% 33vh;
     z-index: 0;
     background-blend-mode: color-burn;
+    background-position: center;
+
 }
 
 .botao-festa:hover{
@@ -201,7 +286,27 @@ a#fechar:hover{
     .botao-festa p{
         font-size: 1.5rem;
     }
-   
+
+    /*Card*/
+    .card{
+        flex-direction: column;
+    }
+    .card .textos{
+        width: 100%;
+    }
+    .card .textos h2{
+        font-size: 20px;
+    }
+    .card .textos h5{
+        font-size: 10px;
+    }
+    .card > button.botao-festa{
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+    div.card.esquerda > button.botao-festa{
+        border-radius: 10px 10px 0 0;
+    }
 }
 @media (max-width: 768px){
     #acampa, #paint{
@@ -211,7 +316,9 @@ a#fechar:hover{
     .modal{
         display: none;
     }
-
+    .card .textos a{
+        font-size: 8px;
+    }
 
 
 }
