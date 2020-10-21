@@ -2244,17 +2244,21 @@ p {
 	background-color: #006f9b;
 }
 /*Scrollbar*/
-/*::-webkit-scrollbar{
+::-webkit-scrollbar{
     width: 12px;
-    
+    transition: .3s;
 }
 ::-webkit-scrollbar-track{
     
-    background: rgba(0, 0, 0, 0.9);
+	background:  linear-gradient( #26143d, #12151a);
     
 }
 ::-webkit-scrollbar-thumb{
-    background-color: black;
-    border-radius: 8px; 
-    
-}*/
+	background: linear-gradient(transparent,  black);
+	border: 2px solid #00A8E8;    
+}
+::-webkit-scrollbar-thumb:active{
+	background:  #00a6e88c;
+	border: 2px solid #00A8E8;    
+	  
+}
