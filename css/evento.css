@@ -3,9 +3,9 @@
 .flex{
     width: 80%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+    justify-content: left;
+    align-items: left;
+    gap: 8px;
 }
 
 
@@ -141,10 +141,9 @@ div.card.esquerda > button.botao-festa{
 
 }
 #acampa{
-    background-image: url(../img/acampa/acampa2019.jpg);
+    background-image: url(../img/acampa/acampa5.jpg);
     background-color: rgba(0, 0, 0, 0.2);
     background-repeat: no-repeat;
-    background-position-x: -35px;
     background-size: cover;
     z-index: 0;
     background-blend-mode: color-burn;
@@ -155,7 +154,7 @@ div.card.esquerda > button.botao-festa{
     background-image: url(../img/paintball/paintball.jpg);
     background-color: rgba(0, 0, 0, 0.2);
     background-repeat: no-repeat;
-    background-position-x: -35px;
+    background-position-x: -70px;
     background-size: cover;
     z-index: 0;
     background-blend-mode: color-burn;
@@ -164,7 +163,7 @@ div.card.esquerda > button.botao-festa{
     background-image: url(../img/chaMulheres/chaMulheres.jpg);
     background-color: rgba(0, 0, 0, 0.2);
     background-repeat: no-repeat;
-    background-size: 101% 33vh;
+    background-size: cover;
     z-index: 0;
     background-blend-mode: color-burn;
     background-position: center;
@@ -182,7 +181,7 @@ div.card.esquerda > button.botao-festa{
 /*Modal das festas*/
 .modal{
     background-color: #0E0A14ef;
-    height: 620px;
+    height: 600px;
     width: auto;
     position: fixed;
     top: 2vh;
@@ -309,10 +308,7 @@ a#fechar:hover{
     }
 }
 @media (max-width: 768px){
-    #acampa, #paint{
-        display: block;
-        margin: 10px auto;
-    }
+    
     .modal{
         display: none;
     }

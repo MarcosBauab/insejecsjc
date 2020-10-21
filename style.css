@@ -2248,14 +2248,21 @@ p {
     width: 13px;
     transition: .3s;
 }
+/*Parte de trás*/
 ::-webkit-scrollbar-track{
     
 	background:  linear-gradient( #26143d, black);
     border: 2px solid  #2f1057;
 }
+/*Barra de rolagem*/
 ::-webkit-scrollbar-thumb{
 	background: linear-gradient(transparent,  black);
+	border: 1px solid #00a6e85b;    
+
+}
+::-webkit-scrollbar-thumb:hover{
 	border: 2px solid #00A8E8;    
+
 }
 ::-webkit-scrollbar-thumb:active{
 	background:  #00a6e88c;
