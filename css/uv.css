@@ -70,6 +70,8 @@ details section{
 details section li{
     font-size: 14px;
     list-style-position: inside;
+    padding: 5px 5px 5px 40px;
+    text-align: left;
 }
 section.descricao h2{
     text-align: center;
