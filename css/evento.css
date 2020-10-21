@@ -182,7 +182,7 @@ div.card.esquerda > button.botao-festa{
 /*Modal das festas*/
 .modal{
     background-color: #0E0A14ef;
-    height: 600px;
+    height: 620px;
     width: auto;
     position: fixed;
     top: 2vh;
