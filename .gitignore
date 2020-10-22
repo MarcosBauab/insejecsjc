@@ -4,6 +4,4 @@
 misc/
 *.log
 *.txt
-config.php
-.htaccess
 img/._*
