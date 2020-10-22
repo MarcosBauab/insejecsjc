@@ -61,14 +61,14 @@
                 <button class="dropbtn">Sobre 
               </button></a>
               <div class="dropdown-content">
-                <a href="<?php echo INCLUDE_PATH ?>">X_Decretos</a>
-                <a href="<?php echo INCLUDE_PATH ?>">X_Quem Somos</a>
-                <a href="<?php echo INCLUDE_PATH ?>visao_missao">Visão e Missão</a>
-                <a href="<?php echo INCLUDE_PATH ?>">X_Nossa História</a>
-                <a href="<?php echo INCLUDE_PATH ?>que_cremos">Em Que Cremos</a>
-                <a href="<?php echo INCLUDE_PATH ?>nossos_valores">Nossos Valores</a>
-                <a href="<?php echo INCLUDE_PATH ?>">X_Visão e Compromisso</a>
-                <a href="<?php echo INCLUDE_PATH ?>">X_Valnice Milhomens</a>
+                <a href="<?php echo INCLUDE_PATH ?>decretos#inicio">Decretos</a>
+                <a href="<?php echo INCLUDE_PATH ?>quem_somos#inicio">Quem Somos</a>
+                <a href="<?php echo INCLUDE_PATH ?>visao_missao#inicio">Visão e Missão</a>
+                <a href="<?php echo INCLUDE_PATH ?>nossa_historia#inicio">Nossa História</a>
+                <a href="<?php echo INCLUDE_PATH ?>que_cremos#inicio">Em Que Cremos</a>
+                <a href="<?php echo INCLUDE_PATH ?>nossos_valores#inicio">Nossos Valores</a>
+                <a href="<?php echo INCLUDE_PATH ?>visao_compromisso#inicio">Visão e Compromisso</a>
+                <a href="<?php echo INCLUDE_PATH ?>valnice#inicio">Valnice Milhomens</a>
               </div>
             </div> 
 
