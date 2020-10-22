@@ -20,49 +20,73 @@
 
   ?>
 </head>
+
 <body>
     <!-- Header -->
   <section id="header">
     <div class="header container">
       <div class="nav-bar">
+        <!-- Imagem Logo -->
         <div class="brand">
           <!--<a href="index.html"><h1><span>insejec</span> sjc</h1></a>-->
           <div class="header-img"><a href="<?php echo INCLUDE_PATH ?>">
             <img src="<?php echo INCLUDE_PATH ?>img/logo-header.svg" alt="img" style="width: 120px;"></a></div>
         </div>
+
         <div class="nav-list">
           <div class="hamburger"><div class="bar"></div></div>
           <ul>
+            <!-- Início -->
             <div class="dropdown">
               <a href="<?php echo INCLUDE_PATH ?>">
               <button class="dropbtn">Início 
               </button></a>
             </div>
+
+            <!-- Igreja -->
             <div class="dropdown">
               <a href="<?php echo INCLUDE_PATH ?>igreja">
                 <button class="dropbtn">Igreja 
-                
               </button></a>
               <div class="dropdown-content">
-                <a href="como_chegar.html#local">Como chegar</a>
-                <a href="igreja.html#historia">Nossa História</a>
-                <a href="igreja.html#pastores">Pastores</a>
+                <a href="<?php echo INCLUDE_PATH ?>como_chegar#local">Como chegar</a>
+                <a href="<?php echo INCLUDE_PATH ?>igreja#historia">Nossa História</a>
+                <a href="<?php echo INCLUDE_PATH ?>igreja#pastores">Pastores</a>
+              </div>
+            </div>
+
+            <!-- Sobre -->
+            <div class="dropdown">
+            <a href="<?php echo INCLUDE_PATH ?>sobre">
+                <button class="dropbtn">Sobre 
+              </button></a>
+              <div class="dropdown-content">
+                <a href="<?php echo INCLUDE_PATH ?>">X_Decretos</a>
+                <a href="<?php echo INCLUDE_PATH ?>">X_Quem Somos</a>
+                <a href="<?php echo INCLUDE_PATH ?>visao_missao">Visão e Missão</a>
+                <a href="<?php echo INCLUDE_PATH ?>">X_Nossa História</a>
+                <a href="<?php echo INCLUDE_PATH ?>que_cremos">Em Que Cremos</a>
+                <a href="<?php echo INCLUDE_PATH ?>nossos_valores">Nossos Valores</a>
+                <a href="<?php echo INCLUDE_PATH ?>">X_Visão e Compromisso</a>
+                <a href="<?php echo INCLUDE_PATH ?>">X_Valnice Milhomens</a>
               </div>
             </div> 
+
+            <!-- Redes -->
             <div class="dropdown">
               <a href="redes.html">
                 <button class="dropbtn">Redes 
-                
               </button></a>
               <div class="dropdown-content">
                 <a href="redes.html#grupos">Nossas redes</a>
                 <a href="eventos.html#redes">Atividades</a>
               </div>
-            </div> 
+            </div>
+
+            <!-- Células -->
             <div class="dropdown">
               <a href="celulas.html">
                 <button class="dropbtn">Células 
-                
               </button></a>
               <div class="dropdown-content">
                 <a href="celulas.html#apresentacao">Visão Celular</a>
@@ -70,38 +94,47 @@
                 <a href="celulas.html#mapa">Mapa</a>
               </div>
             </div> 
+
+            <!-- Escolas -->
             <div class="dropdown">
               <!--<a href="escolas.html">--><a href="universidade_da_vida.html#uv">
                 <button class="dropbtn">Escolas 
-                
               </button></a>
               <div class="dropdown-content">
                 <a href="universidade_da_vida.html#uv">Universidade da Vida</a>
                 <!--<a href="capacitacao_destino.html#cd">--><a>Capacitação Destino</a>
               </div>
             </div> 
+
+            <!-- Eventos -->
             <div class="dropdown">
               <a href="eventos.html">
                 <button class="dropbtn">Eventos
-                
               </button></a>
               <div class="dropdown-content">
                 <a href="eventos.html#geral">Igreja</a>
                 <a href="eventos.html#redes">Redes</a>
               </div>
-            </div> 
+            </div>
+
+            <!-- Contato -->
             <div class="dropdown">
               <a href="contato.html">
               <button class="dropbtn">Contato 
               </button></a>
             </div>
+
+            <!-- Doações -->
             <div class="dropdown">
               <!--<a href="doar.html">--><a>
               <button class="dropbtn">Doações
               </button></a>
             </div>
+            
+
             <li><a href="<?php echo INCLUDE_PATH ?>" data-after="Início">Início</a></li>
             <li><a href="<?php echo INCLUDE_PATH ?>igreja#historia" data-after="Igreja">Igreja</a></li>
+            <li><a href="<?php echo INCLUDE_PATH ?>sobre" data-after="Sobre">Sobre</a></li>
             <li><a href="redes.html#grupos" data-after="Redes">Redes</a></li>
             <li><a href="celulas.html#apresentacao" data-after="Células">Células</a></li>
             <li><a href="universidade_da_vida.html#uv" data-after="Escolas">Escolas</a></li>
@@ -129,19 +162,14 @@
   <!-- End Hero Section  -->
 
   <?php
-        
-        
-
         if(file_exists($url.'.php')){
             include($url.'.php');
         } else {
             include('home.php');
         }
-
   ?>
+
   <!-- Footer -->
-  
-  
   <section id="footer">
     <div class="footer container">
       <div class="row">
@@ -200,9 +228,7 @@
   
   <button id="scroll"><i class="material-icons">arrow_upward</i></button>
 
-
   <script src="<?php echo INCLUDE_PATH ?>js/app.js"></script>
     
-
 </body>
 </html>
