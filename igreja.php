@@ -20,7 +20,7 @@
           </p>
       </div>
 
-      <a href="como_chegar.html#local" type="button" class="cta" style="font-size: 15px;">Como chegar</a>
+      <a href="<?php echo INCLUDE_PATH ?>como_chegar#local" type="button" class="cta" style="font-size: 15px;">Como chegar</a>
     </div>
   </section>
   </section>
@@ -38,7 +38,7 @@
       <div class="about container">
         <div class="col-left">
           <div class="about-img">
-            <img src="./img/pastor_0.png" alt="img">
+            <img src="./img/pastores/pr0.png" alt="img">
           </div>
         </div>
         <div class="col-right">
@@ -49,13 +49,13 @@
           Juntamente com sua esposa, sonham ver uma liderança se levantando com o caráter de CRISTO, imbuída da visão de conquista de cidades através da Visão Celular no Governo dos 12 para o Reino de DEUS. Para tanto, eles têm se ocupado principalmente no discipulado na igreja local e na estruturação de uma igreja que possa contar com vários ministérios liderados por cristãos que sejam realmente a reprodução de JESUS CRISTO, em seu caráter e sua missão; atuando e assistido várias outras igrejas na nação brasileira com o mesmo propósito.</p>
           <div class="social-icon">
             <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos"><img src="./img/icon_fac_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/rosivaldo.d.p.merloto"><img src="./img/icon_fac_xs.svg"/></a>
             </div>
             <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/insejec_sjc/"><img src="./img/icon_ins_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rosivaldo.merloto_12/"><img src="./img/icon_ins_xs.svg"/></a>
             </div>
             <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCbEzKNxd0pdJdkao0hO9sTw"><img src="./img/icon_ytb_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCYrjlOt87po_YR-HFduJ17w"><img src="./img/icon_ytb_xs.svg"/></a>
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@
       <div class="aboutx container">
         <div class="col-left">
           <div class="aboutx-img">
-            <img src="./img/pastor_0.png" alt="img">
+            <img src="./img/pastores/pr1.png" alt="img">
           </div>
         </div>
         <div class="col-right">
@@ -81,23 +81,17 @@
           Juntamente com seu esposo pastorearam a INSEJEC em Americana até o dia 30 de junho de 2013, dia do culto de despedida, e desde então, foram transferidos para São José dos Campos/SP a convite da Apóstola Valnice Milhomens Coelho, Presidente do Ministério. No dia 07 de julho de 2013 assumiram a Igreja Nacional do Senhor Jesus Cristo em São José dos Campos SP. Em 2014 foram convidados para compor a equipe principal de 12 da liderança da Apóstola Valnice Milhomens e em julho de 2017 foram delegados por ela para serem seus representantes na Visão Celular no Governo dos 12 no Brasil e no mundo; no ministério.</p>
           <div class="social-icon">
             <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos"><img src="./img/icon_fac_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://pt-br.facebook.com/priscila.merloto"><img src="./img/icon_fac_xs.svg"/></a>
             </div>
             <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/insejec_sjc/"><img src="./img/icon_ins_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/priscila.merloto_12/"><img src="./img/icon_ins_xs.svg"/></a>
             </div>
-            <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCbEzKNxd0pdJdkao0hO9sTw"><img src="./img/icon_ytb_xs.svg"/></a>
-            </div>
-
+            
             <div class="social-item-reverse">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCbEzKNxd0pdJdkao0hO9sTw"><img src="./img/icon_ytb_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/priscila.merloto_12/"><img src="./img/icon_ins_xs.svg"/></a>
             </div>
             <div class="social-item-reverse">
-              <a href="#"><img src="https://img.icons8.com/fluent/96/000000/instagram-new.png"/></a>
-            </div>
-            <div class="social-item-reverse">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos"><img src="./img/icon_fac_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://pt-br.facebook.com/priscila.merloto"><img src="./img/icon_fac_xs.svg"/></a>
             </div>
           </div>
         </div>
@@ -119,20 +113,17 @@
         <div class="col-right">
           <h1 class="section-title">Mikio <span>Furuzawa</span></h1>
           <h2>Pastor Provisionado</h2>
-          <p>O Pastor Mikio nasceu no dia 10 de Julho de 1977 na cidade de Caxias do Sul-RS. Teve uma experiência profunda com o Senhor Jesus aos 28 anos de idade (2005) e a partir daí  tem tido Galatás 2:20 como uma Palavra que traduz sua busca e seu modelo de vida. É marido da Pra Gisele e pai dos lindos Benjamim e Noah.
-            Bacharel em Comunicação Social pela UNITAU, tem MBA em Gestão Empresarial, fez o módulo de Marketing de Varejo do Provar da USP,  tem Pós Gradução em Ciências do Consumo Aplicadas pela ESPM.            
-            Com experiência de 22 anos nas áreas de Marketing e Comunicação, atualmente exerce a função de COO - Chief Office Operation na Startup Wallabe. <br>            
-            Após a sua conversão, tem procurado servir o Senhor Jesus sempre com amor e dedicação. Foi integrante da equipe de teatro do Ministério de Artes em São José dos Campos e Botucatu e junto com sua esposa Gisele foi líder da Rede de Adolescentes da INSEJEC Botucatu em 2008. Com a chegada dos Prs Rosivaldo e Priscila, assume a liderança da equipe de teatro em 2012. Também assumiu a liderança do Ministério de Comunicação da Insejec São José dos Campos em 2013, onde permanece servindo com muito amor e entusiasmo até os dias de hoje.<br>            
-            No dia 07 de Julho de 2019, foi provisionado como pastor na Insejec São José dos Campos e desde então tem buscado responder ao chamado de Deus com muito temor e total dependência do Espírito Santo. “Apaixonado” por Jesus, tem vivido para cumprir o IDE e fazei discípulos, para ser parte da visão da INSEJEC que é a Redenção do Brasil e de todos os povos pela evangelização através de células multiplicadoras e discipulado por meio da Visão Celular no Governo dos 12, fazendo de cada discípulo um líder e em cada casa uma célula. Quer honrar e glorificar o nome do Eterno e Todo Poderoso Deus, permanecer olhando para o Alvo, o autor e consumidor de sua fé, Jesus Cristo e viver para servir com amor a todas as vidas que o Senhor tem colocado em seu caminho.</p>
+          <p>O Pastor Mikio nasceu no dia 10 de Julho de 1977 na cidade de Caxias do Sul-RS. Teve uma experiência com o Senhor Jesus aos 28 anos de idade (2005). É marido da Pra Gisele e pai dos lindos Benjamim e Noah. Bacharel em Comunicação Social pela UNITAU, tem MBA em Gestão Empresarial pela FGV, tem Pós Gradução em Ciências do Consumo Aplicadas pela ESPM. Com experiência de 22 anos nas áreas de Marketing e Comunicação, atualmente exerce a função de COO - Chief Office Operation na Startup Wallabe.
+          <br>
+          Após a sua conversão, tem servido o Senhor Jesus com amor e dedicação. Foi integrante da equipe de teatro do Ministério de Artes em São José dos Campos e Botucatu e junto com sua esposa Gisele foi líder da Rede de Adolescentes da INSEJEC Botucatu em 2008. Com a chegada dos Prs Rosivaldo e Priscila, assume a liderança da equipe de teatro em 2012. Também assumiu a liderança do Ministério de Comunicação da Insejec São José dos Campos em 2013, onde permanece servindo com muito amor e entusiasmo até os dias de hoje.
+          <br>
+          Parte da Equipe de 12 do Pr Rosivaldo desde 2014, no dia 07 de Julho de 2019, viveu um momento marcante quando foi provisionado como pastor na Insejec São José dos Campos e desde então tem buscado responder ao chamado de Deus com muito temor e total dependência do Espírito Santo. “Apaixonado” por Jesus, tem vivido para cumprir o IDE e fazei discípulos, para ser parte da visão da INSEJEC que é a Redenção do Brasil e de todos os povos pela evangelização através de células multiplicadoras e discipulado por meio da Visão Celular no Governo dos 12, fazendo de cada discípulo um líder e em cada casa uma célula. Quer honrar e glorificar o nome do Eterno e Todo Poderoso Deus, permanecer olhando para o Alvo, o Autor e Consumador de sua fé, Jesus Cristo e viver para servir com amor a todas as vidas que o Senhor tem colocado em seu caminho.</p>
           <div class="social-icon">
             <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos"><img src="./img/icon_fac_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/robson.furuzawa"><img src="./img/icon_fac_xs.svg"/></a>
             </div>
             <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/insejec_sjc/"><img src="./img/icon_ins_xs.svg"/></a>
-            </div>
-            <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCbEzKNxd0pdJdkao0hO9sTw"><img src="./img/icon_ytb_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/robsonmikio/?r=nametag"><img src="./img/icon_ins_xs.svg"/></a>
             </div>
           </div>
         </div>
@@ -154,26 +145,19 @@
         <div class="col-right">
           <h1 class="section-title"><span>Gisele</span> Furuzawa</h1>
           <h2>Pastora Provisionada</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni! Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt reprehenderit libero enim!</p>
+          <p>A Pra Gisele nasceu no dia 05 de setembro de 1983, na cidade de São José dos Campos. Reconhecida como uma adoradora apaixonada por Jesus, é Casada com o Pr Mikio, mãe dedicada e exemplar dos meninos Benjamim e Noah. Gisele é Bacharel em Educação Física pela Universidade Paulista (UNIP), tem Pós-Graduação em Dança e Consciência Corporal, além de formação em Balé Clássico pela Academia de Dança Ana Araújo (8 anos).  Foi professora de Dança por muitos anos e dona de uma academia de Balé entre 2012 e 2013, a qual deixou por uma direção de Deus.
+
+          Em 1992 teve sua experiência de conversão com Jesus Cristo. Em 1996, por uma direção de Deus foi com seus pais para INSEJEC, onde congrega até hoje.
+          <br>
+          Já participou do louvor, teatro, dança e ministério infantil. Mais tarde também da rede de casais. Junto com seu marido Mikio, foi líder da Rede de Adolescentes  e também fez parte do Ministério de Dança da INSEJEC Botucatu em 2008. Atualmente é Líder do Ministério de Dança (desde 2012) e atual líder do ArTeS (desde 2018), ministério de Adoração da INSEJEC São José dos Campos
+          <br>
+          Parte da equipe de 12 da Pra Priscila desde 2014, no dia 07 de Julho de 2019, viveu um momento marcante quando foi provisionada como pastora na Insejec São José dos Campos. Crê que há um tempo para todas as coisas e tem plena consciência de que Deus soberano e baseado nessa premissa coloca-se a disposição de Yahweh para que os propósitos dELE se cumpram de forma plena em sua vida.</p>
           <div class="social-icon">
             <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos"><img src="./img/icon_fac_xs.svg"/></a>
-            </div>
-            <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/insejec_sjc/"><img src="./img/icon_ins_xs.svg"/></a>
-            </div>
-            <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCbEzKNxd0pdJdkao0hO9sTw"><img src="./img/icon_ytb_xs.svg"/></a>
-            </div>
-
-            <div class="social-item-reverse">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCbEzKNxd0pdJdkao0hO9sTw"><img src="./img/icon_ytb_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/giselefuruzawa/?igshid=1f617mtsfkrtj"><img src="./img/icon_ins_xs.svg"/></a>
             </div>
             <div class="social-item-reverse">
-              <a href="#"><img src="https://img.icons8.com/fluent/96/000000/instagram-new.png"/></a>
-            </div>
-            <div class="social-item-reverse">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos"><img src="./img/icon_fac_xs.svg"/></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/giselefuruzawa/?igshid=1f617mtsfkrtj"><img src="./img/icon_ins_xs.svg"/></a>
             </div>
           </div>
         </div>

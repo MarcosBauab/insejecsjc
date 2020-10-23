@@ -165,7 +165,7 @@
         <img class="title-full" src="./img/title-full.svg" class="q-img">
         <!--<h1 class="section-title" style="font-family: logoFont; font-size: 22px; color: #ccc;">em São Jose dos Campos</h1>-->
         <p><br><b style="font-size: 2rem; font-weight: 500; font-variant: small-caps;">Bem vindos à INSEJEC!</b><br>
-          Somos uma igreja que busca seguir a grande comissão de Jesus: ganhar almas e fazer discípulos. Nosso desejo é que as pessoas se sintam como uma família sempre que comparecerem a uma de nossas reuniões ou a uma de nossas células.</p>
+          Somos uma igreja que busca cumprir a grande comissão de Jesus: ganhar almas e fazer discípulos. Nosso desejo é que as pessoas se sintam como uma família sempre que comparecerem a uma de nossas reuniões ou a uma de nossas células.</p>
       </div>
       <div class="welcome-bottom">
         <!--
@@ -176,9 +176,9 @@
         </div>
         -->
         <!--<a href="igreja.html#welcome" type="button" class="cta">Conheça nossa igreja</a>-->
-        <a href="universidade_da_vida.html#uv" type="button" class="cta" style="background-image: url(./img/btn-uv.svg);"></a>
+        <a href="<?php echo INCLUDE_PATH ?>universidade_da_vida#uv" type="button" class="cta" style="background-image: url(./img/btn-uv.svg);"></a>
         <a type="button" class="cta" style="background-image: url(./img/btn-cd.svg);"></a>
-        <a href="celulas.html#apresentacao" type="button" class="cta" style="background-image: url(./img/btn-cell.svg);"></a>
+        <a href="<?php echo INCLUDE_PATH ?>celulas#apresentacao" type="button" class="cta" style="background-image: url(./img/btn-cell.svg);"></a>
         <a type="button" class="cta" style="background-image: url(./img/btn-doar.svg);"></a>
       </div>
     </div>
@@ -198,12 +198,12 @@
     </div>
     <div class="worship-bottom">
       <p>Em nosso canal oficial no <a href="https://www.youtube.com/channel/UCbEzKNxd0pdJdkao0hO9sTw" style="color: #00A8E8;">YouTube</a>, você pode encontrar conteúdo que o ajudará a descobrir o propósito de Deus para sua vida. 
-        Você terá acesso a cultos e pregações que o motivarão a crescer de forma integral em todas as áreas de sua vida.<br> Veja <a href="como_chegar.html#local" style="color: #00A8E8;">como chegar</a> nos cultos presenciais.
+        Você terá acesso a cultos e pregações que o motivarão a crescer de forma integral em todas as áreas de sua vida.<br> Veja <a href="<?php echo INCLUDE_PATH ?>como_chegar#local" style="color: #00A8E8;">como chegar</a> nos cultos presenciais.
       <br><span>.</span></p>
     </div>
 
     <div class="worship-bottom">
-      <a href="redes.html#familia">
+      <a href="<?php echo INCLUDE_PATH ?>redes#familia">
         <div class="worship-item" style="background-image: url(./img/index-culto-domingo.png);">
             <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
             <h2>Culto da Família</h2>
@@ -211,7 +211,7 @@
           </div>
       </a>
       <div class="worship-item-null"></div>
-      <a href="redes.html#homens">
+      <a href="<?php echo INCLUDE_PATH ?>redes#homens">
         <div class="worship-item" style="background-image: url(./img/index-culto-homens.png);">
           <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
           <h2>Culto de Homens</h2>
@@ -219,7 +219,7 @@
         </div>
       </a>
       <div class="worship-item-null"></div>
-      <a href="redes.html#mulheres">
+      <a href="<?php echo INCLUDE_PATH ?>redes#mulheres">
         <div class="worship-item" style="background-image: url(./img/index-culto-mulheres.png);">
           <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
           <h2>Culto de Mulheres</h2>
@@ -227,7 +227,7 @@
         </div>
       </a>
       <div class="worship-item-null"></div>
-      <a href="redes.html#casais">
+      <a href="<?php echo INCLUDE_PATH ?>redes#casais">
         <div class="worship-item" style="background-image: url(./img/index-culto-casais.png);">
           <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
           <h2>Culto de Casais</h2>
@@ -235,7 +235,7 @@
         </div>
       </a>
       <div class="worship-item-null"></div>
-      <a href="redes.html#jovens">
+      <a href="<?php echo INCLUDE_PATH ?>redes#jovens">
         <div class="worship-item" style="background-image: url(./img/index-culto-jovens.png);">
           <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
           <h2>Culto de Jovens</h2>
@@ -255,7 +255,7 @@
         <p>A Igreja Nacional do Senhor Jesus Cristo – INSEJEC, é uma Igreja Cristã Evangélica Carismática, herdeira dos valores da Reforma Protestante e dos moveres de Deus na Igreja, restaurando verdades esquecidas nos últimos séculos, buscando firmemente viver os valores da Igreja em Jerusalém, revelados em Atos dos Apóstolos. </p>
       </div>
       <div class="service-bottom">
-        <a href="que_cremos.html#welcome_txt" type="button" class="cta">nossa declaração de crenças</a>
+        <a href="<?php echo INCLUDE_PATH ?>que_cremos.html#inicio" type="button" class="cta">nossa declaração de crenças</a>
       </div>
     </div>
   </section>
@@ -275,11 +275,11 @@
       </div>
       <div class="col-right">
         <h1 class="section-title">Past<span>o</span>res</h1>
-        <h2 style="font-size: 2.5rem; font-weight: 500; font-variant: small-caps;"><a href="igreja.html#pr0">Rosivaldo Merloto</a></h2>
+        <h2 style="font-size: 2.5rem; font-weight: 500; font-variant: small-caps;"><a href="<?php echo INCLUDE_PATH ?>igreja#pr0">Rosivaldo Merloto</a></h2>
         <p>O pastor Rosivaldo Merloto, nascido em 03 de maio de 1973, é considerado um homem de fé e perseverante nos sonhos que Deus tem agasalhado em seu coração. Aos 16 anos de idade teve uma experiência com o Senhor e Salvador Jesus Cristo, desde então O tem servido de todo seu coração.<br>
           Bacharel em Teologia pela Faculdade de Ciências, Educação e Teologia do Norte do Brasil (FACETEN); Curso Superior Tecnólogo em Gestão de Pequenas e Médias Empresas (Processos Gerencias), pela Universidade Paulista (UNIP); e Pós-graduado em Psicologia Pastoral/Aconselhamento Pastoral pela Faculdade de Ciências, Educação e Teologia do Norte do Brasil (FACETEN).
           <a href="<?php echo INCLUDE_PATH ?>igreja#pr0" style="font-size: 1.5rem; font-weight: 500; font-variant: small-caps;"><b>Saiba Mais</b></a></p>
-        <h2 style="font-size: 2.5rem; font-weight: 500; font-variant: small-caps;"><a href="igreja.html#pr1">Priscila Merloto</a></h2>
+        <h2 style="font-size: 2.5rem; font-weight: 500; font-variant: small-caps;"><a href="<?php echo INCLUDE_PATH ?>igreja#pr1">Priscila Merloto</a></h2>
         <p>A pastora Priscila Merloto, nascida em 27 de março de 1973, neta de pastor, é vista e reconhecida como uma mulher destemida, sempre buscando cumprir o seu propósito no Reino de Deus. Casada com Rosivaldo desde 1993; mãe de Gabrielle Merloto, nascida no dia 07 de março de 1999. Bacharel em Administração de Empresas, pela Faculdade de Americana (FAM); Pós-graduada em Psicologia Pastoral/Aconselhamento Pastoral pela Faculdade de Ciências, Educação e Teologia do Norte do Brasil (FACETEN).<br>
           Em 02 de julho de 2012, totalmente direcionada por Deus, deixou o cargo de Gerente Comercial em uma empresa multinacional, onde exerceu sua função por quase 16 anos, para também dedicar-se ao ministério tempo integral. 
           <a href="<?php echo INCLUDE_PATH ?>igreja#pr1" style="font-size: 1.5rem; font-weight: 500; font-variant: small-caps;"><b>Saiba Mais</b></a>
@@ -348,7 +348,7 @@
     </div>
       
       <div class="cell-bottom">
-        <div class="cell-link-1"><a href="celulas.html#welcome" type="button" class="cta">Saiba mais</a></div>
+        <div class="cell-link-1"><a href="<?php echo INCLUDE_PATH ?>celulas.html#apresentacao" type="button" class="cta">Saiba mais</a></div>
       </div>
     </div>
   </section>
@@ -364,15 +364,15 @@
         </p>
       </div>
       <div class="school-bottom" style="padding-top: 40px;">
-        <div class="school-link-1"><a href="universidade_da_vida.html#uv" type="button" class="cta"></a></div>
-        <div class="p1"><p><a href="universidade_da_vida.html#uv" type="button"><b>Universidade da Vida</b></a><br>
+        <div class="school-link-1"><a href="<?php echo INCLUDE_PATH ?>universidade_da_vida#uv" type="button" class="cta"></a></div>
+        <div class="p1"><p><a href="<?php echo INCLUDE_PATH ?>universidade_da_vida#uv" type="button"><b>Universidade da Vida</b></a><br>
           A Universidade da vida foi projetada para explorar e fortalecer sua fé em Cristo, esclarecer suas dúvidas e trazer à tona todo o potencial com que Deus o criou.
           Nela você pode aprender sobre Deus, interagir com outras pessoas como você, fazer perguntas e encontrar alguém que as responda, mas acima de tudo, e você terá uma experiência que marcará completamente sua vida</p></div>
       </div>
       <div class="school-bottom" style="padding-top: 40px;">
-        <div class="p2"><p><a href="capacitacao_destino.html#cd" type="button"><b>Capacitação Destino</b></a><br>
+        <div class="p2"><p><a type="button"><b>Capacitação Destino</b></a><br>
           A Capacitação Destino é um curso modular de treinamento de liderança. Nela estão envolvidos tópicos como os fundamentos do Cristianismo, a Visão G12, liderança eficaz e o Espírito Santo. O curso é desenvolvido em torno de três etapas: Conectar, Conceber e Criar, projetado para envolver os alunos com o material e produzir resultados positivos e duradouros</p></div>
-        <div class="school-link-2"><!--<a href="capacitacao_destino.html#cd" type="button" class="cta">--><a type="button" class="cta"></a></div>
+        <div class="school-link-2"><!--<a href="capacitacao_destino#cd" type="button" class="cta">--><a type="button" class="cta"></a></div>
       </div>
     </div>
   </section>

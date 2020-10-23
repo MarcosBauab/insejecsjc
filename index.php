@@ -57,7 +57,7 @@
 
             <!-- Sobre -->
             <div class="dropdown">
-            <a href="<?php echo INCLUDE_PATH ?>sobre">
+            <a href="<?php echo INCLUDE_PATH ?>sobre#inicio">
                 <button class="dropbtn">Sobre 
               </button></a>
               <div class="dropdown-content">
@@ -74,52 +74,52 @@
 
             <!-- Redes -->
             <div class="dropdown">
-              <a href="redes.html">
+              <a href="<?php echo INCLUDE_PATH ?>redes">
                 <button class="dropbtn">Redes 
               </button></a>
               <div class="dropdown-content">
-                <a href="redes.html#grupos">Nossas redes</a>
-                <a href="eventos.html#redes">Atividades</a>
+                <a href="<?php echo INCLUDE_PATH ?>redes#grupos">Nossas redes</a>
+                <a href="<?php echo INCLUDE_PATH ?>eventos#redes">Atividades</a>
               </div>
             </div>
 
             <!-- Células -->
             <div class="dropdown">
-              <a href="celulas.html">
+              <a href="<?php echo INCLUDE_PATH ?>celulas">
                 <button class="dropbtn">Células 
               </button></a>
               <div class="dropdown-content">
-                <a href="celulas.html#apresentacao">Visão Celular</a>
-                <a href="celulas.html#search-table">Nossas Células</a>
-                <a href="celulas.html#mapa">Mapa</a>
+                <a href="<?php echo INCLUDE_PATH ?>celulas#apresentacao">Visão Celular</a>
+                <a href="<?php echo INCLUDE_PATH ?>celulas#search-table">Nossas Células</a>
+                <a href="<?php echo INCLUDE_PATH ?>celulas#mapa">Mapa</a>
               </div>
             </div> 
 
             <!-- Escolas -->
             <div class="dropdown">
-              <!--<a href="escolas.html">--><a href="universidade_da_vida.html#uv">
+              <!--<a href="escolas.html">--><a href="<?php echo INCLUDE_PATH ?>universidade_da_vida#uv">
                 <button class="dropbtn">Escolas 
               </button></a>
               <div class="dropdown-content">
-                <a href="universidade_da_vida.html#uv">Universidade da Vida</a>
+                <a href="<?php echo INCLUDE_PATH ?>universidade_da_vida#uv">Universidade da Vida</a>
                 <!--<a href="capacitacao_destino.html#cd">--><a>Capacitação Destino</a>
               </div>
             </div> 
 
             <!-- Eventos -->
             <div class="dropdown">
-              <a href="eventos.html">
+              <a href="<?php echo INCLUDE_PATH ?>eventos">
                 <button class="dropbtn">Eventos
               </button></a>
               <div class="dropdown-content">
-                <a href="eventos.html#geral">Igreja</a>
-                <a href="eventos.html#redes">Redes</a>
+                <a href="<?php echo INCLUDE_PATH ?>eventos#geral">Igreja</a>
+                <a href="<?php echo INCLUDE_PATH ?>eventos#redes">Redes</a>
               </div>
             </div>
 
             <!-- Contato -->
             <div class="dropdown">
-              <a href="contato.html">
+              <a href="<?php echo INCLUDE_PATH ?>contato">
               <button class="dropbtn">Contato 
               </button></a>
             </div>
@@ -134,12 +134,12 @@
 
             <li><a href="<?php echo INCLUDE_PATH ?>" data-after="Início">Início</a></li>
             <li><a href="<?php echo INCLUDE_PATH ?>igreja#historia" data-after="Igreja">Igreja</a></li>
-            <li><a href="<?php echo INCLUDE_PATH ?>sobre" data-after="Sobre">Sobre</a></li>
-            <li><a href="redes.html#grupos" data-after="Redes">Redes</a></li>
-            <li><a href="celulas.html#apresentacao" data-after="Células">Células</a></li>
-            <li><a href="universidade_da_vida.html#uv" data-after="Escolas">Escolas</a></li>
-            <li><a href="eventos.html#geral" data-after="Eventos">Eventos</a></li>
-            <li><a href="contato.html#welcome" data-after="Contato">Contato</a></li>
+            <li><a href="<?php echo INCLUDE_PATH ?>sobre#inicio" data-after="Sobre">Sobre</a></li>
+            <li><a href="<?php echo INCLUDE_PATH ?>redes#grupos" data-after="Redes">Redes</a></li>
+            <li><a href="<?php echo INCLUDE_PATH ?>celulas#apresentacao" data-after="Células">Células</a></li>
+            <li><a href="<?php echo INCLUDE_PATH ?>universidade_da_vida#uv" data-after="Escolas">Escolas</a></li>
+            <li><a href="<?php echo INCLUDE_PATH ?>eventos#geral" data-after="Eventos">Eventos</a></li>
+            <li><a href="<?php echo INCLUDE_PATH ?>contato#welcome" data-after="Contato">Contato</a></li>
             <li><!--<a href="doar.html#welcome" data-after="Doações">--><a data-after="Doações">Doações</a></li>
           </ul>
         </div>
@@ -179,18 +179,18 @@
         </div>
         <div class="column">
           <h2>Sobre nós</h2>
-          <a href="igreja.html#welcome"><p>Nossa Igreja</p></a>
-          <a href="visao_missao.html#welcome_txt"><p>Visão e Missão</p></a>
-          <a href="nossos_valores.html#welcome_txt"><p>Nossos Valores</p></a>
-          <!--<a href="visao_celular.html#welcome_txt">--><a><p>Visão Celular</p></a>
-          <a href="que_cremos.html#welcome_txt"><p>Em que cremos</p></a>
+          <a href="<?php echo INCLUDE_PATH ?>igreja#historia"><p>Nossa Igreja</p></a>
+          <a href="<?php echo INCLUDE_PATH ?>visao_missao#inicio"><p>Visão e Missão</p></a>
+          <a href="<?php echo INCLUDE_PATH ?>nossos_valores#inicio"><p>Nossos Valores</p></a>
+          <a href="<?php echo INCLUDE_PATH ?>visao_celular#inicio"><p>Visão Celular</p></a>
+          <a href="<?php echo INCLUDE_PATH ?>que_cremos#inicio"><p>Em que cremos</p></a>
         </div>
         <div class="column">
           <h2>Nossos pastores</h2>
-          <a href="igreja.html#pr0"><p>Rosivaldo Merloto</p></a>
-          <a href="igreja.html#pr1"><p>Priscila Merloto</a>
-          <a href="igreja.html#pr2"><p>Mikio Furuzawa</p></a>
-          <a href="igreja.html#pr3"><p>Gisele Furuzawa</p></a>
+          <a href="<?php echo INCLUDE_PATH ?>igreja#pr0"><p>Rosivaldo Merloto</p></a>
+          <a href="<?php echo INCLUDE_PATH ?>igreja#pr1"><p>Priscila Merloto</a>
+          <a href="<?php echo INCLUDE_PATH ?>igreja#pr2"><p>Mikio Furuzawa</p></a>
+          <a href="<?php echo INCLUDE_PATH ?>igreja#pr3"><p>Gisele Furuzawa</p></a>
         </div>
         <div class="column">
           <h2>Links</h2>
@@ -221,7 +221,7 @@
       </div>
 
       
-      <p>© 2020 INSEJEC SJC. Todos os direitos reservados. | <a href="politica_privacidade.html#welcome_txt">Política de Privacidade</a></p>
+      <p>© 2020 INSEJEC SJC. Todos os direitos reservados. | <a href="<?php echo INCLUDE_PATH ?>politica_privacidade#termos">Política de Privacidade</a></p>
     </div>
   </section>
   <!-- End Footer -->
