@@ -1,3 +1,5 @@
+  <title>Visão Celular - Insejec São José dos Campos</title>
+
 <!-- Welcome Section -->
 <section id="inicio">
 <section id="welcome_txt">

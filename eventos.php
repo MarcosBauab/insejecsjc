@@ -1,4 +1,4 @@
-
+  <head><title>Eventos - Insejec São José dos Campos</title></head>
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/evento.css">
 

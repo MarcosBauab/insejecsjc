@@ -11,14 +11,6 @@
 
   ?>
 
-
-  <?php if($url == 'igreja'){
-      echo '<title>'.TITULO.'</title>';
-    } else{
-      echo '<title>INSEJEC SJC - Igreja Nacional do Senhor Jesus Cristo em São José dos Campos</title>';
-    } 
-
-  ?>
 </head>
 
 <body>

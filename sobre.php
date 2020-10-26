@@ -1,3 +1,4 @@
+<title>Sobre - Insejec São José dos Campos</title>
 <style>
     .container { min-height: 60vh;} 
     .cta {

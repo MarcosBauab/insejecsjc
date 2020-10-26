@@ -1,5 +1,5 @@
-
-
+  <head><title>Nossa Igreja - Insejec São José dos Campos</title></head>
+  
   <style>
     #hero .container { min-height: 60vh;} 
   </style>
@@ -38,7 +38,7 @@
       <div class="about container">
         <div class="col-left">
           <div class="about-img">
-            <img src="./img/pastores/pr0.png" alt="img">
+            <img src="<?php echo INCLUDE_PATH ?>img/pastores/pr0.png" alt="img">
           </div>
         </div>
         <div class="col-right">
@@ -71,7 +71,7 @@
       <div class="aboutx container">
         <div class="col-left">
           <div class="aboutx-img">
-            <img src="./img/pastores/pr1.png" alt="img">
+            <img src="<?php echo INCLUDE_PATH ?>img/pastores/pr1.png" alt="img">
           </div>
         </div>
         <div class="col-right">
@@ -154,10 +154,10 @@
           Parte da equipe de 12 da Pra Priscila desde 2014, no dia 07 de Julho de 2019, viveu um momento marcante quando foi provisionada como pastora na Insejec São José dos Campos. Crê que há um tempo para todas as coisas e tem plena consciência de que Deus soberano e baseado nessa premissa coloca-se a disposição de Yahweh para que os propósitos dELE se cumpram de forma plena em sua vida.</p>
           <div class="social-icon">
             <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/giselefuruzawa/?igshid=1f617mtsfkrtj"><img src="./img/icon_ins_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/giselefuruzawa/?igshid=1f617mtsfkrtj"><img src="<?php echo INCLUDE_PATH ?>img/icon_ins_xs.svg"/></a>
             </div>
             <div class="social-item-reverse">
-            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/giselefuruzawa/?igshid=1f617mtsfkrtj"><img src="./img/icon_ins_xs.svg"/></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/giselefuruzawa/?igshid=1f617mtsfkrtj"><img src="<?php echo INCLUDE_PATH ?>img/icon_ins_xs.svg"/></a>
             </div>
           </div>
         </div>
