@@ -8,7 +8,7 @@
 <section id="welcome_txt">
     <div class="welcome_txt container">
       <div class="welcome_txt-top">
-        <h1 class="section-title">Visãode Compromisso</h1>
+        <h1 class="section-title">Visão de Compromisso</h1>
 
         <h3 style="text-align: center;">ALIANÇA</h3>
         <p>

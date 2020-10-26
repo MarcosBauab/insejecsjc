@@ -31,6 +31,47 @@
         font-size: 16px;
       }
     }
+    /*map*/
+    @media only screen and (min-width: 1200px) { /*a*/
+      #services .service-bottom-b{
+        visibility: hidden;
+        height: 0px;
+    		width: 0px;
+      }
+      #services .service-bottom-c{
+        visibility: hidden;
+        height: 0px;
+    		width: 0px;
+      }
+    }
+    @media only screen and (max-width: 1200px) { /*b*/
+      @media only screen and (min-width: 768px) { 
+        #services .service-bottom-a{
+          visibility: hidden;
+          height: 0px;
+          width: 0px;
+        }
+        #services .service-bottom-c{
+          visibility: hidden;
+          height: 0px;
+          width: 0px;
+        }
+      }
+    }
+    @media only screen and (min-width: 0px) { /*c*/
+      @media only screen and (max-width: 768px) {
+        #services .service-bottom-a{
+          visibility: hidden;
+          height: 0px;
+          width: 0px;
+        }
+        #services .service-bottom-b{
+          visibility: hidden;
+          height: 0px;
+          width: 0px;
+        }
+      }
+    }
   </style>
 
 
@@ -69,17 +110,53 @@
       </div>
 
       <div class="service-bottom">
-        <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            var ro = !!d.getElementById(id);
-            js = d.createElement(s); js.id = id;
-            js.src = "https://widgets.moovit.com/ws/AD50A1586952AD36E0530100007FD50A/3670640";
-            fjs.parentNode.insertBefore(js, fjs);
-        })(document, 'script', 'moovit-jsw');</script>
-        <div class="mv-gd-widget-20" 
-            data-width="300" 
-            data-height="210"
-            data-id="3670640">
+        <div class="service-bottom-a">
+          <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              var ro = !!d.getElementById(id);
+              js = d.createElement(s); js.id = id;
+              js.src = "https://widgets.moovit.com/ws/AD50A1586952AD36E0530100007FD50A/3670640";
+              fjs.parentNode.insertBefore(js, fjs);
+          })(document, 'script', 'moovit-jsw');</script>
+          <div class="mv-gd-widget-20" 
+              data-width="1100" 
+              data-height="210"
+              data-id="3670640">
+          </div>
+        </div>
+      </div>
+
+      <div class="service-bottom">
+        <div class="service-bottom-b">
+          <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              var ro = !!d.getElementById(id);
+              js = d.createElement(s); js.id = id;
+              js.src = "https://widgets.moovit.com/ws/AD50A1586952AD36E0530100007FD50A/3670640";
+              fjs.parentNode.insertBefore(js, fjs);
+          })(document, 'script', 'moovit-jsw');</script>
+          <div class="mv-gd-widget-20" 
+              data-width="650" 
+              data-height="210"
+              data-id="3670640">
+          </div>
+        </div>
+      </div>
+
+      <div class="service-bottom">
+        <div class="service-bottom-c">
+          <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              var ro = !!d.getElementById(id);
+              js = d.createElement(s); js.id = id;
+              js.src = "https://widgets.moovit.com/ws/AD50A1586952AD36E0530100007FD50A/3670640";
+              fjs.parentNode.insertBefore(js, fjs);
+          })(document, 'script', 'moovit-jsw');</script>
+          <div class="mv-gd-widget-20" 
+              data-width="300" 
+              data-height="210"
+              data-id="3670640">
+          </div>
         </div>
       </div>
 

@@ -43,6 +43,24 @@
         color: #0099ff;
       }
     }
+
+    @media only screen and (max-width: 768px) {
+      #welcome .welcome-bottom-a{
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+      }
+      #welcome .welcome-bottom-b p{
+        text-align: center;
+      }
+    }
+    @media only screen and (min-width: 768px) {
+      #welcome .welcome-bottom-b{
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+      }
+    }
   </style>
 
 
@@ -54,15 +72,35 @@
         <h1 class="section-title">C<span>o</span>ntato</h1>
         <p style="font-size: 2.5rem;">Entre em contato conosco:<br><br> </p>
       </div>
+
       <div class="welcome-bottom">
-        <p><img src="img/icon_whatsapp.svg" style="height: 30px; width: 30px; margin: 0px 20px 0px 10px; opacity: .8;">
-          <a target="_blank" rel="noopener noreferrer" href="https://wa.me/5512982810294?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20INSEJEC!">( 12 ) 9 8281-0294</a><br><br>
-        
+        <div class="welcome-bottom-a">
+          <p><img src="img/icon_whatsapp.svg" style="height: 30px; width: 30px; margin: 0px 20px 0px 10px; opacity: .8;">
+            <a target="_blank" rel="noopener noreferrer" href="https://wa.me/5512982810294?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20INSEJEC!">( 12 ) 98281-0294</a><br><br>
+          
+            <img src="img/icon_facebook.svg" style="height: 30px; width: 30px; margin: 0px 20px 0px 10px; opacity: .8;">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos">facebook.com/insejecsjcampos</a><br><br>
 
-          <img src="img/icon_facebook.svg" style="height: 30px; width: 30px; margin: 0px 20px 0px 10px; opacity: .8;">
-          <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos">facebook.com/insejec sjcampos</a><br><br>
-
+            <img src="img/icon_mail.svg" style="height: 30px; width: 30px; margin: 0px 20px 0px 10px; opacity: .8;">
+            <a>ola@insejecsjc.com.br</a>
+        </div>
       </div>
+
+      <div class="welcome-bottom">
+        <div class="welcome-bottom-b">
+          <p><img src="img/icon_whatsapp.svg" style="height: 30px; width: 30px; margin: 0px 20px 0px 10px; opacity: .8;"><br>
+            <a target="_blank" rel="noopener noreferrer" href="https://wa.me/5512982810294?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20INSEJEC!">( 12 ) 98281-0294</a>
+            <br><br><br>
+          
+            <img src="img/icon_facebook.svg" style="height: 30px; width: 30px; margin: 0px 20px 0px 10px; opacity: .8;"><br>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos">facebook.com/insejecsjcampos</a>
+            <br><br><br>
+
+            <img src="img/icon_mail.svg" style="height: 30px; width: 30px; margin: 0px 20px 0px 10px; opacity: .8;"><br>
+            <a>ola@insejecsjc.com.br</a>
+        </div>
+      </div>
+
     </div>
   </section>
   <!-- End Welcome Section -->

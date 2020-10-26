@@ -115,7 +115,7 @@
     }
     @media only screen and (max-width: 850px) {
       #welcome .cta {
-        width: 270px;
+        width: 300px;
         height: 70px;
         font-size: 1.5rem;
       }

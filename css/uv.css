@@ -191,11 +191,18 @@ section.duvidas h1{
 	opacity: 1;
 	transform: scale(1.03);
 }
+.bolinhaMenor#insta{
+    filter: grayscale(1);
+    background: url(./img/icon_ins.svg) no-repeat center, radial-gradient(circle at 50% 135%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
 .bolinhaMenor#insta:hover{
-    background: radial-gradient(circle at 50% 135%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    /*background: radial-gradient(circle at 50% 135%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);*/
 	transition: .3s ease;
 	opacity: 1;
-	transform: scale(1.03);
+    transform: scale(1.03);
+
+    filter: grayscale(0);
+    background: url(./img/icon_ins.svg) no-repeat center, radial-gradient(circle at 50% 135%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 .bolinhaMenor#whats:hover{
     background-color: #34af23;

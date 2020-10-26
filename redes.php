@@ -3,6 +3,20 @@
     #hero .container { min-height: 60vh;} 
   </style>
 
+  <!-- Welcome Section -->
+  <section id="welcome">
+    <div class="welcome container">
+      <div class="welcome-top">
+        <h1 class="section-title">Redes</h1>
+        <p>Conheça nossa redes! Cada rede possui um dia de culto durante o mês. <br><br> </p>
+      </div>
+      <div class="welcome-bottom">
+        <img src="./img/redes/redes_datas.jpg" alt="img" style="position: relative; height: 50%; width: 50%; opacity: .9; border-radius: 20px;">
+      </div>
+    </div>
+  </section>
+  <!-- End Welcome Section -->
+
 
   <!-- Projects Section -->
   <section id="grupos">
