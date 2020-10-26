@@ -89,7 +89,7 @@
                 <button class="dropbtn">Células 
               </button></a>
               <div class="dropdown-content">
-                <a href="<?php echo INCLUDE_PATH ?>celulas#apresentacao">Visão Celular</a>
+                <a href="<?php echo INCLUDE_PATH ?>visao_celular#inicio">Visão Celular</a>
                 <a href="<?php echo INCLUDE_PATH ?>celulas#search-table">Nossas Células</a>
                 <a href="<?php echo INCLUDE_PATH ?>celulas#mapa">Mapa</a>
               </div>

@@ -156,6 +156,15 @@
       letter-spacing: 1.3px;
       transition: .3s ease;
     }
+
+    @media only screen and (max-width: 768px){
+      @media only screen and (min-width: 500px){
+        #about .col-left{
+          width: 350px;
+          height: 350px;
+        }
+      }
+    }
   </style>
 
   <!-- Welcome Section -->

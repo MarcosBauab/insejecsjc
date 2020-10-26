@@ -53,9 +53,9 @@
         <h1 class="section-title">Visão <span>Celular</span></h1>
       </div>
       <div class="welcome-bottom">
-        <p>
-          Muitas Igrejas em Células no mundo usam a célula com dois propósitos: evangelismo e edificação, enquanto o modelo G12 usa a célula aberta para evangelismo e o grupo de doze só para discipulado. Portanto, o propósito principal de nossas células é alcançar os perdidos com quem os discípulos possam ter contato, como família, parentes, amigos, vizinhos, colegas na escola, no trabalho, e toda oportunidade de contato, natural ou criada.<br>
-
+        <p style="font-size: 15px; color: #fff;">
+          Muitas Igrejas em Células no mundo usam a célula com dois propósitos: evangelismo e edificação, enquanto o modelo G12 usa a célula aberta para evangelismo e o grupo de doze só para discipulado. Portanto, o propósito principal de nossas células é alcançar os perdidos com quem os discípulos possam ter contato, como família, parentes, amigos, vizinhos, colegas na escola, no trabalho, e toda oportunidade de contato, natural ou criada.
+          <br><br>
           Cada Célula tem a meta de multiplicar-se em doze outras células. Aqui está outra diferença entre o modelo G12 e outros modelos. A meta é dar à luz, a partir da célula evangelística, a doze outras células. Para cumprir esta meta, doze líderes na célula mãe devem ser formados. Isto significa que um número maior tem que ser alcançado, uma vez que nem todos se tornam líderes.<br><br>
           <!--<br><br><a href="visao_celular.html">saiba mais - visao celular</a>-->
         </p>
