@@ -1,4 +1,5 @@
   <title>Contato - Insejec São José dos Campos</title>
+  <link rel="stylesheet" href="<?php echo INCLUDE_PATH ?>css/all.min.css">
   <style>
     #hero .container { min-height: 60vh;}
 
@@ -22,7 +23,7 @@
       }
     }
     
-    #welcome .welcome-bottom a {
+    /*#welcome .welcome-bottom a {
     font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -33,7 +34,32 @@
     #welcome .welcome-bottom a:hover {
     transition: .3s ease;
     color: #0099ff;
+    }*/
+
+    .redesSociais{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 30px;
+      text-align: center;
+      margin-top: 15px;
     }
+    .redeSocial a, .redeSocial svg, .redeSocial span{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: .3s ease;
+    font-weight: 500;
+    color: #fff;
+    }
+    .redeSocial svg{
+      padding-right: 3px;
+    }
+    .redeSocial a:hover {
+      transition: .3s ease;
+      color: #0099ff;
+    }
+
+
     @media only screen and (max-width: 850px) {
       #welcome .welcome-bottom a {
         font-size: 18px;
@@ -75,14 +101,27 @@
 
       <div class="welcome-bottom">
         <div class="welcome-bottom-a">
-          <p><img src="img/icon_whatsapp.svg" style="height: 30px; width: 30px; margin: 0px 20px 0px 10px; opacity: .8;">
-            <a target="_blank" rel="noopener noreferrer" href="https://wa.me/5512982810294?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20INSEJEC!">( 12 ) 98281-0294</a><br><br>
-          
-            <img src="img/icon_facebook.svg" style="height: 30px; width: 30px; margin: 0px 20px 0px 10px; opacity: .8;">
-            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos">facebook.com/insejecsjcampos</a><br><br>
 
-            <img src="img/icon_mail.svg" style="height: 30px; width: 30px; margin: 0px 20px 0px 10px; opacity: .8;">
-            <a>ola@insejecsjc.com.br</a>
+            <div class="redesSociais">
+              <div class="redeSocial">
+                <i class="fab fa-whatsapp"></i>
+                <a target="_blank" rel="noopener noreferrer" href="https://wa.me/5512982810294?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20INSEJEC!">( 12 ) 98281-0294</a>
+              </div>
+              <div class="redeSocial">
+                <i class="fab fa-facebook"></i>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos">facebook.com/insejecsjcampos</a>
+              </div>
+              
+              <div class="redeSocial">
+                <i class="far fa-envelope"></i>
+                <span>ola@insejecsjc.com.br</span>
+              </div>
+              <div class="redeSocial">
+                <i class="fab fa-instagram"></i>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/insejec_sjc/">instagram.com/@insejec_sjc</a>
+              </div>
+            </div>
+
         </div>
       </div>
 
@@ -122,4 +161,4 @@
   </section>
 </section>
   <!-- End Services Section -->
-  
+<script src="<?php echo INCLUDE_PATH ?>js/all.min.js"></script> 
