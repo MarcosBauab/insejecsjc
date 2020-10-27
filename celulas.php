@@ -44,20 +44,37 @@
     }
   </style>
 
- 
-  <!-- Welcome Section -->
-  <section id="apresentacao">
+ <!-- Welcome Section -->
+ <section id="apresentacao">
   <section id="welcome">
     <div class="welcome container">
       <div class="welcome-top">
-        <h1 class="section-title">Visão <span>Celular</span></h1>
+        <h1 class="section-title">Célul<span>a</span>s</h1>
+      </div>
+      <div class="welcome-bottom">
+        <p style="font-size: 15px; color: #fff;">
+        Como INSEJEC, abraçamos a visão de uma Igreja que celebra no templo e nas casas. Adotamos o termo "célula" para os grupos caseiros e um modelo dos doze como uma estratégia de discipulado. A definição de uma Igreja em células é muito simples: Trata-se da Igreja que se reúne não apenas aos domingos para a grande celebração, mas também em pequenos grupos nas casas durante a semana.
+        </p>
+      </div>
+    </div>
+  </section>
+  </section>
+  <!-- End Welcome Section -->
+
+  <!-- Welcome Section -->
+  <section id="visao_celular">
+  <section id="welcome">
+    <div class="welcome container">
+      <div class="welcome-top">
+        <h1 class="section-title" style="font-size: 43px;">Visão <span>Celular</span> - G12</h1>
       </div>
       <div class="welcome-bottom">
         <p style="font-size: 15px; color: #fff;">
           Muitas Igrejas em Células no mundo usam a célula com dois propósitos: evangelismo e edificação, enquanto o modelo G12 usa a célula aberta para evangelismo e o grupo de doze só para discipulado. Portanto, o propósito principal de nossas células é alcançar os perdidos com quem os discípulos possam ter contato, como família, parentes, amigos, vizinhos, colegas na escola, no trabalho, e toda oportunidade de contato, natural ou criada.
           <br><br>
-          Cada Célula tem a meta de multiplicar-se em doze outras células. Aqui está outra diferença entre o modelo G12 e outros modelos. A meta é dar à luz, a partir da célula evangelística, a doze outras células. Para cumprir esta meta, doze líderes na célula mãe devem ser formados. Isto significa que um número maior tem que ser alcançado, uma vez que nem todos se tornam líderes.<br><br>
-          <!--<br><br><a href="visao_celular.html">saiba mais - visao celular</a>-->
+          Cada Célula tem a meta de multiplicar-se em doze outras células. Aqui está outra diferença entre o modelo G12 e outros modelos. A meta é dar à luz, a partir da célula evangelística, a doze outras células. Para cumprir esta meta, doze líderes na célula mãe devem ser formados. Isto significa que um número maior tem que ser alcançado, uma vez que nem todos se tornam líderes.
+          <br><br>
+          O programa de discipulado da Igreja levará naturalmente todo novo crente por um processo de discipulado composto por quatro passos: Ganhar, Consolidar, Discipular e Enviar como um líder. Em síntese, após a decisão o novo crente é encaminhado a uma célula, onde é cuidado. O alvo de todo membro de célula é seguir os quatro passos do programa, tornando-se, desse modo, um líder de célula.
         </p>
       </div>
       <a href="<?php echo INCLUDE_PATH ?>visao_celular#inicio" type="button" class="cta" style="font-size: 15px;">Saiba Mais</a>

@@ -1,4 +1,5 @@
 <title>INSEJEC SJC - Igreja Nacional do Senhor Jesus Cristo em São José dos Campos</title>
+<meta name="description" content="Somos uma igreja que busca cumprir a grande comissão de Jesus: ganhar almas e fazer discípulos. Nosso desejo é que as pessoas se sintam como uma família sempre que comparecerem a uma de nossas reuniões ou a uma de nossas células."/>
 <style>
     .container { min-height: 80vh;} 
     .cta {
@@ -305,7 +306,7 @@
     <div class="cell container">
       <div class="cell-top">
         <h1 class="section-title">Cél<span>u</span>las</h1>
-        <p>¿Quieres conocer más a Jesús? ¿Deseas servir en la iglesia? Si eres nuevo o llevas tiempo asistiendo a nuestra iglesia puedes convertirte en un seguidor de Jesús y desarrollar cada uno de tus talentos.</p>
+        <p>Como INSEJEC, abraçamos a visão de uma Igreja que celebra no templo e nas casas. Adotamos o termo "célula" para os grupos caseiros e um modelo dos doze como uma estratégia de discipulado. A definição de uma Igreja em células é muito simples: Trata-se da Igreja que se reúne não apenas aos domingos para a grande celebração, mas também em pequenos grupos nas casas durante a semana.</p>
       </div>
 
       <div id="slider">
