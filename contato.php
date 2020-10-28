@@ -114,13 +114,13 @@
       </div>
       <div class="welcome-bottom">
 
-        <a href="https://wa.me/5512982810294?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20INSEJEC!" type="button" class="cta" style="background-image: url(./img/contatos/contatos-whats.jpg);"></a>
+        <a href="https://wa.me/5512982810294?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20INSEJEC!" type="button" class="cta" target="_blank" rel="noopener" style="background-image: url(./img/contatos/contatos-whats.jpg);"></a>
 
-        <a href="<?php echo INCLUDE_PATH ?>quem_somos#inicio" type="button" class="cta" style="background-image: url(./img/contatos/contatos-email.jpg);"></a>
+        <a href="<?php echo INCLUDE_PATH ?>quem_somos#inicio" type="button" target="_blank" rel="noopener" class="cta" style="background-image: url(./img/contatos/contatos-email.jpg);"></a>
 
-        <a href="https://www.facebook.com/insejecsjcampos" type="button" class="cta" style="background-image: url(./img/contatos/contatos-face.jpg);"></a>
+        <a href="https://www.facebook.com/insejecsjcampos" type="button" target="_blank" rel="noopener" class="cta" style="background-image: url(./img/contatos/contatos-face.jpg);"></a>
 
-        <a href="https://www.instagram.com/insejec_sjc/" type="button" class="cta" style="background-image: url(./img/contatos/contatos-insta.jpg);"></a>
+        <a href="https://www.instagram.com/insejec_sjc/" type="button" target="_blank" rel="noopener" class="cta" style="background-image: url(./img/contatos/contatos-insta.jpg);"></a>
 
       </div>
     </div>
