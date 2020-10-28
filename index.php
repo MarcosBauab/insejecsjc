@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="<?php echo INCLUDE_PATH ?>style.css">
   <?php
       $url = isset($_GET['url']) ? $_GET['url'] : 'home' ;
-
   ?>
 
 </head>

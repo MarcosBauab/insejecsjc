@@ -217,7 +217,7 @@
       <a href="<?php echo INCLUDE_PATH ?>redes#familia">
         <div class="worship-item" style="background-image: url(./img/index-culto-domingo.png);">
             <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
-            <h2>Culto da Família</h2>
+            <h2>Celebração da Família</h2>
             <p>Todos os domingos - 10h00</p>
           </div>
       </a>

@@ -59,91 +59,75 @@
       color: #0099ff;
     }
 
+    #welcome .cta {
+      display: inline-block;
+      padding: 20px 50px;
+      font-size: 2rem;
+      border: none;
 
+      margin-left: 20px;
+      margin-right: 20px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: grayscale(.1);
+      opacity: .9;
+      transition: .3s ease;
+
+      width: 400px;
+      height: 65px;
+    }
+    #welcome .cta:hover {
+      color: #fff;
+      filter: grayscale(0);
+      transition: .3s ease;
+      opacity: 1;
+      transform: scale(1.01);
+    }
     @media only screen and (max-width: 850px) {
-      #welcome .welcome-bottom a {
-        font-size: 18px;
-      }
-      #welcome .welcome-bottom a:hover {
-        transition: .3s ease;
-        color: #0099ff;
+      #welcome .cta {
+        width: 300px;
+        height: 50px;
+        font-size: 1.5rem;
       }
     }
-
-    @media only screen and (max-width: 768px) {
-      #welcome .welcome-bottom-a{
-        visibility: hidden;
-        height: 0px;
-        width: 0px;
-      }
-      #welcome .welcome-bottom-b p{
-        text-align: center;
-      }
-    }
-    @media only screen and (min-width: 768px) {
-      #welcome .welcome-bottom-b{
-        visibility: hidden;
-        height: 0px;
-        width: 0px;
+    @media only screen and (min-width: 850px){
+      @media only screen and (max-width: 1040px){
+        #welcome .cta {
+          width: 350px;
+          height: 58px;
+          font-size: 1.7rem;
+        }
       }
     }
   </style>
 
 
- 
+
   <!-- Welcome Section -->
+  <section id="inicio">
   <section id="welcome">
     <div class="welcome container">
-      <div class="welcome-top">
+    <div class="welcome-top">
         <h1 class="section-title">C<span>o</span>ntato</h1>
         <p style="font-size: 2.5rem;">Entre em contato conosco:<br><br> </p>
       </div>
-
       <div class="welcome-bottom">
-        <div class="welcome-bottom-a">
 
-            <div class="redesSociais">
-              <div class="redeSocial">
-                <i class="fab fa-whatsapp"></i>
-                <a target="_blank" rel="noopener noreferrer" href="https://wa.me/5512982810294?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20INSEJEC!">( 12 ) 98281-0294</a>
-              </div>
-              <div class="redeSocial">
-                <i class="fab fa-facebook"></i>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos">facebook.com/insejecsjcampos</a>
-              </div>
-              
-              <div class="redeSocial">
-                <i class="far fa-envelope"></i>
-                <span>ola@insejecsjc.com.br</span>
-              </div>
-              <div class="redeSocial">
-                <i class="fab fa-instagram"></i>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/insejec_sjc/">instagram.com/@insejec_sjc</a>
-              </div>
-            </div>
+        <a href="https://wa.me/5512982810294?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20INSEJEC!" type="button" class="cta" style="background-image: url(./img/contatos/contatos-whats.jpg);"></a>
 
-        </div>
+        <a href="<?php echo INCLUDE_PATH ?>quem_somos#inicio" type="button" class="cta" style="background-image: url(./img/contatos/contatos-email.jpg);"></a>
+
+        <a href="https://www.facebook.com/insejecsjcampos" type="button" class="cta" style="background-image: url(./img/contatos/contatos-face.jpg);"></a>
+
+        <a href="https://www.instagram.com/insejec_sjc/" type="button" class="cta" style="background-image: url(./img/contatos/contatos-insta.jpg);"></a>
+
       </div>
-
-      <div class="welcome-bottom">
-        <div class="welcome-bottom-b">
-          <p><img src="img/icon_whatsapp.svg" style="height: 30px; width: 30px; margin: 0px 20px 0px 10px; opacity: .8;"><br>
-            <a target="_blank" rel="noopener noreferrer" href="https://wa.me/5512982810294?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20INSEJEC!">( 12 ) 98281-0294</a>
-            <br><br><br>
-          
-            <img src="img/icon_facebook.svg" style="height: 30px; width: 30px; margin: 0px 20px 0px 10px; opacity: .8;"><br>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos">facebook.com/insejecsjcampos</a>
-            <br><br><br>
-
-            <img src="img/icon_mail.svg" style="height: 30px; width: 30px; margin: 0px 20px 0px 10px; opacity: .8;"><br>
-            <a>ola@insejecsjc.com.br</a>
-        </div>
-      </div>
-
     </div>
   </section>
+  </section>
   <!-- End Welcome Section -->
-
+ 
 
   <!-- Services Section -->
   <section id="mensagem">

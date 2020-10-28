@@ -24,7 +24,7 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      filter: grayscale(.3);
+      filter: grayscale(.1);
       opacity: .9;
       transition: .3s ease;
 
@@ -41,7 +41,7 @@
     @media only screen and (max-width: 850px) {
       #welcome .cta {
         width: 300px;
-        height: 70px;
+        height: 60px;
         font-size: 1.5rem;
       }
     }
@@ -49,7 +49,7 @@
       @media only screen and (max-width: 1040px){
         #welcome .cta {
           width: 350px;
-          height: 75px;
+          height: 70px;
           font-size: 1.7rem;
         }
       }
