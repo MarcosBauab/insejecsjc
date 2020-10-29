@@ -20,6 +20,7 @@ a {
 	align-items: center;
 	justify-content: center;
 }
+#hero .container { min-height: 60vh;}
 img {
 	height: 100%;
 	width: 100%;
@@ -1208,7 +1209,6 @@ p {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	width: 80%;
 	margin: 20px auto;
 	overflow: hidden;
 
@@ -1271,7 +1271,7 @@ p {
 #projects .cta {
 	display: inline-block;
 	padding: 10px 20px;
-	color: #ccc;
+	color: #fff;
 	background-color: transparent;
 	border: 1.5px solid #00A8E8;
 	font-size: 1.4rem;
@@ -1931,7 +1931,6 @@ p {
 	#projects .project-item, .project-item-rev {
 		height: 500px;
 		margin: 0;
-		width: 100%;
 		border-radius: 0;
 	}
 	#projects .all-projects .project-info-left, .all-projects .project-info-right {

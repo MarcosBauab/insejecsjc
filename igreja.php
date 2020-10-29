@@ -1,8 +1,5 @@
-  <head><title>Nossa Igreja - Insejec São José dos Campos</title></head>
+  <title>Nossa Igreja - INSEJEC SJC</title>
   
-  <style>
-    #hero .container { min-height: 60vh;} 
-  </style>
   <!-- Welcome Section -->
   <section id="historia">
   <section id="welcome">

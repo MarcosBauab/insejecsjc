@@ -1,10 +1,6 @@
-  <title>UV - Insejec São José dos Campos</title>
+  <title>Universidade da Vida - INSEJEC SJC</title>
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/uv.css">
-
-  <style>
-    #hero .container { min-height: 60vh;} 
-  </style>
 
     <section class="inicial centro">
       <div class="centro container" >

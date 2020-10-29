@@ -1,4 +1,4 @@
-<title>Como Chegar - Insejec São José dos Campos</title>
+<title>Como Chegar - INSEJEC SJC</title>
 <!-- Para o mapa funcionar -->
   <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico">
 
@@ -8,7 +8,6 @@
 
 
   <style>
-    #hero .container { min-height: 60vh;} 
     #services .services {	padding: 70px 0; }
 
     .service-bottom {

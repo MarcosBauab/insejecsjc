@@ -1,12 +1,30 @@
-  <title>Redes - Insejec São José dos Campos</title>
+  <title>Redes  - INSEJEC SJC</title>
   <style>
-    #hero .container { min-height: 60vh;} 
-
     @media only screen and (max-width: 550px) {
     #grupos .projects h1 {font-size: 25px;} }
 
     @media only screen and (max-width: 400px) {
     #grupos .projects h1 {font-size: 14px; font-weight: 700;} }
+
+
+    #projects .project-item, .project-item-rev { width: 100% }
+
+    @media only screen and (min-width: 0px) {
+      #projects .cta { font-size: 11px; }
+      #projects .project-item h1 { font-size: 22px; }
+      #projects .project-item-rev h1 { font-size: 22px; }
+    }
+    @media only screen and (min-width: 768px) {
+      #projects .project-item h1 { font-size: 22px; }
+      #projects .project-item-rev h1 { font-size: 22px; }
+
+      #projects .cta { font-size: 11px; }
+      #projects .project-item p { font-size: 12px; }
+      #projects .project-item-rev p { font-size: 12px; }
+    }
+    @media only screen and (min-width: 1200px) {
+      #projects .project-item, .project-item-rev { width: 1000px; }
+    }
   </style>
 
   <!-- Welcome Section -->

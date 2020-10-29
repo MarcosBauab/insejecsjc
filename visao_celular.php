@@ -1,4 +1,4 @@
-  <title>Visão Celular - Insejec São José dos Campos</title>
+  <title>Visão Celular  - INSEJEC SJC</title>
 
 <!-- Welcome Section -->
 <section id="inicio">

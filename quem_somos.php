@@ -1,7 +1,4 @@
-  <title>Quem Somos - Insejec São José dos Campos</title>
-  <style>
-    #hero .container { min-height: 60vh;} 
-  </style>
+  <title>Quem Somos - INSEJEC SJC</title>
  
 <!-- Welcome Section -->
 <section id="inicio">

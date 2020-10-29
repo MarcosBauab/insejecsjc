@@ -1,4 +1,4 @@
-  <head><title>Eventos - Insejec São José dos Campos</title></head>
+<title>Eventos - INSEJEC SJC</title>
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/evento.css">
 
@@ -8,15 +8,17 @@
       
         <div class="welcome-top">
           <h1 class="section-title">eventos</h1>
-          <div class="welcome-bottom">
-          </div>
+          <p>As sete festas de YHWH estão em Levítico 23 - São elas: Páscoa, Pães ázimos, Primícias, Pentecostes, Trombetas, Dia da Expiação e Tabernáculos. Elas apontam, revelam e esclarecem os vários aspectos do caráter Redentivo do Messias, desde a Sua morte no madeiro, em Páscoa, até o tempo em que virá e assentar-Se-á no trono de Seu pai David, em Jerusalém, para reinar e governar as nações.
+          <br><br>
+          Elas contam a história da redenção da Igreja, e nós as celebramos procurando viver o espírito das Festas, extraindo delas os seus significados proféticos. Somos uma Igreja a quem Deus chamou a viver o espírito da Igreja em Jerusalém. A resgatar valores perdidos.</p>
         </div>
 
         <div class="card">
           <div class="textos">
-            <h2>Festa dos Tabernáculos</h2>
-            <h5>Clique na imagem para ver algumas fotos <i class="fas fa-arrow-alt-circle-right"></i></h5>
-            <p>Abaixo segue o link para mais fotos:</p>
+            <h2>Celebração da Páscoa</h2>
+            <p>A Páscoa abre o calendário das festas bíblicas que trazem ensinamentos maravilhosos para a fé cristã, pois apontam para verdades eternas, ela fala de redenção, livramento e resgate.
+            <br>
+            A celebração da Páscoa, assim as demais Festas do Senhor não têm sentido fora da revelação de Cristo e de Seu plano redentor para a humanidade. Deus estabeleceu a Páscoa como sinal de libertação do Egito e nossa redenção no cordeiro pascal.</p>
             <a href="https://www.facebook.com/media/set/?vanity=insejecsjcampos&set=a.1174657862728955" target="_blank">Tabernáculos</a>
           </div>
           <button class="botao-festa" id="taber" clicable></button>
@@ -25,18 +27,19 @@
           <button class="botao-festa" id="luz" clicable></button>
 
           <div class="textos">
-            <h2>Festa das Luzes</h2>
-            <h5><i class="fas fa-arrow-alt-circle-left"></i> Clique na imagem para ver algumas fotos </h5>
-            <p>Abaixo segue o link para mais fotos:</p>
+            <h2>Festa de Pentecostes</h2>
+            <p>Shavuot em hebraico significa “Festa das Semanas” porque era celebrada sete semanas após a Páscoa, ou seja, cinqüenta dias depois da Páscoa. Em grego, a palavra “qüinquagésimo” é “Pentekosté”. 
+            <br>
+            Com a descida do Espírito Santo, recebemos o poder, a habilidade para ser testemunhas de Jesus Cristo. Poder para pregar o Evangelho, fazer discípulos e realizar as obras de Deus. 
+            </p>
             <a href="https://www.facebook.com/media/set/?vanity=insejecsjcampos&set=a.851387518389326" target="_blank">Luzes</a>
           </div>
         </div>
         <div class="card">
 
           <div class="textos">
-            <h2>Caravana G12 Brasil</h2>
-            <h5>Clique na imagem para ver algumas fotos <i class="fas fa-arrow-alt-circle-right"></i></h5>
-            <p>Abaixo segue o link para mais fotos:</p>
+            <h2>Festa dos Tabernáculos</h2>
+            <p>A Festa dos Tabernáculos é um festival de intenso júbilo, uma celebração de grande alegria e cheio de significados proféticos. Seu período festivo, abrange três festas: Festa das Trombetas, Dia da Expiação e Festa dos Tabernáculos propriamente dita. Também conhecida como Sukkot, Festa das Cabanas, ou Festival da Colheita, ela é a 7ª e última das grandes Festas de YHWH. </p>
             <a href="https://www.facebook.com/media/set/?vanity=insejecsjcampos&set=a.1098971686964240" target="_blank">G12</a>
           </div>
           <button class="botao-festa" id="g12" clicable></button>

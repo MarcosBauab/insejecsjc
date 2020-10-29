@@ -1,4 +1,4 @@
-  <title>Nossas Crenças - Insejec São José dos Campos</title>
+  <title>Nossas Crenças - INSEJEC SJC</title>
   <style>
     #hero .container { min-height: 60vh;} 
   </style>

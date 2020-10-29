@@ -1,6 +1,5 @@
-<title>Sobre - Insejec São José dos Campos</title>
+<title>Sobre - INSEJEC SJC</title>
 <style>
-    .container { min-height: 60vh;} 
     .cta {
       font-size: 18px;
     }

@@ -1,7 +1,4 @@
-  <title>Valnice - Insejec São José dos Campos</title>
-<style>
-    #hero .container { min-height: 60vh;} 
-</style>
+  <title>Valnice Milhomens - INSEJEC SJC</title>
  
 <!-- Welcome Section -->
 <section id="inicio">

@@ -1,8 +1,6 @@
-  <title>Contato - Insejec São José dos Campos</title>
+  <title>Contato  - INSEJEC SJC</title>
   <link rel="stylesheet" href="<?php echo INCLUDE_PATH ?>css/all.min.css">
   <style>
-    #hero .container { min-height: 60vh;}
-
     .form {
       filter: opacity(.88) invert(.885) hue-rotate(180deg) brightness(1.3);
       margin: 10px;
@@ -22,19 +20,6 @@
         margin: 0px;
       }
     }
-    
-    /*#welcome .welcome-bottom a {
-    font-size: 28px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    transition: .3s ease;
-    font-weight: 500;
-    color: #fff;
-    }
-    #welcome .welcome-bottom a:hover {
-    transition: .3s ease;
-    color: #0099ff;
-    }*/
 
     .redesSociais{
       display: grid;
@@ -116,7 +101,7 @@
 
         <a href="https://wa.me/5512982810294?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20INSEJEC!" type="button" class="cta" target="_blank" rel="noopener" style="background-image: url(./img/contatos/contatos-whats.jpg);"></a>
 
-        <a href="<?php echo INCLUDE_PATH ?>quem_somos#inicio" type="button" target="_blank" rel="noopener" class="cta" style="background-image: url(./img/contatos/contatos-email.jpg);"></a>
+        <a href="mailto:ola@insejecsjc.com.br" type="button" target="_blank" rel="noopener" class="cta" style="background-image: url(./img/contatos/contatos-email.jpg);"></a>
 
         <a href="https://www.facebook.com/insejecsjcampos" type="button" target="_blank" rel="noopener" class="cta" style="background-image: url(./img/contatos/contatos-face.jpg);"></a>
 

@@ -1,4 +1,4 @@
-<title>Células - Insejec São José dos Campos</title>
+<title>Células - INSEJEC SJC</title>
 <!-- Para o mapa funcionar -->
 <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="">
@@ -6,7 +6,6 @@
 
 
   <style>
-    #hero .container { min-height: 60vh;} 
     #services .services {	padding: 70px 0; }
 
     .search-table-item-A1, .search-table-item-A2, .search-table-item-A3, .search-table-item-A4, .search-table-item-A5, .search-table-item-A6, .search-table-item-A7, .search-table-item-A8, .search-table-item-B1, .search-table-item-B2, .search-table-item-B3, .search-table-item-B4, .search-table-item-B5, .search-table-item-B6, .search-table-item-B7, .search-table-item-B8 {

@@ -1,8 +1,5 @@
-  <title>Decretos - Insejec São José dos Campos</title>
-  <style>
-    #hero .container { min-height: 60vh;} 
-  </style>
- 
+  <title>Decretos - INSEJEC SJC</title>
+
 <!-- Welcome Section -->
 <section id="inicio">
 <section id="welcome_txt">
