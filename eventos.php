@@ -7,7 +7,7 @@
     <div class="welcome container">
       
         <div class="welcome-top">
-          <h1 class="section-title">eventos</h1>
+          <h1 class="section-title">event<span>o</span>s</h1>
           <p>As sete festas de YHWH estão em Levítico 23 - São elas: Páscoa, Pães ázimos, Primícias, Pentecostes, Trombetas, Dia da Expiação e Tabernáculos. Elas apontam, revelam e esclarecem os vários aspectos do caráter Redentivo do Messias, desde a Sua morte no madeiro, em Páscoa, até o tempo em que virá e assentar-Se-á no trono de Seu pai David, em Jerusalém, para reinar e governar as nações.
           <br><br>
           Elas contam a história da redenção da Igreja, e nós as celebramos procurando viver o espírito das Festas, extraindo delas os seus significados proféticos. Somos uma Igreja a quem Deus chamou a viver o espírito da Igreja em Jerusalém. A resgatar valores perdidos.</p>
@@ -28,7 +28,7 @@
 
           <div class="textos">
             <h2>Festa de Pentecostes</h2>
-            <p>Shavuot em hebraico significa “Festa das Semanas” porque era celebrada sete semanas após a Páscoa, ou seja, cinqüenta dias depois da Páscoa. Em grego, a palavra “qüinquagésimo” é “Pentekosté”. 
+            <p>Shavuot em hebraico significa “Festa das Semanas” porque era celebrada sete semanas após a Páscoa, ou seja, cinquenta dias depois da Páscoa. Em grego, a palavra “quinquagésimo” é “Pentekosté”. 
             <br>
             Com a descida do Espírito Santo, recebemos o poder, a habilidade para ser testemunhas de Jesus Cristo. Poder para pregar o Evangelho, fazer discípulos e realizar as obras de Deus. 
             </p>
@@ -42,7 +42,7 @@
             <p>A Festa dos Tabernáculos é um festival de intenso júbilo, uma celebração de grande alegria e cheio de significados proféticos. Seu período festivo, abrange três festas: Festa das Trombetas, Dia da Expiação e Festa dos Tabernáculos propriamente dita. Também conhecida como Sukkot, Festa das Cabanas, ou Festival da Colheita, ela é a 7ª e última das grandes Festas de YHWH. </p>
             <a href="https://www.facebook.com/media/set/?vanity=insejecsjcampos&set=a.1098971686964240" target="_blank">G12</a>
           </div>
-          <button class="botao-festa" id="g12" clicable></button>
+          <button class="botao-festa" id="taber" clicable></button>
 
         </div>
         
@@ -68,8 +68,7 @@
 
           <div class="textos">
             <h2>Chá de Mulheres</h2>
-            <h5><i class="fas fa-arrow-alt-circle-left"></i> Clique na imagem para ver algumas fotos</h5>
-            <p>Abaixo segue o link para mais fotos:</p>
+            <p>Nesta tarde de Rainhas, pudemos contar com a presença de muitas mulheres, amigas e familiares de membras de nossa igreja, onde juntas compartilharam de um tempo de comunhão especial. Houve ministração de louvores em versões acústicas pelo Ministério ArTes, que tocou cada coração presente, além de encenação de uma esquete teatral. Dentre todas as atividades deste lindo evento, tivemos também uma palavra abençoada da Pra. Priscila, direcionada especialmente às mulheres.</p>
             <a href="https://www.facebook.com/pg/insejecsjcampos/photos/?tab=album&album_id=1193178747543533" target="_blank">Chá</a>
           </div>
         </div>

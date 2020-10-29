@@ -5,7 +5,7 @@
   <section id="welcome">
     <div class="welcome container">
       <div class="welcome-middle">
-        <h1 class="section-title">Nossa história</h1>
+        <h1 class="section-title">Nossa <span>história</span></h1>
         
       </div>
       <div class="welcome-bottom">

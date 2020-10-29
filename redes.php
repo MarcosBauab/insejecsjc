@@ -31,7 +31,7 @@
   <section id="welcome">
     <div class="welcome container">
       <div class="welcome-top">
-        <h1 class="section-title">Redes</h1>
+        <h1 class="section-title">Re<span>d</span>es</h1>
         <p><br>As Redes compõem-se de pessoas de diversas faixas etárias e agrupamentos distintos, reunidos para tratar de necessidades específicas de cada faixa etária e sua integração no programa da igreja local, conforme os princípios da visão celular adotada pela Igreja, de evangelização e discipulado.<br><br>
         Considera-se uma Rede o conjunto de células homogêneas organizadas em um corpo que trabalha unido para ganhar as pessoas que lhe são afins e discipulá-las.<br><br></p>
       </div>

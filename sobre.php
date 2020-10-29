@@ -23,8 +23,8 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      filter: grayscale(.1);
       opacity: .9;
+      filter: brightness(110%);
       transition: .3s ease;
 
       width: 400px;
@@ -32,7 +32,7 @@
     }
     #welcome .cta:hover {
       color: #fff;
-      filter: grayscale(0);
+      filter: brightness(160%);
       transition: .3s ease;
       opacity: 1;
       transform: scale(1.01);
@@ -60,26 +60,26 @@
   <section id="welcome">
     <div class="welcome container">
       <div class="welcome-top">
-        <h1 class="section-title">Sobre</h1>
+        <h1 class="section-title">S<span>o</span>bre</h1>
           <p>Somos uma igreja que busca cumprir a grande comissão de Jesus: ganhar almas e fazer discípulos. Nosso desejo é que as pessoas se sintam como uma família sempre que comparecerem a uma de nossas reuniões ou a uma de nossas células.</p>
       </div>
       <div class="welcome-bottom">
 
-        <a href="<?php echo INCLUDE_PATH ?>decretos#inicio" type="button" class="cta" style="background-image: url(./img/btn-uv.svg);">decretos</a>
+        <a href="<?php echo INCLUDE_PATH ?>decretos#inicio" type="button" class="cta" style="background-image: url(./img/sobre/sobre-decretos.jpg);"></a>
 
-        <a href="<?php echo INCLUDE_PATH ?>quem_somos#inicio" type="button" class="cta" style="background-image: url(./img/btn-cd.svg);">quem somos</a>
+        <a href="<?php echo INCLUDE_PATH ?>quem_somos#inicio" type="button" class="cta" style="background-image: url(./img/sobre/sobre-somos.jpg);"></a>
 
-        <a href="<?php echo INCLUDE_PATH ?>visao_missao#inicio" type="button" class="cta" style="background-image: url(./img/btn-cell.svg);">visao e missao</a>
+        <a href="<?php echo INCLUDE_PATH ?>visao_missao#inicio" type="button" class="cta" style="background-image: url(./img/sobre/sobre-missao.jpg);"></a>
 
-        <a href="<?php echo INCLUDE_PATH ?>nossa_historia#inicio" type="button" class="cta" style="background-image: url(./img/btn-doar.svg);">nossa historia</a>
+        <a href="<?php echo INCLUDE_PATH ?>nossa_historia#inicio" type="button" class="cta" style="background-image: url(./img/sobre/sobre-historia.jpg);"></a>
 
-        <a href="<?php echo INCLUDE_PATH ?>que_cremos#inicio" type="button" class="cta" style="background-image: url(./img/btn-doar.svg);">em que cremos</a>
+        <a href="<?php echo INCLUDE_PATH ?>que_cremos#inicio" type="button" class="cta" style="background-image: url(./img/sobre/sobre-cremos.jpg);"></a>
 
-        <a href="<?php echo INCLUDE_PATH ?>nossos_valores#inicio" type="button" class="cta" style="background-image: url(./img/btn-doar.svg);">nossos valores</a>
+        <a href="<?php echo INCLUDE_PATH ?>nossos_valores#inicio" type="button" class="cta" style="background-image: url(./img/sobre/sobre-valores.jpg);"></a>
 
-        <a href="<?php echo INCLUDE_PATH ?>visao_compromisso#inicio" type="button" class="cta" style="background-image: url(./img/btn-doar.svg);">visao e compromisso</a>
+        <a href="<?php echo INCLUDE_PATH ?>visao_compromisso#inicio" type="button" class="cta" style="background-image: url(./img/sobre/sobre-compromisso.jpg);"></a>
 
-        <a href="<?php echo INCLUDE_PATH ?>valnice#inicio" type="button" class="cta" style="background-image: url(./img/btn-doar.svg);">valnice milhomens</a>
+        <a href="<?php echo INCLUDE_PATH ?>valnice#inicio" type="button" class="cta" style="background-image: url(./img/sobre/sobre-valnice.jpg);"></a>
 
       </div>
     </div>
@@ -87,3 +87,4 @@
   </section>
   <!-- End Welcome Section -->
 
+  <button id="scroll"><i class="material-icons">arrow_upward</i></button>

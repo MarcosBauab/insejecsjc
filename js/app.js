@@ -14,6 +14,7 @@ hamburger.addEventListener('click', () => {
 	mobile_menu.classList.toggle('active');
 });
 
+var mq = window.matchMedia( "(min-width: 500px)" );
 document.addEventListener('scroll', () => {
 	var scroll_position = window.scrollY;
 	if (scroll_position > 250) {
@@ -22,7 +23,8 @@ document.addEventListener('scroll', () => {
 		header.style.backgroundColor = 'transparent';
 	}
 	if (scroll_position > 500){
-		botaoScroll.style.opacity = 1
+		if (mq.matches) { botaoScroll.style.opacity = 1 }
+		else { botaoScroll.style.opacity = .3 }
 		botaoScroll.style.pointerEvents = "auto"
 	} else {
 		botaoScroll.style.opacity = 0

@@ -62,18 +62,18 @@
         <h1>Por que fazer a Universidade da Vida ?</h1>
         <div class="flex">
           <div class="w33">
-            <div class="bolinha" id="bolinha1" style="background-image: url('<?php echo INCLUDE_PATH ?>img/uv/icon_1a.png');"></div>
+            <div class="bolinha" id="bolinha1" style="background-image: url('<?php echo INCLUDE_PATH ?>img/uv/uv-ico-viver.png');"></div>
             <h2>Te ensina a viver</h2>
             <p>Cada semana você aprenderá princípios práticos e simples para viver. Você dará um passo de cada vez, sem correr! Cada passo o deixará mais perto de viver uma vida como você nunca imaginou com Deus.</p>
           </div>
           <div class="w33">
-            <div class="bolinha" id="bolinha2" style="background-image: url('<?php echo INCLUDE_PATH ?>img/uv/icon_2a.png');"></div>
+            <div class="bolinha" id="bolinha2" style="background-image: url('<?php echo INCLUDE_PATH ?>img/uv/uv-ico-sozinho.png');"></div>
             <h2>Você não está sozinho</h2>
             <p>Todos nós temos perguntas como: O que é fé? Quem é Jesus? Como orar? Haverá algo de bom no meio de minhas falhas? Eu ainda tenho esperança? Por que devo ir à igreja?
               Em cada aula você terá espaço para fazer essas perguntas e encontrar a resposta.</p>
           </div>
           <div class="w33">
-            <div class="bolinha" id="bolinha3" style="background-image: url('<?php echo INCLUDE_PATH ?>img/uv/icon_3a.png');"></div>
+            <div class="bolinha" id="bolinha3" style="background-image: url('<?php echo INCLUDE_PATH ?>img/uv/uv-ico-mesmo.png');"></div>
             <h2>Você não será o mesmo</h2>
             <p>Depois de iniciar este curso de 9 semanas, você terá a oportunidade de mudar o curso de sua vida. É simples! Por meio da Cruz, Jesus oferece a você deixar seu passado para trás e começar uma nova história de vida.</p>
           </div>
@@ -85,8 +85,21 @@
 
     <section class="cronograma">
       <div class="centro">
+      <br><br><br>
         <h1>Cronograma das aulas</h1>
-        <img src="https://static.wixstatic.com/media/3770aa_432da57a9da545abbb0411a6df09e4a1~mv2.png/v1/fill/w_644,h_650,al_c,q_90,usm_0.66_1.00_0.01/UV_Cronograma_PNG.webp" alt="">
+        <br><br><br><br><br>
+        <a class="ctaa" style="background-image: url(./img/uv/1-uv-mod-erros.png);"></a>
+        <a class="ctaa" style="background-image: url(./img/uv/2-uv-mod-negociacao.png);"></a>
+        <a class="ctaa" style="background-image: url(./img/uv/3-uv-mod-experiencia.png);"></a>
+        <br><br><br><br>
+        <a class="ctaa" style="background-image: url(./img/uv/4-uv-mod-batalha.png);"></a>
+        <a class="ctaa" style="background-image: url(./img/uv/5-uv-mod-encontro.png);"></a>
+        <a class="ctaa" style="background-image: url(./img/uv/6-uv-mod-segredo.png);"></a>
+        <br><br><br><br>
+        <a class="ctaa" style="background-image: url(./img/uv/7-uv-mod-decisoes.png);"></a>
+        <a class="ctaa" style="background-image: url(./img/uv/8-uv-mod-melhor.png);"></a>
+        <a class="ctaa" style="background-image: url(./img/uv/9-uv-mod-começo.png);"></a>
+        <br><br><br><br>
       </div>
     </section>
     

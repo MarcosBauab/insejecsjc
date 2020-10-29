@@ -88,7 +88,7 @@
 
             <!-- Escolas -->
             <div class="dropdown">
-              <!--<a href="escolas.html">--><a href="<?php echo INCLUDE_PATH ?>universidade_da_vida#uv">
+              <a href="<?php echo INCLUDE_PATH ?>escolas">
                 <button class="dropbtn">Escolas 
               </button></a>
               <div class="dropdown-content">
@@ -128,7 +128,7 @@
             <li><a href="<?php echo INCLUDE_PATH ?>sobre#inicio" data-after="Sobre">Sobre</a></li>
             <li><a href="<?php echo INCLUDE_PATH ?>redes#grupos" data-after="Redes">Redes</a></li>
             <li><a href="<?php echo INCLUDE_PATH ?>celulas#apresentacao" data-after="Células">Células</a></li>
-            <li><a href="<?php echo INCLUDE_PATH ?>universidade_da_vida#uv" data-after="Escolas">Escolas</a></li>
+            <li><a href="<?php echo INCLUDE_PATH ?>escolas#geral" data-after="Escolas">Escolas</a></li>
             <li><a href="<?php echo INCLUDE_PATH ?>eventos#geral" data-after="Eventos">Eventos</a></li>
             <li><a href="<?php echo INCLUDE_PATH ?>contato#welcome" data-after="Contato">Contato</a></li>
             <li><!--<a href="doar.html#welcome" data-after="Doações">--><a data-after="Doações">Doações</a></li>
