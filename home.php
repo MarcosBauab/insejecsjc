@@ -209,9 +209,14 @@
     </div>
     </div>
     <div class="worship-bottom">
-      <p>Em nosso canal oficial no <a href="https://www.youtube.com/channel/UCbEzKNxd0pdJdkao0hO9sTw" style="color: #00A8E8;">YouTube</a>, você pode encontrar conteúdo que o ajudará a descobrir o propósito de Deus para sua vida. 
-        Você terá acesso a cultos e pregações que o motivarão a crescer de forma integral em todas as áreas de sua vida.<br> Veja <a href="<?php echo INCLUDE_PATH ?>como_chegar#local" style="color: #00A8E8;">como chegar</a> nos cultos presenciais.
+
+      <p>A Celebração da Família é o ajuntamento em massa de todos os membros das células da Igreja a fim de demostrar sua vida em adoração a Deus. Essa reunião, que envolve todos da cidade, é usada para louvou e adoração, sólido ensino bíblico e Evangelismo. É uma parte vital do testemunho público do povo de Deus. 
+      <br><br> 
+      Na celebração a grandeza e a força da igreja são manifestos. Apesar da célula ser a igreja. A Igreja é mais que a célula. Nessa celebração, portanto, todos sentem o impacto da adoração coletiva de um corpo grande e forte que vive a igreja dentro da sociedade em todas as suas esferas, salgando a massa. Não há limite para o seu tamanho. Quanto mais pessoas, melhor. O alvo é atingir a cidade inteira.
+      <br><br> 
+      Junte-se a nós em nossa Celebração da Família, aos domingos, 10h. Você também pode participar de nossa programação de forma on-line, pelo nosso canal do <a href="https://www.youtube.com/channel/UCbEzKNxd0pdJdkao0hO9sTw" style="color: #00A8E8;">YouTube</a>, ou de forma <a href="<?php echo INCLUDE_PATH ?>como_chegar#local" style="color: #00A8E8;">presencial</a>.
       <br><span>.</span></p>
+      
     </div>
 
     <div class="worship-bottom">
@@ -267,7 +272,7 @@
         <p>A Igreja Nacional do Senhor Jesus Cristo – INSEJEC, é uma Igreja Cristã Evangélica Carismática, herdeira dos valores da Reforma Protestante e dos moveres de Deus na Igreja, restaurando verdades esquecidas nos últimos séculos, buscando firmemente viver os valores da Igreja em Jerusalém, revelados em Atos dos Apóstolos. </p>
       </div>
       <div class="service-bottom">
-        <a href="<?php echo INCLUDE_PATH ?>que_cremos.html#inicio" type="button" class="cta">nossa declaração de crenças</a>
+        <a href="<?php echo INCLUDE_PATH ?>que_cremos#inicio" type="button" class="cta">nossa declaração de crenças</a>
       </div>
     </div>
   </section>
@@ -360,7 +365,7 @@
     </div>
       
       <div class="cell-bottom">
-        <div class="cell-link-1"><a href="<?php echo INCLUDE_PATH ?>celulas.html#apresentacao" type="button" class="cta">Saiba mais</a></div>
+        <div class="cell-link-1"><a href="<?php echo INCLUDE_PATH ?>celulas#apresentacao" type="button" class="cta">Saiba mais</a></div>
       </div>
     </div>
   </section>
@@ -396,7 +401,10 @@
     <div class="school container">
       <div class="school-top">
         <h1 class="section-title">Nos siga nas <span>Redes Sociais</span></h1>
-        <p>Convidamos você a acompanhar as redes de nosso ministério, para que receba constantemente mensagens, reflexões, notícias e todas as atividades que temos como igreja.</p><br><br><br>
+        <p>Você quer saber mais sobre a nossa programação ou receber um conteúdo que vai edificar e fortalecer a sua vida? 
+<br>
+        Então acompanhe os nossos conteúdos pelas redes sociais da INSEJEC São José dos Campos.</p>
+        <br><br><br>
       </div>
       <div class="school-bottom">
         <div class="school-link-3"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos" type="button" class="cta"></a></div>

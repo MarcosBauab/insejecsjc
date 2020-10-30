@@ -81,7 +81,7 @@
             <h1>Rede de mulheres</h1>
             <h2>Terceira sexta do mês às 20h00</h2>
             <p>Liderada pela pastora Priscila Merloto, a Rede de Mulheres tem o objetivo de levantar uma geração de Mulheres de Honra, valorosas e sábias, mulheres virtuosas em seus lares e líderes de uma grande multidão.</p>
-            <a href="<?php echo INCLUDE_PATH ?>eventos#mulheres" type="button" class="cta">Conheça nossos eventos</a>
+            <a href="<?php echo INCLUDE_PATH ?>eventos#mulheres" type="button" class="cta">Eventos - rede de mulheres</a>
           </div>
           <div class="project-img-right">
             <img src="./img/redes/redes_mulheres.jpg" alt="img">
@@ -95,7 +95,7 @@
             <h1>Rede de jovens e adolescentes</h1>
             <h2>Último sábado do mês às 19h30</h2>
             <p>Liderada pelo casal João e Fernanda Braile, que compõe a liderança de 12 dos pastores principais, tem o objetivo de levantar uma geração de Jovens fortes, comprometidos com a Palavra, que vivem em SANTIDADE, determinados a vencer o maligno, pois têm uma certeza no coração: em Deus, eles são fortes!</p>
-            <a href="<?php echo INCLUDE_PATH ?>eventos#jovens" type="button" class="cta">Conheça nossos eventos</a>
+            <a href="<?php echo INCLUDE_PATH ?>eventos#jovens" type="button" class="cta">Eventos - rede de jovens</a>
           </div>
           <div class="project-img-right">
             <img src="./img/redes/redes_jovens.jpg" alt="img">
@@ -109,9 +109,10 @@
             <h1>Ministério de casais</h1>
             <h2>Quarta sexta do mês às 20h00</h2>
             <p>Asssitir os casais em suas necessidades específicas, mantendo as células de casais, aconselhamento e encontro de casais.</p>
+            <a href="<?php echo INCLUDE_PATH ?>eventos#casais" type="button" class="cta">Eventos - MINISTÉRIO DE CASAIS</a>
           </div>
           <div class="project-img-right">
-            <img src="./img/redes/redes_casais.jpg" alt="img">
+            <img src="./img/redes/redes_casais2.jpg" alt="img">
           </div>
         </div>
         </section>

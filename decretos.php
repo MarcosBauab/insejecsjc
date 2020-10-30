@@ -1,5 +1,46 @@
   <title>Decretos - INSEJEC SJC</title>
 
+<style>
+  .ctaa {
+    display: inline-block;
+    border: none;
+
+    margin: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .3s ease;
+
+    width: 350px;
+    height: 260px;
+
+    border: 2px solid #5c7088;  
+    border-radius: 10px;
+  }
+.ctaa:hover {
+    color: #fff;
+    transition: .3s ease;
+    transform: scale(1.01);
+  }
+  @media only screen and (max-width: 500px) {
+    .ctaa {
+      width: 100%;
+      height: 200px;
+    padding: 10px;
+    margin: 10px;
+    }
+  }
+  @media only screen and (min-width: 500px) {
+    @media only screen and (max-width: 865px) {
+    .ctaa {
+      width: 100%;
+      height: 350px;
+    }
+    }
+  }
+</style>
+
+
 <!-- Welcome Section -->
 <section id="inicio">
 <section id="welcome_txt">
@@ -21,7 +62,32 @@
       </div>
 
       <div class="welcome_txt-top">
-        <p>img_decretos.png</p>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto1992.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto1993.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto1994.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto1995.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto1996.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto1997.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto1998.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto1999.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2000.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2001.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2006.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2007.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2008.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2009.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2010.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2011.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2012.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2013.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2014.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2015.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2016.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2017.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2018.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2019.jpg);"></a>
+        <a class="ctaa" style="background-image: url(./img/decretos/decreto2020.jpg);"></a>
+        <br><br><br><br><br><br><br><br>
       </div>
     </div>
 </section>

@@ -196,6 +196,7 @@
           <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/pg/insejecsjcampos/photos/?ref=page_internal"><p>Fotos</p></a>
           <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/INSEJECSJCampos/videos"><p>Vídeos</p></a>
           <h2><br><br>Siga-nos!</h2>
+
           <div class="social-icon">
             <div class="social-item">
               <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos"><img src="<?php echo INCLUDE_PATH ?>img/icon_fac_xs.svg"/></a>

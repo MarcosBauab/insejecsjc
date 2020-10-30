@@ -1198,6 +1198,10 @@ p {
     direction: rtl;
     text-align: justify;
   }
+
+  #school .school-bottom .p3 {
+    text-align: center;
+  }
 /* End School Section */
 
 
@@ -1775,6 +1779,8 @@ p {
 	margin-bottom: 30px;
 	
 	margin-left: 0px;
+	text-align: center;
+	align-items: center;
 }
 #footer .social-item {
 	height: 30px;

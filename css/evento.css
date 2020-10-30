@@ -108,49 +108,46 @@ div.card.esquerda > button.botao-festa{
 }
 
 /*Festas*/
+#pascoa{
+    background-image: url(../img/eventos/pascoa/pascoa-capa.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    background-blend-mode: color-burn;
+    background-position: center;
+}
+#pentecostes{
+    background-image: url(../img/eventos/pentecostes/pentec-capa.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    background-blend-mode: color-burn;
+    background-position: center;
+}
+
 #taber{
-    background-image: url(../img/tabernaculos/taber2019.jpg);
+    background-image: url(../img/eventos/tabernaculos/taber2019.jpg);
     background-color: rgba(0, 0, 0, 0.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
     background-blend-mode: color-burn;
-
-}
-#luz{
-    background-image: url(../img/luzes/festaluzes.jpg);
-    background-color: rgba(0, 0, 0, 0.2);
-    background-position: center;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 0;
-    background-blend-mode: color-burn;
-
-}
-#g12{
-    background-image: url(../img/g12/caravanag12.jpg);
-    background-color: rgba(0, 0, 0, 0.2);
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 0;
-    background-blend-mode: color-burn;
-    background-position: center;
 
 }
 #acampa{
-    background-image: url(../img/acampa/acampa5.jpg);
+    background-image: url(../img/eventos/acampa/acampa2019.jpg);
     background-color: rgba(0, 0, 0, 0.2);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
     background-blend-mode: color-burn;
-    
-
+    background-position: center;
 }
 #paint{
-    background-image: url(../img/paintball/paintball.jpg);
+    background-image: url(../img/eventos/paintball/paintball.jpg);
     background-color: rgba(0, 0, 0, 0.2);
     background-repeat: no-repeat;
     background-position-x: -70px;
@@ -159,7 +156,16 @@ div.card.esquerda > button.botao-festa{
     background-blend-mode: color-burn;
 }
 #cha{
-    background-image: url(../img/chaMulheres/chaMulheres.jpg);
+    background-image: url(../img/eventos/chaMulheres/chaMulheres.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    background-blend-mode: color-burn;
+    background-position: center;
+}
+#encCasais{
+    background-image: url(../img/eventos/encCasais/encCasais-capa.jpg);
     background-color: rgba(0, 0, 0, 0.2);
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,6 +174,7 @@ div.card.esquerda > button.botao-festa{
     background-position: center;
 
 }
+
 
 .botao-festa:hover{
     transform: scale(1.03);
