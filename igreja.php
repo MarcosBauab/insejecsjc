@@ -104,7 +104,7 @@
       <div class="about container">
         <div class="col-left">
           <div class="about-img">
-            <img src="./img/pastor_0.png" alt="img">
+            <img src="<?php echo INCLUDE_PATH ?>img/pastores/pr2.jpg" alt="img">
           </div>
         </div>
         <div class="col-right">
@@ -136,7 +136,7 @@
       <div class="aboutx container">
         <div class="col-left">
           <div class="aboutx-img">
-            <img src="./img/pastor_0.png" alt="img">
+            <img src="<?php echo INCLUDE_PATH ?>img/pastores/pr3.jpg" alt="img">
           </div>
         </div>
         <div class="col-right">

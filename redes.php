@@ -25,6 +25,28 @@
     @media only screen and (min-width: 1200px) {
       #projects .project-item, .project-item-rev { width: 1000px; }
     }
+
+    #welcome .welcome-bottom {
+      background-image:
+           url('./img/redes/redes_datas.png'); 
+            width:90%; 
+            height:500px; 
+            background-position:center;
+            background-size: 150%;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            border-radius: 20px;
+
+            align-items: center;
+            justify-content: center;
+            transition: .3s ease;
+      }
+
+    @media only screen and (min-width: 600px) {
+      #welcome .welcome-bottom {
+        background-size: 100%;
+      }
+    }
   </style>
 
   <!-- Welcome Section -->
@@ -33,10 +55,10 @@
       <div class="welcome-top">
         <h1 class="section-title">Re<span>d</span>es</h1>
         <p><br>As Redes compõem-se de pessoas de diversas faixas etárias e agrupamentos distintos, reunidos para tratar de necessidades específicas de cada faixa etária e sua integração no programa da igreja local, conforme os princípios da visão celular adotada pela Igreja, de evangelização e discipulado.<br><br>
-        Considera-se uma Rede o conjunto de células homogêneas organizadas em um corpo que trabalha unido para ganhar as pessoas que lhe são afins e discipulá-las.<br><br></p>
+        Considera-se uma Rede o conjunto de células homogêneas organizadas em um corpo que trabalha unido para ganhar as pessoas que lhe são afins e discipulá-las.<br><br><br><br><br></p>
       </div>
       <div class="welcome-bottom">
-        <img src="./img/redes/redes_datas.jpg" alt="img" style="position: relative; height: 50%; width: 50%; opacity: .9; border-radius: 20px;">
+        <!--<img src="./img/redes/redes_datas.png" alt="img" style="position: relative; height: 180%; width: 180%; border-radius: 20px;">-->
       </div>
     </div>
   </section>
@@ -112,7 +134,7 @@
             <a href="<?php echo INCLUDE_PATH ?>eventos#casais" type="button" class="cta">Eventos - MINISTÉRIO DE CASAIS</a>
           </div>
           <div class="project-img-right">
-            <img src="./img/redes/redes_casais2.jpg" alt="img">
+            <img src="./img/redes/redes_casais2.jpg" alt="img" style="filter: brightness(150%);">
           </div>
         </div>
         </section>

@@ -648,18 +648,27 @@ p {
  }
  #slides .slide_1 {
 	background: #00171F;
-	background-image: url(./img/index_celulas00.jpg);
+	background-image: url(./img/indexcel_01.png);
 	background-size: cover;
 	background-position: top center;
  }
  #slides .slide_2 {
 	background: #003459;
+	background-image: url(./img/indexcel_02.png);
+	background-size: cover;
+	background-position: top center;
  }
  #slides .slide_3 {
 	background: #007EA7;
+	background-image: url(./img/indexcel_03.png);
+	background-size: cover;
+	background-position: top center;
  }
  #slides .slide_4 {
 	background: #00A8E8;
+	background-image: url(./img/indexcel_04.png);
+	background-size: cover;
+	background-position: top center;
  }
  #controls {
 	margin: -180px 0 0 0;

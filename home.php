@@ -325,26 +325,23 @@
             <div class="inner">
                 <div class="slide slide_1">
                   <div class="slide-content">
-                      <h2>Slide 1</h2>
-                      <p>Content for Slide 1</p>
+                      <!--<h2>Slide 1</h2>
+                      <p>Content for Slide 1</p>-->
                   </div>
                 </div>
                 <div class="slide slide_2">
                   <div class="slide-content">
-                      <h2>Slide 2</h2>
-                      <p>Content for Slide 2</p>
+                      
                   </div>
                 </div>
                 <div class="slide slide_3">
                   <div class="slide-content">
-                      <h2>Slide 3</h2>
-                      <p>Content for Slide 3</p>
+                      
                   </div>
                 </div>
                 <div class="slide slide_4">
                   <div class="slide-content">
-                      <h2>Slide 4</h2>
-                      <p>Content for Slide 4</p>
+                      
                   </div>
                 </div>
             </div>
