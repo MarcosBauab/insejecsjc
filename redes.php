@@ -79,7 +79,7 @@
             <a href="<?php echo INCLUDE_PATH ?>eventos#geral" type="button" class="cta">Conheça nossos eventos</a>
           </div>
           <div class="project-img-right">
-            <img src="./img/redes/redes_familia.jpg" alt="img">
+            <img src="./img/redes/redes_familia-min.jpg" alt="img">
           </div>
         </div>
         </section>
@@ -92,7 +92,7 @@
             <p>Liderada pelo pastor Rosivaldo Merloto, a Rede de Homens tem o objetivo de levantar uma geração de Homens de Honra, sacerdotes no seu lar, homens santos e irrepreensíveis que desejam ardentemente viver a santidade em todas as áreas das suas vidas.</p>
           </div>
           <div class="project-img-right">
-            <img src="./img/redes/redes_homens.jpg" alt="img">
+            <img src="./img/redes/redes_homens-min.jpg" alt="img">
           </div>
         </div>
         </section>
@@ -106,7 +106,7 @@
             <a href="<?php echo INCLUDE_PATH ?>eventos#mulheres" type="button" class="cta">Eventos - rede de mulheres</a>
           </div>
           <div class="project-img-right">
-            <img src="./img/redes/redes_mulheres.jpg" alt="img">
+            <img src="./img/redes/redes_mulheres-min.jpg" alt="img">
           </div>
         </div>
         </section>
@@ -120,7 +120,7 @@
             <a href="<?php echo INCLUDE_PATH ?>eventos#jovens" type="button" class="cta">Eventos - rede de jovens</a>
           </div>
           <div class="project-img-right">
-            <img src="./img/redes/redes_jovens.jpg" alt="img">
+            <img src="./img/redes/redes_jovens-min.jpg" alt="img">
           </div>
         </div>
         </section>
@@ -134,7 +134,7 @@
             <a href="<?php echo INCLUDE_PATH ?>eventos#casais" type="button" class="cta">Eventos - MINISTÉRIO DE CASAIS</a>
           </div>
           <div class="project-img-right">
-            <img src="./img/redes/redes_casais2.jpg" alt="img" style="filter: brightness(150%);">
+            <img src="./img/redes/redes_casais2-min.jpg" alt="img" style="filter: brightness(150%);">
           </div>
         </div>
         </section>

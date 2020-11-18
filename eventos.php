@@ -244,12 +244,12 @@
       </div>
       <div class="modalConteudo">
         <div class="fotosFestas">
-          <img src="./img/eventos/acampa/acampa2.jpg" alt="">
-          <img src="./img/eventos/acampa/acampa3.jpg" alt="">
-          <img src="./img/eventos/acampa/acampa1.jpg" alt="">
-          <img src="./img/eventos/acampa/acampa4.jpg" alt="">
-          <img src="./img/eventos/acampa/acampa5.jpg" alt="">
-          <img src="./img/eventos/acampa/acampa6.jpg" alt="">
+          <img src="./img/eventos/acampa/acampa2-min.jpg" alt="">
+          <img src="./img/eventos/acampa/acampa3-min.jpg" alt="">
+          <img src="./img/eventos/acampa/acampa1-min.jpg" alt="">
+          <img src="./img/eventos/acampa/acampa4-min.jpg" alt="">
+          <img src="./img/eventos/acampa/acampa5-min.jpg" alt="">
+          <img src="./img/eventos/acampa/acampa6-min.jpg" alt="">
         </div>
       </div>
     </div>

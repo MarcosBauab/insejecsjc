@@ -98,7 +98,7 @@
         <br><br><br><br>
         <a class="ctaa" style="background-image: url(./img/uv/7-uv-mod-decisoes.png);"></a>
         <a class="ctaa" style="background-image: url(./img/uv/8-uv-mod-melhor.png);"></a>
-        <a class="ctaa" style="background-image: url(./img/uv/9-uv-mod-começo.png);"></a>
+        <a class="ctaa" style="background-image: url(./img/uv/9-uv-mod-comeco.png);"></a>
         <br><br><br><br>
       </div>
     </section>
