@@ -12,10 +12,10 @@
 
 </head>
 
-<body onload="carregado()">
-  <div class="carregando">
-    <img src="<?php echo INCLUDE_PATH ?>img/loading.gif" alt="">
-  </div>
+<body>
+  <!--<div class="carregando">
+    <img src="img/loading.gif" alt="">
+  </div>-->
     <!-- Header -->
   <section id="header">
     <div class="header container">

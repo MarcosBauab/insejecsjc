@@ -83,7 +83,7 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
-//Função de carregamento
+/*Função de carregamento
 function carregado(){
 	var carregando = document.querySelector(".carregando")
 	carregando.animate([
@@ -98,6 +98,6 @@ function carregado(){
 		easing: 'ease',
 		fill: 'forwards'
 	  })
-}
+}*/
 
     
