@@ -83,6 +83,21 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
-
+//Função de carregamento
+function carregado(){
+	var carregando = document.querySelector(".carregando")
+	carregando.animate([
+		// keyframes
+		{ opacity: '100%' },
+		{ opacity: '0' }
+	  ], 
+	  { 
+		// timing options
+		duration: 1000,
+		iterations: 1,
+		easing: 'ease',
+		fill: 'forwards'
+	  })
+}
 
     
