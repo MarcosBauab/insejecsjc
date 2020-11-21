@@ -57,7 +57,7 @@
         <p><br>As Redes compõem-se de pessoas de diversas faixas etárias e agrupamentos distintos, reunidos para tratar de necessidades específicas de cada faixa etária e sua integração no programa da igreja local, conforme os princípios da visão celular adotada pela Igreja, de evangelização e discipulado.<br><br>
         Considera-se uma Rede o conjunto de células homogêneas organizadas em um corpo que trabalha unido para ganhar as pessoas que lhe são afins e discipulá-las.<br><br><br><br><br></p>
       </div>
-      <div class="welcome-bottom">
+      <div class="welcome-bottom" id="zoom">
         <!--<img src="./img/redes/redes_datas.png" alt="img" style="position: relative; height: 180%; width: 180%; border-radius: 20px;">-->
       </div>
     </div>
@@ -144,3 +144,4 @@
   </section>
   </section>
   <!-- End Projects Section -->
+  <script src="<?php echo INCLUDE_PATH ;?>./js/zoom.js"></script>
