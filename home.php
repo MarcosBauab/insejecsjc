@@ -135,6 +135,8 @@
 
     .title-full {
       width: 300px;
+      object-fit: contain;
+      height: auto;
       transition: .3s ease
     }
     @media only screen and (min-width: 560px){
