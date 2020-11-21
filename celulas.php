@@ -32,15 +32,15 @@
     .search-table-item-B6 { background-image: url(./img/celulas/cell-B6.png); }
     .search-table-item-B7 { background-image: url(./img/celulas/cell-B7.png); }
     .search-table-item-B8 { background-image: url(./img/celulas/cell-B8.png); }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 900px) {
       .search-table-item-A1, .search-table-item-A2, .search-table-item-A3, .search-table-item-A4, .search-table-item-A5, .search-table-item-A6, .search-table-item-A7, .search-table-item-A8, .search-table-item-B1, .search-table-item-B2, .search-table-item-B3, .search-table-item-B4, .search-table-item-B5, .search-table-item-B6, .search-table-item-B7, .search-table-item-B8 { width: 250px; height: 250px; }
-    }
+      }
 
-    .service-bottom {
-      border: 5px solid #0172bd;
-      border-radius: 4px;
-      filter:opacity(.8);
-    }
+      .service-bottom {
+        border: 5px solid #0172bd;
+        border-radius: 4px;
+        filter:opacity(.8);
+      }
   </style>
 
  <!-- Welcome Section -->

@@ -1486,7 +1486,10 @@ p {
 #search-table .row {
 	padding: 50px 0px 50px 0px;
 	max-width: 740px;
-	margin: 0 20px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #search-table .column {
@@ -1494,7 +1497,8 @@ p {
 	width: 20%;
 	padding: 0px;
 	min-height: 300px;
-
+	display: flex;
+	justify-content: center;
 	min-width: 200px; /*300*/
 }
 /* Clear floats after the columns */
@@ -1514,7 +1518,7 @@ p {
 		font-size: 12px;
 	}
 	#search-table .search-table-bottom {
-		margin-left: 60px;
+		margin: 0 auto;
 	}
 }
 
@@ -2144,9 +2148,7 @@ p {
 	#search-table .rowB {
 		padding: 50px 87px;
 	}
-	.collapsible {
-		max-width: 600px;
-	}
+	
 	#mapid {
 		width: 700px; 
 	}
@@ -2300,6 +2302,23 @@ p {
 	::-webkit-scrollbar-thumb:active{
 		background:  #5c7088; 
 	}
+}
+@media (max-width: 768px){
+	#search-table .row {
+		flex-direction: column;
+	}
+	#search-table .column {
+		width: 100%;	
+	}
+}
+@media (max-width: 900px){
+	#search-table .search-table-item {
+		min-width: 100%;
+		max-width: 100%;
+		min-height: 100%;
+		max-height: 100%;
+	}
+	
 }
 /*Tela de loading
 .carregando{

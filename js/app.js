@@ -90,7 +90,7 @@ function carregado(){
 		// keyframes
 		{ opacity: '100%' },
 		{ opacity: '0' }
-	  ], 
+	  ],
 	  { 
 		// timing options
 		duration: 1000,
@@ -98,6 +98,7 @@ function carregado(){
 		easing: 'ease',
 		fill: 'forwards'
 	  })
+	carregando.style.display = "none"
 }*/
 
     
