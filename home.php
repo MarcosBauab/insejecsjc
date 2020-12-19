@@ -170,7 +170,7 @@
         }
       }
     }
-  </style>
+</style>
 
   <!-- Welcome Section -->
   <section id="welcome">
@@ -191,9 +191,9 @@
         -->
         <!--<a href="igreja.html#welcome" type="button" class="cta">Conheça nossa igreja</a>-->
         <a href="<?php echo INCLUDE_PATH ?>universidade_da_vida#uv" type="button" class="cta" style="background-image: url(./img/btn-uv.svg);"></a>
-        <a type="button" class="cta" style="background-image: url(./img/btn-cd.svg);"></a>
+        <!--<a type="button" class="cta" style="background-image: url(./img/btn-cd.svg);"></a>-->
         <a href="<?php echo INCLUDE_PATH ?>celulas#apresentacao" type="button" class="cta" style="background-image: url(./img/btn-cell.svg);"></a>
-        <a type="button" class="cta" style="background-image: url(./img/btn-doar.svg);"></a>
+        <!--<a type="button" class="cta" style="background-image: url(./img/btn-doar.svg);"></a>-->
       </div>
     </div>
   </section>

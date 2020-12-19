@@ -51,9 +51,9 @@
 
             <!-- Sobre -->
             <div class="dropdown">
-            <a href="<?php echo INCLUDE_PATH ?>sobre#inicio">
-                <button class="dropbtn">Sobre 
-              </button></a>
+            <a>
+                <button class="dropbtn">Sobre</button>
+            </a>
               <div class="dropdown-content">
                 <a href="<?php echo INCLUDE_PATH ?>decretos#inicio">Decretos</a>
                 <a href="<?php echo INCLUDE_PATH ?>quem_somos#inicio">Quem Somos</a>
@@ -118,12 +118,12 @@
               </button></a>
             </div>
 
-            <!-- Doações -->
+            <!-- Doações 
             <div class="dropdown">
-              <!--<a href="doar.html">--><a>
+              <a href="doar.html"><a>
               <button class="dropbtn">Doações
               </button></a>
-            </div>
+            </div>-->
             
 
             <li><a href="<?php echo INCLUDE_PATH ?>" data-after="Início">Início</a></li>
