@@ -150,15 +150,14 @@
       color: #fff;
     }
     #about .col-right a:hover {
-      letter-spacing: 2.8px;
       transition: .3s ease;
     }
-    #about .col-right b{
+    b{
       transition: .3s ease;
       color: #0099ff;
     }
-    #about .col-right b:hover {
-      letter-spacing: 1.3px;
+    b:hover {
+      color: white;
       transition: .3s ease;
     }
 
@@ -216,7 +215,7 @@
       <br><br> 
       Na celebração a grandeza e a força da igreja são manifestos. Apesar da célula ser a igreja. A Igreja é mais que a célula. Nessa celebração, portanto, todos sentem o impacto da adoração coletiva de um corpo grande e forte que vive a igreja dentro da sociedade em todas as suas esferas, salgando a massa. Não há limite para o seu tamanho. Quanto mais pessoas, melhor. O alvo é atingir a cidade inteira.
       <br><br> 
-      Junte-se a nós em nossa Celebração da Família, aos domingos, 10h. Você também pode participar de nossa programação de forma on-line, pelo nosso canal do <a href="https://www.youtube.com/channel/UCbEzKNxd0pdJdkao0hO9sTw" style="color: #00A8E8;">YouTube</a>, ou de forma <a href="<?php echo INCLUDE_PATH ?>como_chegar#local" style="color: #00A8E8;">presencial</a>.
+      Junte-se a nós em nossa Celebração da Família, aos domingos, 10h. Você também pode participar de nossa programação de forma on-line, pelo nosso canal do <a href="https://www.youtube.com/channel/UCbEzKNxd0pdJdkao0hO9sTw" style="color: #00A8E8;"><b>YouTube</b></a>, ou de forma <a href="<?php echo INCLUDE_PATH ?>como_chegar#local" style="color: #00A8E8;"><b>presencial</b></a>.
       <br><span>.</span></p>
       
     </div>
@@ -294,11 +293,11 @@
       </div>
       <div class="col-right">
         <h1 class="section-title">Past<span>o</span>res</h1>
-        <h2 style="font-size: 2.5rem; font-weight: 500; font-variant: small-caps;"><a href="<?php echo INCLUDE_PATH ?>igreja#pr0">Rosivaldo Merloto</a></h2>
+        <h2 style="font-size: 2.5rem; font-weight: 500; font-variant: small-caps;"><a>Rosivaldo Merloto</a></h2>
         <p>O pastor Rosivaldo Merloto, nascido em 03 de maio de 1973, é considerado um homem de fé e perseverante nos sonhos que Deus tem agasalhado em seu coração. Aos 16 anos de idade teve uma experiência com o Senhor e Salvador Jesus Cristo, desde então O tem servido de todo seu coração.<br>
           Bacharel em Teologia pela Faculdade de Ciências, Educação e Teologia do Norte do Brasil (FACETEN); Curso Superior Tecnólogo em Gestão de Pequenas e Médias Empresas (Processos Gerencias), pela Universidade Paulista (UNIP); e Pós-graduado em Psicologia Pastoral/Aconselhamento Pastoral pela Faculdade de Ciências, Educação e Teologia do Norte do Brasil (FACETEN).
           <a href="<?php echo INCLUDE_PATH ?>igreja#pr0" style="font-size: 1.5rem; font-weight: 500; font-variant: small-caps;"><b>Saiba Mais</b></a></p>
-        <h2 style="font-size: 2.5rem; font-weight: 500; font-variant: small-caps;"><a href="<?php echo INCLUDE_PATH ?>igreja#pr1">Priscila Merloto</a></h2>
+        <h2 style="font-size: 2.5rem; font-weight: 500; font-variant: small-caps;"><a>Priscila Merloto</a></h2>
         <p>A pastora Priscila Merloto, nascida em 27 de março de 1973, neta de pastor, é vista e reconhecida como uma mulher destemida, sempre buscando cumprir o seu propósito no Reino de Deus. Casada com Rosivaldo desde 1993; mãe de Gabrielle Merloto, nascida no dia 07 de março de 1999. Bacharel em Administração de Empresas, pela Faculdade de Americana (FAM); Pós-graduada em Psicologia Pastoral/Aconselhamento Pastoral pela Faculdade de Ciências, Educação e Teologia do Norte do Brasil (FACETEN).<br>
           Em 02 de julho de 2012, totalmente direcionada por Deus, deixou o cargo de Gerente Comercial em uma empresa multinacional, onde exerceu sua função por quase 16 anos, para também dedicar-se ao ministério tempo integral. 
           <a href="<?php echo INCLUDE_PATH ?>igreja#pr1" style="font-size: 1.5rem; font-weight: 500; font-variant: small-caps;"><b>Saiba Mais</b></a>

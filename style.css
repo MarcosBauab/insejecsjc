@@ -1399,9 +1399,6 @@ p {
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 10px;
-	margin-left: 60px;
-	margin-right: 20px;
 }
 #search-table .search-table-bottom p{ 
 
@@ -1795,6 +1792,7 @@ p {
 	margin-left: 0px;
 	text-align: center;
 	align-items: center;
+	justify-content: center ;
 }
 #footer .social-item {
 	height: 30px;
@@ -1817,8 +1815,7 @@ p {
 
 	font-weight: 700;
 	letter-spacing: .1rem;
-	margin-top: 10px;
-	margin-bottom: 10px;
+
 }
 #footer a {
 	color: #ccc;
@@ -1834,22 +1831,27 @@ p {
 	float: left;
 	width: 20%;
 	padding: 10px;
-	min-width: 220px; /*Equal to [min-width #footer .footer] / 5 */
+	min-width: 300px; /*Equal to [min-width #footer .footer] / 5 */
 }
-	/* Clear floats after the columns */
+#footer .grid-links{
+	display: grid;
+	column-gap: 8px;
+	grid-template-columns: 1fr 1fr;
+}
+/* Clear floats after the columns */
 #footer .row:after {
 	content: "";
 	display: table;
 	clear: both;
 }
-	/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-	@media screen and (max-width: 560px) {
-#footer .column {
-	width: 100%;
-}
-#footer .social-icon {
-	margin-left: 80px;
-}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 560px) {
+	#footer .column {
+		width: 100%;
+	}
+	#footer .social-icon {
+		margin-left: 80px;
+	}
 }
 /* End Footer */
 
@@ -2162,9 +2164,6 @@ p {
 	#footer .footer {
 		max-width: 760px;
 	}
-	#footer .column {
-		min-width: 140px; /*Equal to [min-width #footer .footer] / 5 */
-	}
 	/* End Footer  */
 }
 /* End Media Query For Tablet */
@@ -2239,12 +2238,6 @@ p {
 
 	#footer .footer {
 		max-width: 1060px;
-	}
-	#footer .column {
-		min-width: 200px; /*Equal to [min-width #footer .footer] / 5 */
-	}
-	#footer .social-icon {
-		margin-left: 30px;
 	}
 	#footer .f-img {
 		height: 100px;

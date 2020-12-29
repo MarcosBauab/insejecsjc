@@ -169,9 +169,9 @@
       <div class="row">
         <div class="column">
           <br><br><br>
-          <a href="index.html"><img src="./img/logo-footer.svg" class="f-img"></a>
+          <a href="<?php echo INCLUDE_PATH ?>"><img src="./img/logo-footer.svg" class="f-img"></a>
         </div>
-        <div class="column">
+        <!--<div class="column">
           <h2>Sobre nós</h2>
           <a href="<?php echo INCLUDE_PATH ?>igreja#historia"><p>Nossa Igreja</p></a>
           <a href="<?php echo INCLUDE_PATH ?>visao_missao#inicio"><p>Visão e Missão</p></a>
@@ -185,20 +185,22 @@
           <a href="<?php echo INCLUDE_PATH ?>igreja#pr1"><p>Priscila Merloto</a>
           <a href="<?php echo INCLUDE_PATH ?>igreja#pr2"><p>Mikio Furuzawa</p></a>
           <a href="<?php echo INCLUDE_PATH ?>igreja#pr3"><p>Gisele Furuzawa</p></a>
+        </div>-->
+        <div class="column">
+          <h2>Links Úteis</h2>
+          <div class="grid-links">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.insejec.com.br/"><p>Portal INSEJEC</p></a>
+            <a target="_blank" rel="noopener noreferrer" href="http://palavradafe.com.br/"><p>Palavra da Fé</p></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://mci12.com/"><p>Igreja MCI</p></a>
+            <a target="_blank" rel="noopener noreferrer" href="http://g12brasil.com/"><p>G12 Brasil</p></a>
+            <a target="_blank" rel="noopener noreferrer" href="http://visiong12.com/"><p>G12 Internacional</p></a>
+          </div>
         </div>
         <div class="column">
-          <h2>Links</h2>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.insejec.com.br/"><p>Portal INSEJEC</p></a>
-          <a target="_blank" rel="noopener noreferrer" href="http://palavradafe.com.br/"><p>Palavra da Fé</p></a>
-          <a target="_blank" rel="noopener noreferrer" href="https://mci12.com/"><p>Igreja MCI</p></a>
-          <a target="_blank" rel="noopener noreferrer" href="http://g12brasil.com/"><p>G12 Brasil</p></a>
-          <a target="_blank" rel="noopener noreferrer" href="http://visiong12.com/"><p>G12 Internacional</p></a>
-        </div>
-        <div class="column">
-          <h2>Mídia</h2>
+          <!--<h2>Mídia</h2>
           <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/pg/insejecsjcampos/photos/?ref=page_internal"><p>Fotos</p></a>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/INSEJECSJCampos/videos"><p>Vídeos</p></a>
-          <h2><br><br>Siga-nos!</h2>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/INSEJECSJCampos/videos"><p>Vídeos</p></a>-->
+          <h2>Siga-nos!</h2>
 
           <div class="social-icon">
             <div class="social-item">
