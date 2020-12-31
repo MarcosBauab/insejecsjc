@@ -134,7 +134,7 @@
             <li><a href="<?php echo INCLUDE_PATH ?>escolas#geral" data-after="Escolas">Escolas</a></li>
             <li><a href="<?php echo INCLUDE_PATH ?>eventos#geral" data-after="Eventos">Eventos</a></li>
             <li><a href="<?php echo INCLUDE_PATH ?>contato#welcome" data-after="Contato">Contato</a></li>
-            <li><!--<a href="doar.html#welcome" data-after="Doações">--><a data-after="Doações">Doações</a></li>
+            <!--<li><a href="doar.html#welcome" data-after="Doações"><a data-after="Doações">Doações</a></li>-->
           </ul>
         </div>
       </div>
@@ -169,22 +169,22 @@
       <div class="row">
         <div class="column">
           <br><br><br>
-          <a href="<?php echo INCLUDE_PATH ?>"><img src="./img/logo-footer.svg" class="f-img"></a>
+          <a href="https://insejecsjc.com.br/"><img src="./img/logo-footer.svg" class="f-img"></a>
         </div>
         <!--<div class="column">
           <h2>Sobre nós</h2>
-          <a href="<?php echo INCLUDE_PATH ?>igreja#historia"><p>Nossa Igreja</p></a>
-          <a href="<?php echo INCLUDE_PATH ?>visao_missao#inicio"><p>Visão e Missão</p></a>
-          <a href="<?php echo INCLUDE_PATH ?>nossos_valores#inicio"><p>Nossos Valores</p></a>
-          <a href="<?php echo INCLUDE_PATH ?>visao_celular#inicio"><p>Visão Celular</p></a>
-          <a href="<?php echo INCLUDE_PATH ?>que_cremos#inicio"><p>Em que cremos</p></a>
+          <a href="https://insejecsjc.com.br/igreja#historia"><p>Nossa Igreja</p></a>
+          <a href="https://insejecsjc.com.br/visao_missao#inicio"><p>Visão e Missão</p></a>
+          <a href="https://insejecsjc.com.br/nossos_valores#inicio"><p>Nossos Valores</p></a>
+          <a href="https://insejecsjc.com.br/visao_celular#inicio"><p>Visão Celular</p></a>
+          <a href="https://insejecsjc.com.br/que_cremos#inicio"><p>Em que cremos</p></a>
         </div>
         <div class="column">
           <h2>Nossos pastores</h2>
-          <a href="<?php echo INCLUDE_PATH ?>igreja#pr0"><p>Rosivaldo Merloto</p></a>
-          <a href="<?php echo INCLUDE_PATH ?>igreja#pr1"><p>Priscila Merloto</a>
-          <a href="<?php echo INCLUDE_PATH ?>igreja#pr2"><p>Mikio Furuzawa</p></a>
-          <a href="<?php echo INCLUDE_PATH ?>igreja#pr3"><p>Gisele Furuzawa</p></a>
+          <a href="https://insejecsjc.com.br/igreja#pr0"><p>Rosivaldo Merloto</p></a>
+          <a href="https://insejecsjc.com.br/igreja#pr1"><p>Priscila Merloto</a>
+          <a href="https://insejecsjc.com.br/igreja#pr2"><p>Mikio Furuzawa</p></a>
+          <a href="https://insejecsjc.com.br/igreja#pr3"><p>Gisele Furuzawa</p></a>
         </div>-->
         <div class="column">
           <h2>Links Úteis</h2>
@@ -204,22 +204,21 @@
 
           <div class="social-icon">
             <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos"><img src="<?php echo INCLUDE_PATH ?>img/icon_fac_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/insejecsjcampos"><img src="https://insejecsjc.com.br/img/icon_fac_xs.svg"></a>
             </div>
             <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/insejec_sjc/"><img src="<?php echo INCLUDE_PATH ?>img/icon_ins_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/insejec_sjc/"><img src="https://insejecsjc.com.br/img/icon_ins_xs.svg"></a>
             </div>
             <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCbEzKNxd0pdJdkao0hO9sTw"><img src="<?php echo INCLUDE_PATH ?>img/icon_ytb_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCbEzKNxd0pdJdkao0hO9sTw"><img src="https://insejecsjc.com.br/img/icon_ytb_xs.svg"></a>
             </div>
           </div>
 
         </div>
-      </div>
-
-      
-      <p>© 2020 INSEJEC SJC. Todos os direitos reservados. | <a href="<?php echo INCLUDE_PATH ?>politica_privacidade#termos">Política de Privacidade</a></p>
+      </div>      
+      <p>© 2020 INSEJEC SJC. Todos os direitos reservados. | <a href="https://insejecsjc.com.br/politica_privacidade#termos">Política de Privacidade</a></p>
     </div>
+
   </section>
   <!-- End Footer -->
   
