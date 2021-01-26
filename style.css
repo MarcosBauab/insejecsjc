@@ -148,7 +148,7 @@ p {
 }
 @media only screen and (max-width: 500px) {
 	#header .nav-list ul li a {
-		font-size: 1rem; /*texto hamburger cel*/
+		font-size: 1.5rem; /*texto hamburger cel*/
 		padding: 20px;
 	}
 }
@@ -390,6 +390,7 @@ p {
 	margin: 0 auto;
 }
 #welcome .welcome-bottom {
+	width: 100%;
 	max-width: 1000px;
 	margin: 0 auto;
 
@@ -397,10 +398,8 @@ p {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	flex-wrap: wrap;
 	margin-top: 10px;
-	margin-left: 20px;
-	margin-right: 20px;
+
 }
 #welcome .welcome-bottom p{ 
 
@@ -858,8 +857,10 @@ p {
 	padding-left: 20px;
 }
 #about .col-left {
-	width: 250px;
-	height: 360px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	width: 100%;
 }
 #about .col-right {
 	width: 100%;
@@ -884,7 +885,7 @@ p {
 }
 #about .col-left .about-img {
 	height: 100%;
-	width: 100%;
+	width: 80%;
 	position: relative;
 	border: 10px solid #fff;
 	z-index: 10;
@@ -2009,6 +2010,7 @@ p {
 		visibility: visible;
 	}
 	#about .col-left {
+		display: block;
 		width: 600px;
 		height: 400px;
 		padding-left: 60px;

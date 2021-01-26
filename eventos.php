@@ -108,7 +108,7 @@
 
           <div class="textos">
             <h2>Paintball</h2>
-            <p>Este evento nasceu no coração de Deus e cremos que Ele nos deu o privilégio de vivermos um dia intenso de muita brincadeira e comunhão, mas acima de tudo, foi um dia em que pudemos semear a palavra de Deus a tantos corações jovens.</p>
+            <p>Este evento nasceu no coração de Deus e cremos que Ele nos deu o privilégio de vivermos um dia intenso de muita brincadeira e comunhão, mas acima de tudo, foi um dia em que pudemos semear a palavra de Deus em tantos corações jovens.</p>
             <a href="https://www.facebook.com/media/set/?vanity=insejecsjcampos&set=a.1112477055613703" target="_blank">paintball</a>
           </div>
         </div>

@@ -132,7 +132,8 @@
         }
       }
     }
-
+    
+    
     .title-full {
       width: 300px;
       object-fit: contain;
@@ -167,6 +168,19 @@
           width: 350px;
           height: 350px;
         }
+      }
+    }
+    @media (max-width: 340px){
+      #welcome .cta {
+        width: 80%;
+        height: auto;
+        font-size: 1.5rem;
+      }
+      .title-full {
+      width: 230px;
+      object-fit: contain;
+      height: auto;
+      transition: .3s ease
       }
     }
 </style>
@@ -379,7 +393,7 @@
         </p>
       </div>
       <div class="school-bottom" style="padding-top: 40px;">
-        <div class="school-link-1" style="padding-bottom: 20px"><a href="<?php echo INCLUDE_PATH ?>universidade_da_vida#uv" type="button" class="cta"></a></div>
+        <div class="school-link-1" style="padding-bottom: 20px;"><a href="<?php echo INCLUDE_PATH ?>universidade_da_vida#uv" type="button" class="cta"></a></div>
         <div class="p1"><p><a href="<?php echo INCLUDE_PATH ?>universidade_da_vida#uv" type="button"><b>Universidade da Vida</b></a><br>
           A Universidade da vida foi projetada para explorar e fortalecer sua fé em Cristo, esclarecer suas dúvidas e trazer à tona todo o potencial com que Deus o criou.
           Nela você pode aprender sobre Deus, interagir com outras pessoas como você, fazer perguntas e encontrar alguém que as responda, mas acima de tudo, e você terá uma experiência que marcará completamente sua vida</p></div>
@@ -412,4 +426,4 @@
     </div>
   </section>
   <!-- End Social Networks [School_type] Section -->
-  
+  <script src="<?php echo INCLUDE_PATH ?>js/home.js"></script>
