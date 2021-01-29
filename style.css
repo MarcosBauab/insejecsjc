@@ -121,7 +121,7 @@ p {
 	list-style: none;
 	position: absolute;
 	background-color: #1c2229;/*rgb(31, 30, 30);/*barra hamburger*/
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	left: 100%;
 	top: 0;
@@ -293,7 +293,7 @@ p {
 #header .header-img {
 	height: 30%;
 	width: 30%;
-	margin: 20px 10px 10px 20px;
+	padding: 15px;
 }
 #header .header-img:hover {
 	filter: invert(.3);
@@ -1906,9 +1906,7 @@ p {
 		font-size: 5rem;
 	}
 
-	#header .header-img {
-		margin: 20px 10px 10px 70px;
-	}
+	
 
 	/* Hero */
 	#hero h1 {
@@ -2182,7 +2180,7 @@ p {
 /* End Media Query 900 */
 
 /* Media Query For Desktop */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1100px) {
 	/* header */
 	#header .hamburger {
 		display: none;
@@ -2191,7 +2189,6 @@ p {
 		position: initial;
 		display: block;
 		height: auto;
-		width: fit-content;
 		background-color: transparent;
 	}
 	#header .nav-list ul li {
