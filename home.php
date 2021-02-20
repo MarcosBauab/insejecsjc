@@ -236,7 +236,7 @@
 
     <div class="worship-bottom">
       <a href="<?php echo INCLUDE_PATH ?>redes#familia">
-        <div class="worship-item" style="background-image: url(./img/index-culto-domingo.png);">
+        <div loading=lazy class="worship-item" style="background-image: url(./img/index-culto-domingo.png);">
             <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
             <h2>Celebração da Família</h2>
             <p>Todos os domingos - 10h00</p>
@@ -244,7 +244,7 @@
       </a>
       <div class="worship-item-null"></div>
       <a href="<?php echo INCLUDE_PATH ?>redes#homens">
-        <div class="worship-item" style="background-image: url(./img/index-culto-homens.png);">
+        <div loading=lazy class="worship-item" style="background-image: url(./img/index-culto-homens.png);">
           <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
           <h2>Culto de Homens</h2>
           <p>2ª sexta do mês - 20h00</p>
@@ -252,7 +252,7 @@
       </a>
       <div class="worship-item-null"></div>
       <a href="<?php echo INCLUDE_PATH ?>redes#mulheres">
-        <div class="worship-item" style="background-image: url(./img/index-culto-mulheres.png);">
+        <div loading=lazy class="worship-item" style="background-image: url(./img/index-culto-mulheres.png);">
           <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
           <h2>Culto de Mulheres</h2>
           <p>3ª sexta do mês - 20h00</p>
@@ -260,7 +260,7 @@
       </a>
       <div class="worship-item-null"></div>
       <a href="<?php echo INCLUDE_PATH ?>redes#casais">
-        <div class="worship-item" style="background-image: url(./img/index-culto-casais.png);">
+        <div loading=lazy class="worship-item" style="background-image: url(./img/index-culto-casais.png);">
           <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
           <h2>Culto de Casais</h2>
           <p>4ª sexta do mês - 20h00</p>
@@ -268,7 +268,7 @@
       </a>
       <div class="worship-item-null"></div>
       <a href="<?php echo INCLUDE_PATH ?>redes#jovens">
-        <div class="worship-item" style="background-image: url(./img/index-culto-jovens.png);">
+        <div loading=lazy class="worship-item" style="background-image: url(./img/index-culto-jovens.png);">
           <!--<div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>-->
           <h2>Culto de Jovens</h2>
           <p>Último sábado do mês - 19h30</p>
@@ -302,7 +302,7 @@
       </div>
       <div class="col-left">
         <div class="about-img">
-          <img src="./img/pastores_0.png" alt="img">
+          <img loading=lazy src="./img/pastores_0.png" alt="img">
         </div>
       </div>
       <div class="col-right">
@@ -323,7 +323,7 @@
 
 
   <!-- Cell Section -->
-  <section id="cell">
+  <section loading=lazy id="cell">
     <div class="cell container">
       <div class="cell-top">
         <h1 class="section-title">Cél<span>u</span>las</h1>
@@ -385,7 +385,7 @@
   
 
   <!-- School Section -->
-  <section id="school">
+  <section loading=lazy id="school">
     <div class="school container">
       <div class="school-top">
         <h1 class="section-title">Esc<span>o</span>las</h1>

@@ -35,7 +35,7 @@
       <div class="about container">
         <div class="col-left">
           <div class="about-img">
-            <img src="<?php echo INCLUDE_PATH ?>img/pastores/pr0.png" alt="img">
+            <img loading=lazy src="<?php echo INCLUDE_PATH ?>img/pastores/pr0.png" alt="img">
           </div>
         </div>
         <div class="col-right">
@@ -46,13 +46,13 @@
           Juntamente com sua esposa, sonham ver uma liderança se levantando com o caráter de CRISTO, imbuída da visão de conquista de cidades através da Visão Celular no Governo dos 12 para o Reino de DEUS. Para tanto, eles têm se ocupado principalmente no discipulado na igreja local e na estruturação de uma igreja que possa contar com vários ministérios liderados por cristãos que sejam realmente a reprodução de JESUS CRISTO, em seu caráter e sua missão; atuando e assistido várias outras igrejas na nação brasileira com o mesmo propósito.</p>
           <div class="social-icon">
             <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/rosivaldo.d.p.merloto"><img src="./img/icon_fac_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/rosivaldo.d.p.merloto"><img loading=lazy src="./img/icon_fac_xs.svg"/></a>
             </div>
             <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rosivaldo.merloto_12/"><img src="./img/icon_ins_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rosivaldo.merloto_12/"><img loading=lazy src="./img/icon_ins_xs.svg"/></a>
             </div>
             <div class="social-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCYrjlOt87po_YR-HFduJ17w"><img src="./img/icon_ytb_xs.svg"/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCYrjlOt87po_YR-HFduJ17w"><img loading=lazy loading=lazy src="./img/icon_ytb_xs.svg"/></a>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@
       <div class="aboutx container">
         <div class="col-left">
           <div class="aboutx-img">
-            <img src="<?php echo INCLUDE_PATH ?>img/pastores/pr1.png" alt="img">
+            <img loading=lazy src="<?php echo INCLUDE_PATH ?>img/pastores/pr1.png" alt="img">
           </div>
         </div>
         <div class="col-right">
