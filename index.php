@@ -43,7 +43,7 @@
                 <button class="dropbtn">Igreja 
               </button></a>
               <div class="dropdown-content">
-                <a href="<?php echo INCLUDE_PATH ?>como_chegar#local">Como chegar</a>
+                <a href="<?php echo INCLUDE_PATH ?>como_chegar">Como chegar</a>
                 <a href="<?php echo INCLUDE_PATH ?>igreja#historia">Nossa História</a>
                 <a href="<?php echo INCLUDE_PATH ?>igreja#pastores">Pastores</a>
               </div>
@@ -51,9 +51,9 @@
 
             <!-- Sobre -->
             <div class="dropdown">
-            <a>
-                <button class="dropbtn">Sobre</button>
-            </a>
+              <a>
+                  <button class="dropbtn">Sobre</button>
+              </a>
               <div class="dropdown-content">
                 <a href="<?php echo INCLUDE_PATH ?>decretos#inicio">Decretos</a>
                 <a href="<?php echo INCLUDE_PATH ?>quem_somos#inicio">Quem Somos</a>
@@ -66,7 +66,7 @@
               </div>
             </div> 
 
-            <!-- Redes -->
+            <!-- Redes 
             <div class="dropdown">
               <a href="<?php echo INCLUDE_PATH ?>redes">
                 <button class="dropbtn">Redes 
@@ -75,7 +75,7 @@
                 <a href="<?php echo INCLUDE_PATH ?>redes#grupos">Nossas redes</a>
                 <a href="<?php echo INCLUDE_PATH ?>eventos#redes">Atividades</a>
               </div>
-            </div>
+            </div>-->
 
             <!-- Células -->
             <div class="dropdown">
@@ -95,7 +95,7 @@
                 <button class="dropbtn">Escolas 
               </button></a>
               <div class="dropdown-content">
-                <a href="<?php echo INCLUDE_PATH ?>universidade_da_vida#uv">Universidade da Vida</a>
+                <a href="<?php echo INCLUDE_PATH ?>universidade_da_vida">Universidade da Vida</a>
                 <!--<a href="capacitacao_destino.html#cd">--><a>Capacitação Destino</a>
               </div>
             </div> 
@@ -105,10 +105,6 @@
               <a href="<?php echo INCLUDE_PATH ?>eventos">
                 <button class="dropbtn">Eventos
               </button></a>
-              <div class="dropdown-content">
-                <a href="<?php echo INCLUDE_PATH ?>eventos#geral">Igreja</a>
-                <a href="<?php echo INCLUDE_PATH ?>eventos#redes">Redes</a>
-              </div>
             </div>
 
             <!-- Contato -->
@@ -129,7 +125,6 @@
             <li><a href="<?php echo INCLUDE_PATH ?>" data-after="Início">Início</a></li>
             <li><a href="<?php echo INCLUDE_PATH ?>igreja#historia" data-after="Igreja">Igreja</a></li>
             <li><a href="<?php echo INCLUDE_PATH ?>sobre#inicio" data-after="Sobre">Sobre</a></li>
-            <li><a href="<?php echo INCLUDE_PATH ?>redes#grupos" data-after="Redes">Redes</a></li>
             <li><a href="<?php echo INCLUDE_PATH ?>celulas#apresentacao" data-after="Células">Células</a></li>
             <li><a href="<?php echo INCLUDE_PATH ?>escolas#geral" data-after="Escolas">Escolas</a></li>
             <li><a href="<?php echo INCLUDE_PATH ?>eventos#geral" data-after="Eventos">Eventos</a></li>

@@ -1,9 +1,9 @@
 const zoomable = document.getElementById("zoom")
 zoomable.addEventListener("click", function(){
-    if(zoomable.className == "welcome-bottom"){
+    if(zoomable.className == "worship-bottom"){
         this.animate([
             // keyframes
-            { transform: "scale(1.2)" }
+            { transform: "scale(1.1)" }
           ],
           { 
             // timing options

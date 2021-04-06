@@ -481,6 +481,7 @@ p {
 #worship {
 	background-color: #373e46;
 	background-image: radial-gradient(#373e46 0%, #12151a 70%); /*tipo B*/
+	padding-bottom: 80px;
 }
 #worship .worship
 {
@@ -500,7 +501,7 @@ p {
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 10px;
+	margin: 10px auto 0;
 
 	padding-left: 2rem;
 	padding-right: 2rem;
@@ -767,7 +768,6 @@ p {
 
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 300px;
 }
 #services .service-top {
 	max-width: 1000px;

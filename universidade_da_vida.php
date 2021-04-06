@@ -19,7 +19,7 @@
             <h2>Aulas totalmente on-line!</h2>
             <h2>1x de R$29,90</h2>
             <h2>Domingos das 8h00 às 9h00</h2>
-            <details>
+            <!--<details>
               <summary>Datas</summary>
               <section>
                 <ul>
@@ -34,7 +34,7 @@
                   <li>Semana 9 - 13/12</li>
                 </ul>
               </section>
-            </details>
+            </details>-->
             
             <details>
               <summary>Informações sobre o curso</summary>
@@ -103,9 +103,9 @@
       </div>
     </section>
     
-    <section class="duvidas">
+    <!--<section class="duvidas">
       <div class="centro">
-        <div class="brand"><h1>Dúvidas ? Fale com a gente :</h1></div>
+        <div class="brand"><h1>Dúvidas ? contato :</h1></div>
           <div class="sociais">
             <div>
               <a id="face" href="https://www.facebook.com/insejecsjcampos" target="_blank" class="bolinhaMenor"><i class="fab fa-facebook"></i></a>
@@ -118,7 +118,7 @@
             </div>
           </div>
       </div>
-    </section>
+    </section>-->
   <script src="<?php echo INCLUDE_PATH ?>js/adBlock.js"></script>
   <script src="<?php echo INCLUDE_PATH ?>js/teste.js"></script>
   <script src="js/all.min.js"></script>
