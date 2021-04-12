@@ -1617,12 +1617,12 @@ p {
 
 /* Quote Section */
 #quote {
-	background-color: #8baed8;
-	background-image: url("https://jooinn.com/images/blue-flower-1.jpg");
-	background-position: bottom;
+	background-image: url("https://mci12.com/wp-content/uploads/2016/12/bg-g12tv-section-1.jpg?id=4994");
+	background-position: center;
 	background-size: cover;
-
+	background-attachment: fixed;
 }
+
 #quote .quote{
 	flex-direction: column;
 	max-width: 800px;
@@ -1633,15 +1633,16 @@ p {
 #quote p {
 	font-size: 22px;
 	font-weight: 300;
-	color: #000;
+	color: white;
 	margin-bottom: 10px;
 	text-align: center;
 	padding: 10px;
+	opacity: 100%;
 }
 #quote h1 {
 	font-size: 25px;
 	font-weight: 600;
-	color: #000;
+	color: white;
 	margin-bottom: 10px;
 	letter-spacing: 3px;
 	padding: 0;

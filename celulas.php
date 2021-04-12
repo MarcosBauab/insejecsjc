@@ -414,7 +414,7 @@
 <!-- Quote Section -->
   <section id="quote">
     <div class="quote container">
-    <p><img src="https://image.flaticon.com/icons/svg/25/25672.svg" class="q-img">Sonha com uma igreja muito grande, porque os sonhos são a linguagem do meu Espírito.<img src="https://image.flaticon.com/icons/svg/56/56826.svg" class="q-img"></p>
+    <p><img src="https://image.flaticon.com/icons/svg/25/25672.svg" class="q-img">" Sonha com uma igreja muito grande, porque os sonhos são a linguagem do meu Espírito. "<img src="https://image.flaticon.com/icons/svg/56/56826.svg" class="q-img"></p>
     <h1>César Castellanos</h1>
     </div>
   </section>
