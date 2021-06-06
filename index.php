@@ -23,8 +23,10 @@
         <!-- Imagem Logo -->
         <div class="brand">
           <!--<a href="index.html"><h1><span>insejec</span> sjc</h1></a>-->
-          <div class="header-img"><a href="<?php echo INCLUDE_PATH ?>">
-            <img src="<?php echo INCLUDE_PATH ?>img/logo-header.svg" alt="img" style="width: 120px;" >
+          <div class="header-img">
+            <a href="<?php echo INCLUDE_PATH ?>">
+              <img src="<?php echo INCLUDE_PATH ?>img/logo-header.svg" alt="img" style="width: 120px;" >
+            </a>
           </div>
         </div>
 

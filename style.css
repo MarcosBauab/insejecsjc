@@ -2337,12 +2337,10 @@ p {
 div#campanha40{
 	width: 100%;
 	height: 60px;
-	background-color: red;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-image: url(./amor/img/background_1-min.jpg);
-	background-position: center;
 	padding: 0 2%;
 }
 div#campanha40 p{

@@ -20,10 +20,17 @@
             <img src="http://insejecsjc.com.br/amor/img/LogoG12branco-02.svg" alt="">
         </header>
         <section class="banner">
-            <p>Princípios de relacionamento com Jesus</p>
+            <p>Princípios de relacionamento de Jesus</p>
         </section>
         <main>
             <h1>CALENDÁRIO</h1>
+            <div class="data">
+                <a href="https://www.youtube.com/watch?v=ROIUKnsL1VA" target="_blank">
+                    <img src="http://insejecsjc.com.br/amor/img/LOGOYT_1.svg" alt="youtube">
+                </a>
+                <h2>18/04</h2>
+                <p>A IMPORTÂNCIA DOS RELACIONAMENTOS PROFUNDOS | <span>ROSIVALDO</span></p>
+            </div>
             <div class="data">
                 <a href="https://www.youtube.com/watch?v=eIxaQHRwPiU" target="_blank">
                     <img src="http://insejecsjc.com.br/amor/img/LOGOYT_1.svg" alt="youtube">
@@ -32,32 +39,44 @@
                 <p>DÊ VALOR MÁXIMO AOS RELACIONAMENTOS | <span>ROSIVALDO</span></p>
             </div>
             <div class="data">
-                <a href=""></a>
+                <a href="https://youtu.be/CeLMCIK8I40" target="_blank">
+                    <img src="http://insejecsjc.com.br/amor/img/LOGOYT_1.svg" alt="youtube">
+                </a>
                 <h2>02/05</h2>
                 <p>AME COMO JESUS AMA VOCÊ | <span>JOSÉ ROBERTO</span></p>
             </div>
             <div class="data">
-                <a href=""></a>
+                <a href="https://www.youtube.com/watch?v=ewG8IQeKmxg" target="_blank">
+                    <img src="http://insejecsjc.com.br/amor/img/LOGOYT_1.svg" alt="youtube">
+                </a>
                 <h2>09/05</h2>
                 <p>COMUNIQUE-SE COM O CORAÇÃO | <span>GISELE</span></p>
             </div>
             <div class="data">
-                <a href=""></a>
+                <a href="https://youtu.be/CsZvYYKFGK0" target="_blank">
+                    <img src="http://insejecsjc.com.br/amor/img/LOGOYT_1.svg" alt="youtube">
+                </a>
                 <h2>16/05</h2>
                 <p>ASSIM COMO JULGAR OS OUTROS, VOCÊ SERÁ JULGADO | <span>FERNANDA</span></p>
             </div>
             <div class="data">
-                <a href=""></a>
+                <a href="https://www.youtube.com/watch?v=KJayAE8q6pY" target="_blank">
+                    <img src="http://insejecsjc.com.br/amor/img/LOGOYT_1.svg" alt="youtube">
+                </a>
                 <h2>23/05</h2>
                 <p>MAIOR É O QUE SERVE | <span>PRISCILA</span></p>
             </div>
             <div class="data">
-                <a href=""></a>
+                <a href="https://www.youtube.com/watch?v=02VpFmtZtcQ" target="_blank">
+                    <img src="http://insejecsjc.com.br/amor/img/LOGOYT_1.svg" alt="youtube">
+                </a>
                 <h2>30/05</h2>
                 <p>TRATE OS OUTROS COMO DESEJA SER TRATADO | <span>MIKIO</span></p>
             </div>
             <div class="data">
-                <a href=""></a>
+                <a href="https://www.youtube.com/watch?v=_Otg5-req3s" target="_blank">
+                    <img src="http://insejecsjc.com.br/amor/img/LOGOYT_1.svg" alt="youtube">
+                </a>
                 <h2>06/06</h2>
                 <p>ENCERRAMENTO | <span>ROSIVALDO</span></p>
             </div>
