@@ -151,12 +151,6 @@
       </div>
     </div>
   </section>
-  <div id="campanha40">
-    <p>CAMPANHA 40 DIAS DE AMOR</p>
-    <a href="https://amor.insejecsjc.com.br">
-      <img src="./amor/img/40dias.svg" alt="40 dias">
-    </a>
-  </div>
   <!-- End Hero Section  -->
 
   <?php

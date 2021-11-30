@@ -13,11 +13,6 @@
           Elas contam a história da redenção da Igreja, e nós as celebramos procurando viver o espírito das Festas, extraindo delas os seus significados proféticos. Somos uma Igreja a quem Deus chamou a viver o espírito da Igreja em Jerusalém. A resgatar valores perdidos.</p>
         </div>
 
-
-
-
-
-
         <div class="card">
           <div class="textos">
             <h2>Celebração da Páscoa</h2>
@@ -28,7 +23,6 @@
           </div>
           <button class="botao-festa" id="pascoa" clicable></button>
         </div>
-
 
         <div class="card esquerda">
           <button class="botao-festa" id="pentecostes" clicable></button>
@@ -42,6 +36,7 @@
             <a href="https://www.facebook.com/media/set/?vanity=insejecsjcampos&set=a.385427758318640" target="_blank">Pentecostes</a>
           </div>
         </div>
+
         <div class="card">
 
           <div class="textos">
@@ -93,7 +88,7 @@
 
             <div class="textos">
               <h2>Acampamentos de jovens</h2>
-              <p>"Um Trono de Glória!" foi o tema deste acampamento, onde juntos pudemos compartilhar e viver momentos de muita comunhão com Deus e uns com os outros. É um privilégio podermos desfrutar de dias tão especiais, onde deixamos tudo de lado para nos concentrarmos em Deus e no que Ele deseja transformar em nós.</p>
+              <p>É um privilégio podermos desfrutar de dias tão especiais, onde deixamos tudo de lado para nos concentrarmos em Deus e no que Ele deseja transformar em nós.</p>
               <div class="flex">
                 <a href="https://www.facebook.com/insejecsjcampos/photos/?tab=album&album_id=813500788844666" target="_blank">2018</a>
                 <a href="https://www.facebook.com/media/set/?vanity=insejecsjcampos&set=a.1200306436830764" target="_blank">2019</a>

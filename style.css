@@ -304,7 +304,7 @@ p {
 /* Hero Section */
 #hero {
 	background-attachment: fixed; /*parallax*/
-	background-image: url(./img/banner.png);
+	background-image: url(./img/banner-min.png);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -379,7 +379,7 @@ p {
 	text-align: center;
 	max-width: 1500px;
 	margin: 0 auto;
-	padding: 100px 0;
+	padding: 50px 0;
 }
 #welcome .welcome-top {
 	max-width: 500px;
