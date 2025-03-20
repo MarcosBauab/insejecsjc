@@ -5,3 +5,4 @@ misc/
 *.log
 *.txt
 img/._*
+.history/

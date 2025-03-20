@@ -2282,7 +2282,6 @@ p {
 	/*Parte de trás*/
 	::-webkit-scrollbar-track{
 		background: #1c2229;
-		
 	}
 	/*Barra de rolagem*/
 	::-webkit-scrollbar-thumb{
@@ -2294,7 +2293,7 @@ p {
 		background:  #5c7088;   
 	}
 	::-webkit-scrollbar-thumb:active{
-		background:  #5c7088; 
+		background:  #3f4b5a; 
 	}
 }
 @media (max-width: 768px){

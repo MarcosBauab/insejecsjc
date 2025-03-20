@@ -5,7 +5,11 @@
   <meta charset="UTF-8">
   <link rel="icon" href="./img/icon-site.svg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1c2229" />
   <link rel="stylesheet" href="<?php echo INCLUDE_PATH ?>style.css">
+  <link rel="manifest" href="manifest.json" />
+  <script async src="https://cdn.jsdelivr.net/npm/pwacompat" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="img/logo-192x192px.png" sizes="192x192" />
   <?php
       $url = isset($_GET['url']) ? $_GET['url'] : 'home' ;
   ?>
@@ -222,6 +226,15 @@
   
   <button id="scroll"><i class="material-icons">arrow_upward</i></button>
 
+  <script>
+    if("serviceWorker" in navigator){
+      navigator.serviceWorker.register("sw.js").then(registration => {
+        console.log(registration)
+      }).catch(error => {
+        console.log(error)
+      })
+    }
+  </script>
   <script src="<?php echo INCLUDE_PATH ?>js/app.js"></script>
     
 </body>
