@@ -250,7 +250,7 @@
       
     </div>
     <div class="worship-bottom" id="zoom">
-        <img src="./img/redes/redes_datas.png" alt="img">
+        <img src="./img/home/banner-info.png" alt="img">
     </div>
     <!--<div class="worship-bottom">
       <a href="<?php echo INCLUDE_PATH ?>redes#familia">

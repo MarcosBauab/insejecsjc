@@ -6,3 +6,5 @@ misc/
 *.txt
 img/._*
 .history/
+
+./config.php

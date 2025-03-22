@@ -43,28 +43,31 @@ menu_item.forEach((item) => {
 
 //search-table
 var botaoFiltro = document.querySelector("#btnCollapse")
-botaoFiltro.addEventListener('click', function(){
-	$("input[type=radio]").change(function(){
-		var val0 = $('[name=Option0]:checked').val();
-		var val1 = $('[name=Option1]:checked').val();
-		var val2 = $('[name=Option2]:checked').val();
-		var val3 = $('[name=Option1]:checked').val();
-		$('tr').each(function() {
-			var tme = $(this).find('.Time').text();
-			var typ = $(this).find('.Type').text();
-			var typ2 = $(this).find('.Type2').text();
-			var lcl = $(this).find('.Local').text();
-				//alert(val2);
-			
-			if ((tme == val0 || val0 == 'All' ) && 
-			((typ == val1 || val1 == 'All' ) || (typ2 == val3|| val3 == 'All' )) 
-			&& (lcl == val2 || val2 == 'All' ))
-			{ $(this).show(); }
-			else 
-			{ $(this).hide(); }
+if (botaoFiltro) {
+	botaoFiltro.addEventListener('click', function(){
+		$("input[type=radio]").change(function(){
+			var val0 = $('[name=Option0]:checked').val();
+			var val1 = $('[name=Option1]:checked').val();
+			var val2 = $('[name=Option2]:checked').val();
+			var val3 = $('[name=Option1]:checked').val();
+			$('tr').each(function() {
+				var tme = $(this).find('.Time').text();
+				var typ = $(this).find('.Type').text();
+				var typ2 = $(this).find('.Type2').text();
+				var lcl = $(this).find('.Local').text();
+					//alert(val2);
+				
+				if ((tme == val0 || val0 == 'All' ) && 
+				((typ == val1 || val1 == 'All' ) || (typ2 == val3|| val3 == 'All' )) 
+				&& (lcl == val2 || val2 == 'All' ))
+				{ $(this).show(); }
+				else 
+				{ $(this).hide(); }
+			});
 		});
-	});
-})
+	})
+}
+
 //$('#btnFilter').click(function() {
 	
 	
