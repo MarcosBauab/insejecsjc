@@ -7,4 +7,4 @@ misc/
 img/._*
 .history/
 
-./config.php
+config.php
